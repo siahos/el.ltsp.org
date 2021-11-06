@@ -1,5 +1,5 @@
 Για να πραγματοποιήσετε δοκιμή είναι προτιμότερο να χρησιμοποιήσετε το
-[Ubuntu LiveCD της Τεχνικής Στήριξης](Linux/LiveCD "wikilink") παρά το
+[Ubuntu LiveCD της Τεχνικής Στήριξης](LiveCD) παρά το
 διαθέσιμο από τον [επίσημο δικτυακό τόπο του
 Ubuntu](http://www.ubuntu.com/start-download?distro=desktop&bits=32&release=lts).
 Μόλις λάβετε το αρχείο ubuntu-12.04.1-desktop-i386-sch.iso, κάψτε το σε

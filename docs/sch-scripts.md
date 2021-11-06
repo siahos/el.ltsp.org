@@ -21,21 +21,21 @@ Server Project) εξυπηρετητή σε λειτουργικά συστήμ�
 Ακολουθεί το εγχειρίδιο της εφαρμογής:
 
   - [Εγκατάσταση της
-    εφαρμογής](Linux/sch-scripts/Εγκατάσταση "wikilink")
+    εφαρμογής](sch-scripts/Εγκατάσταση)
   - [Εκκίνηση της
-    εφαρμογής](Linux/sch-scripts/Εκκίνηση_της_εφαρμογής "wikilink")
+    εφαρμογής](sch-scripts/Εκκίνηση_της_εφαρμογής)
   - [Ρύθμιση σύνδεσης
-    δικτύου](Linux/sch-scripts/Ρύθμιση_σύνδεσης_δικτύου "wikilink")
-  - [Εντολές LTSP](Linux/sch-scripts/Εντολές_LTSP "wikilink")
-  - [Διαχείριση χρηστών](Linux/sch-scripts/Χρήστες "wikilink")
+    δικτύου](sch-scripts/Ρύθμιση_σύνδεσης_δικτύου)
+  - [Εντολές LTSP](sch-scripts/Εντολές_LTSP)
+  - [Διαχείριση χρηστών](sch-scripts/Χρήστες)
   - [Διαχείριση τμήματων (ομάδων,
-    groups)](Linux/sch-scripts/Τμήματα "wikilink")
+    groups)](sch-scripts/Τμήματα)
   - [Κοινόχρηστοι
-    κατάλογοι](Linux/sch-scripts/Κοινόχρηστοι_κατάλογοι "wikilink")
+    κατάλογοι](sch-scripts/Κοινόχρηστοι_κατάλογοι)
   - [Δικαιώματα
-    καταλόγων](Linux/sch-scripts/Δικαιώματα_καταλόγων "wikilink")
-  - [Αρχεία ρυθμίσεων](Linux/sch-scripts/Αρχεία_ρυθμίσεων "wikilink")
+    καταλόγων](sch-scripts/Δικαιώματα_καταλόγων)
+  - [Αρχεία ρυθμίσεων](sch-scripts/Αρχεία_ρυθμίσεων)
   - [Συντήρηση του
-    ΣΕΠΕΗΥ](Linux/sch-scripts/Συντήρηση_ΣΕΠΕΗΥ "wikilink")
+    ΣΕΠΕΗΥ](sch-scripts/Συντήρηση_ΣΕΠΕΗΥ)
   - [Χρησιμοποιώντας το μενού
-    Βοήθεια](Linux/sch-scripts/Βοήθεια "wikilink")
+    Βοήθεια](sch-scripts/Βοήθεια)
