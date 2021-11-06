@@ -1,0 +1,7 @@
+site_name: Τεχνική Στήριξη ΣΕΠΕΗΥ
+
+theme:
+    name: readthedocs
+
+markdown_extensions:
+  - admonition
