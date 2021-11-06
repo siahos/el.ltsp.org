@@ -15,7 +15,7 @@ Ubuntu](http://www.ubuntu.com/start-download?distro=desktop&bits=32&release=lts)
 
 ## Δοκιμή
 
-[350px](Αρχείο:start_page.png "wikilink")
+![start_page.png](start_page.png){ align=right }
 
   - Επιλέξτε
   - Κλικ στο

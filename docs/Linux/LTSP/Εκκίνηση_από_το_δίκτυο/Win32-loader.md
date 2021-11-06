@@ -11,9 +11,9 @@
   - Κάντε [λήψη του
     win32-loader.exe](http://ftp.debian.org/debian/tools/win32-loader/stable/win32-loader.exe)
     και εκτελέστε το μέσα από τα Windows για να ξεκινήσει η εγκατάσταση.
-  - [200px](Αρχείο:Win32-loader-language.png "wikilink") Στο διάλογο ,
+  - ![Win32-loader-language.png](Win32-loader-language.png){ align=right } Στο διάλογο ,
     διαλέξτε .
-  - [250px](Αρχείο:Win32-loader-pxe-mode.png "wikilink") Στο διάλογο ,
+  - ![Win32-loader-pxe-mode.png](Win32-loader-pxe-mode.png){ align=right } Στο διάλογο ,
     διαλέξτε .
   - Στο διάλογο ολοκλήρωσης της εγκατάστασης, πατήστε .
   - Αγνοήστε το διάλογο που αναφέρει ότι θα πρέπει να επανεκκινήσετε τον
@@ -21,22 +21,22 @@
     χρησιμοποιείται και για απομακρυσμένες εγκαταστάσεις Debian,
     αλλά εμείς χρησιμοποιούμε μόνο την δυνατότητα εκκίνησης από το
     δίκτυο, οπότε δεν μας ενδιαφέρει. Πατήστε .
-  - [250px](Αρχείο:Win32-loader-reboot.png "wikilink") Στο διάλογο ,
+  - ![Win32-loader-reboot.png](Win32-loader-reboot.png){ align=right } Στο διάλογο ,
     επιλέξτε .
-  - [350px](Αρχείο:Win32-loader-boot-ini.png "wikilink") Κάντε δεξί κλικ
+  - ![Win32-loader-boot-ini.png](Win32-loader-boot-ini.png){ align=right } Κάντε δεξί κλικ
     στο εικονίδιο  και επιλέξτε διαδοχικά . Θα εμφανιστούν οι διάλογοι
     που φαίνονται δεξιά, από όπου μπορείτε να προσαρμόσετε την
     προεπιλεγμένη καταχώρηση και το χρόνο επιλογής της. Εάν
     χρειαστείτε περισσότερες πληροφορίες, ανατρέξτε στο [σχετικό
     άρθρο βοήθειας της
     Microsoft](http://support.microsoft.com/kb/289022).
-  - [350px](Αρχείο:Win32-loader-boot-menu.png "wikilink") Κατά την
+  - ![Win32-loader-boot-menu.png](Win32-loader-boot-menu.png){ align=right } Κατά την
     επόμενη **επανεκκίνηση**, ο boot manager των Windows θα
     εμφανίσει τις επιλογές που εμφανίζονται στην εικόνα δεξιά.
 
 ## Βήματα απεγκατάστασης
 
-[350px](Αρχείο:Win32-loader-uninstall.png "wikilink") Εάν για κάποιο
+![Win32-loader-uninstall.png](Win32-loader-uninstall.png){ align=right } Εάν για κάποιο
 λόγο θελήσετε να αφαιρέσετε τον win32-loader, μπορείτε να τον
 καταργήσετε από την προσθαφαίρεση προγραμμάτων, όπως φαίνεται στη
 διπλανή εικόνα.

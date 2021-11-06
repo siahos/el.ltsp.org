@@ -1,4 +1,4 @@
-[350px](Αρχείο:Schscripts_first_screen.png "wikilink") Η εφαρμογή  είναι
+![Schscripts_first_screen.png](Schscripts_first_screen.png){ align=right } Η εφαρμογή  είναι
 ένα εργαλείο δημιουργίας και παραμετροποίησης ενός LTSP (Linux Terminal
 Server Project) εξυπηρετητή σε λειτουργικά συστήματα Ubuntu που έχει
 δημιουργηθεί και υποστηρίζεται από τη δράση της Τεχνικής Στήριξης.

@@ -1,4 +1,4 @@
-[350px](Αρχείο:12.04.3_ubuntu_install_keep_windows_install_type.png "wikilink")
+![12.04.3_ubuntu_install_keep_windows_install_type.png](12.04.3_ubuntu_install_keep_windows_install_type.png){ align=right }
 Στην περίπτωση που έχετε ήδη εγκατεστημένη κάποια έκδοση MS-Windows ο
 διάλογος που θα σας εμφανιστεί σε αυτό το βήμα θα είναι παρόμοιος με
 αυτό που φαίνεται στην εικόνα δεξιά σας.
@@ -11,12 +11,12 @@
 
 ## Διατήρηση του περιβάλλοντος MS-Windows
 
-[350px](Αρχείο:12.04.3_ubuntu_install_keep_windows_choose_size.png "wikilink")
+![12.04.3_ubuntu_install_keep_windows_choose_size.png](12.04.3_ubuntu_install_keep_windows_choose_size.png){ align=right }
 Εάν θέλετε να εγκαταστήσετε το Ubuntu παράλληλα με το Windows:
 
 1.  Επιλέξτε την πρώτη επιλογή
 
-    [650px](Αρχείο:12.04.3_ubuntu_install_keep_windows_choice.png "wikilink")
+    ![12.04.3_ubuntu_install_keep_windows_choice.png](12.04.3_ubuntu_install_keep_windows_choice.png){ align=right }
     και έπειτα . Με αυτήν την επιλογή θα πραγματοποιηθεί σμίκρυνση στην
     κατάτμηση των Windows ώστε να προκύψει ελεύθερος χώρος στον οποίο
     θα εγκατασταθεί το Ubuntu.
@@ -31,12 +31,12 @@
 
 ## Διαγραφή του περιβάλλοντος MS-Windows
 
-[350px](Αρχείο:12.04.3_ubuntu_install_replace_windows_choose_size.png "wikilink")
+![12.04.3_ubuntu_install_replace_windows_choose_size.png](12.04.3_ubuntu_install_replace_windows_choose_size.png){ align=right }
 Εάν επιθυμείτε να διαγράψετε το Windows και να εγκαταστήσετε το Ubuntu:
 
 1.  Επιλέξτε την δεύτερη επιλογή
 
-    [650px](Αρχείο:12.04.3_ubuntu_install_replace_windows_choice.png "wikilink")
+    ![12.04.3_ubuntu_install_replace_windows_choice.png](12.04.3_ubuntu_install_replace_windows_choice.png){ align=right }
     και έπειτα .
 2.  Στον επόμενο διάλογο αρκεί να επιλέξτε  για να ξεκινήσει η
     εγκατάσταση.
