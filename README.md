@@ -15,5 +15,6 @@ done
 
 # Διάφορες μαζικές διορθώσεις
 sed 's|\[...px\](Αρχείο:\(.*.png\) "wikilink")|![\1](\1){ align=right }|' -i *.md */*.md */*/*.md */*/*/*.md
+find . -mindepth 1 -type d | while read -r d; do if [ -f "$d.md" ]; then mv "$d.md" "$d/index.md"; fi; done
 ```
 

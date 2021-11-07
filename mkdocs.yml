@@ -1,7 +1,25 @@
 site_name: Τεχνική Στήριξη ΣΕΠΕΗΥ
 
 theme:
-    name: readthedocs
+  name: material
+  language: gr
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
 markdown_extensions:
   - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - git-revision-date
+
+repo_url: https://github.com/pe86/linux
