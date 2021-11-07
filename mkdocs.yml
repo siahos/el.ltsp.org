@@ -3,6 +3,8 @@ site_name: Τεχνική Στήριξη ΣΕΠΕΗΥ
 theme:
   name: material
   language: gr
+  features:
+    - navigation.indexes
   palette:
     - scheme: default
       toggle:
