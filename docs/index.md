@@ -2,46 +2,46 @@
 
 ## Ubuntu
 
-  - [Live CD / DVD για δοκιμή του περιβάλλοντος Ubuntu 20.04 και
-    εγκατάστασή του](LiveCD)
+  - [Live USB / CD για δοκιμή του περιβάλλοντος Ubuntu 20.04 και
+    εγκατάστασή του](liveusb.md)
   - [Οδηγός εγκατάστασης λειτουργικού συστήματος Ubuntu
-    20.04](Εγκατάσταση_Ubuntu)
+    20.04](Εγκατάσταση_Ubuntu/index.md)
   - [Προχωρημένα θέματα σχετικά με το
-    Linux](Προχωρημένα)
+    Linux](Προχωρημένα/index.md)
 
 ## LTSP
 
   - [Οδηγός εγκατάστασης, χρήσης και διαχείρισης Σ.Ε.Π.Ε.Η.Υ. με Ubuntu
-    20.04/LTSP/sch-scripts/epoptes](LTSP)
+    20.04/LTSP/sch-scripts/epoptes](LTSP/index.md)
   - [Προχωρημένα θέματα σχετικά με το
-    LTSP](Προχωρημένα)
+    LTSP](LTSP/Προχωρημένα/index.md)
 
 ## Αποθετήρια & Λογισμικό
 
-  - [Προσθήκη Αποθετηρίων Λογισμικού](Αποθετήρια)
-  - [Εγκατάσταση Λογισμικού](Εγκατάσταση_λογισμικού)
-  - [Κατάλογος Λογισμικού](Λογισμικό)
+  - [Προσθήκη Αποθετηρίων Λογισμικού](Αποθετήρια.md)
+  - [Εγκατάσταση Λογισμικού](Εγκατάσταση_λογισμικού.md)
+  - [Κατάλογος Λογισμικού](Λογισμικό.md)
 
 ## Εφαρμογές
 
   - [Εγχειρίδιο της εφαρμογής Διαχείριση ΣΕΠΕΗΥ
-    (sch-scripts)](sch-scripts)
+    (sch-scripts)](sch-scripts/index.md)
   - [Εγχειρίδιο της εφαρμογής Επόπτης
-    (Epoptes)](epoptes)
-  - [Εγχειρίδιο της εφαρμογής Gparted](Gparted)
-  - [Εγχειρίδιο της εφαρμογής Oracle Java](Oracle_Java)
-  - [Εγχειρίδιο της λογισμικού LAMP](LAMP_server)
-  - [Εγχειρίδιο της εφαρμογής Alice 3](Alice3)
+    (Epoptes)](epoptes/index.md)
+  - [Εγχειρίδιο της εφαρμογής Gparted](Gparted/index.md)
+  - [Εγχειρίδιο της εφαρμογής Oracle Java](Oracle_Java.md)
+  - [Εγχειρίδιο της λογισμικού LAMP](LAMP_server/index.md)
+  - [Εγχειρίδιο της εφαρμογής Alice 3](Alice3.md)
   - [Εγχειρίδιο του λογισμικού App Inventor
-    2](App_Inventor_2)
-  - [Εγχειρίδιο της εφαρμογής Arduino IDE](Arduino)
+    2](App_Inventor_2.md)
+  - [Εγχειρίδιο της εφαρμογής Arduino IDE](Arduino.md)
   - [Εγχειρίδιο της εφαρμογής MATE System
-    Monitor](mate-system-monitor)
-  - [Εγχειρίδιο της εφαρμογής GameMaker](GameMaker)
+    Monitor](mate-system-monitor.md)
+  - [Εγχειρίδιο της εφαρμογής GameMaker](GameMaker.md)
 
 Επίσης, τα παρακάτω θέματα μπορεί να σας φανούν χρήσιμα:
 
   - [Εικονική μηχανή με Ubuntu MATE 18.04 32bit, που μπορεί είτε να
     εγγραφεί απευθείας στο δίσκο παλιών Η/Υ είτε να επιτρέψει σε
     νέο 64bit LTSP να εκκινήσει 32bit
-    clients](VM)
+    clients](LTSP/VM.md)
