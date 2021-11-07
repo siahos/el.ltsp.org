@@ -4,7 +4,7 @@
 
 ## Υποστήριξη από το BIOS
 
-![Enable-OnboardLan-and-BootROM.jpg](Enable-OnboardLan-and-BootROM.jpg){ align=right } Εάν οι
+![Enable-OnboardLan-and-BootROM.jpg](Enable-OnboardLan-and-BootROM.jpg){ align=right width=300 } Εάν οι
 κάρτες δικτύου των σταθμών εργασίας είναι ενσωματωμένες στη μητρική
 πλακέτα και όχι επιπρόσθετες σε PCI slot, κατά πάσα πιθανότητα θα
 υποστηρίζουν εκκίνηση από το δίκτυο. Υπάρχει μια μικρή πιθανότητα
@@ -16,7 +16,7 @@
 
   - Onboard H/W LAN: Enabled (για την ενεργοποίηση της κάρτας δικτύου
     της μητρικής)
-    ![Lan-1st-Boot-Device02.jpg](Lan-1st-Boot-Device02.jpg){ align=right }
+    ![Lan-1st-Boot-Device02.jpg](Lan-1st-Boot-Device02.jpg){ align=right width=300 }
   - Onboard LAN Boot ROM: Enabled (για την ενεργοποίηση της Boot ROM της
     κάρτας δικτύου), εναλλακτικά μπορεί να το βρείτε ως PXE: Enable
   - First Boot Device: LAN (για την επιλογή της κάρτας δικτύου ως 1ης
