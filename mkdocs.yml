@@ -18,10 +18,11 @@ repo_url: https://github.com/pe86/linux
 site_name: Τεχνική Στήριξη ΣΕΠΕΗΥ
 strict: true
 theme:
-  name: material
-  language: gr
   features:
     - navigation.indexes
+    - navigation.instant
+  language: gr
+  name: material
   palette:
     - scheme: default
       toggle:
