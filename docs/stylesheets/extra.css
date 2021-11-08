@@ -1,0 +1,14 @@
+h1, h2 {
+  clear: both;
+}
+
+.md-typeset ol, .md-typeset ul {
+  display: initial;
+  margin: 0;
+}
+
+.right33 {
+  float: right;
+  width: 33%;
+  margin-left: 0.5em;
+}

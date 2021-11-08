@@ -14,7 +14,7 @@ for p in $pngs; do
 done
 
 # Διάφορες μαζικές διορθώσεις
-sed 's|\[...px\](Αρχείο:\(.*.png\) "wikilink")|![\1](\1){ align=right width=300 }|' -i *.md */*.md */*/*.md */*/*/*.md
+sed 's|\[...px\](Αρχείο:\(.*.png\) "wikilink")|![\1](\1){: .right33}|' -i *.md */*.md */*/*.md */*/*/*.md
 find . -mindepth 1 -type d | while read -r d; do if [ -f "$d.md" ]; then mv "$d.md" "$d/index.md"; fi; done
 ```
 
