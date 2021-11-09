@@ -1,3 +1,4 @@
+# copyright: Copyright © 2000-2021 the <a href="https://github.com/ltsp/ltsp/graphs/contributors">LTSP developers</a>
 edit_uri: edit/main/docs
 extra_css:
   - stylesheets/extra.css
@@ -10,18 +11,33 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - toc:
+      permalink: true
       slugify: !!python/name:pymdownx.slugs.uslugify
+      title: Περιεχόμενα σελίδας
 plugins:
-  - git-revision-date
+  - minify:
+      minify_html: true
+  - redirects:
+      redirect_maps:
+        test.md: index.md
   - search
+  - with-pdf:
+      author: Έκδοση pdf του https://ts.sch.gr/wiki/Linux
+      copyright: Copyright © 2008-2021 Τεχνική Στήριξη ΣΕΠΕΗΥ
+      cover_title: ΣΕΠΕΗΥ με Linux
+      cover_subtitle: Ubuntu 20.04/LTSP/Epoptes/sch-scripts
+      enabled_if_env: ENABLE_PDF_EXPORT
+      output_path: linux.pdf
 repo_url: https://github.com/pe86/linux
 site_name: Τεχνική Στήριξη ΣΕΠΕΗΥ
-strict: true
+strict: false
 theme:
+# favicon: favicon.ico
   features:
     - navigation.indexes
     - navigation.instant
   language: gr
+# logo: logo-icon.png
   name: material
   palette:
     - scheme: default

@@ -1,4 +1,4 @@
-h1, h2 {
+h2, h3 {
   clear: both;
 }
 
@@ -8,7 +8,8 @@ h1, h2 {
 }
 
 .right33 {
+  clear: both;
   float: right;
   width: 33%;
-  margin-left: 0.5em;
+  margin: 0 0 0.5em 0.5em;
 }
