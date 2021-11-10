@@ -32,8 +32,13 @@ clients](LTSP/Αρχιτεκτονική.md#Fat_client).
 
 ## Εκτέλεση
 
+!!! warning
+    Η εφαρμογή App Inventor 2 Emulator μπορεί να εκτελεστεί μόνο στον εξυπηρετητή και
+    στους [fat](LTSP/Αρχιτεκτονική.md#LTSP clients) σταθμούς εργασίας και
+    όχι στους [thin](LTSP/Αρχιτεκτονική.md#LTSP clients).
+
 ![Appinventor2-setup-first-screen.png](Appinventor2-setup-first-screen.png
-"Appinventor2-setup-first-screen.png") Η εκκίνηση του Emulator γίνεται
+"Appinventor2-setup-first-screen.png")Η εκκίνηση του Emulator γίνεται
 από το μενού , οπότε και εμφανίζεται ένα τερματικό όπως φαίνεται στα
 δεξιά.
 
