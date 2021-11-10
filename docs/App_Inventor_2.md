@@ -32,7 +32,7 @@ clients](LTSP/Αρχιτεκτονική.md#Fat_client).
 
 ## Εκτέλεση
 
-!!! warning "Προειδοποίηση"
+!!! warning "Προσοχή"
     Η εφαρμογή App Inventor 2 Emulator μπορεί να εκτελεστεί μόνο στον εξυπηρετητή και
     στους [fat](LTSP/Αρχιτεκτονική.md#ltsp-clients) σταθμούς εργασίας και
     όχι στους [thin](LTSP/Αρχιτεκτονική.md#ltsp-clients).
