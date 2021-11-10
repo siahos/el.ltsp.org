@@ -38,9 +38,9 @@ clients](LTSP/Αρχιτεκτονική.md#Fat_client).
     όχι στους [thin](LTSP/Αρχιτεκτονική.md#ltsp-clients).
 
 ![Appinventor2-setup-first-screen.png](Appinventor2-setup-first-screen.png
-"Appinventor2-setup-first-screen.png")Η εκκίνηση του Emulator γίνεται
-από το μενού , οπότε και εμφανίζεται ένα τερματικό όπως φαίνεται στα
-δεξιά.
+"Appinventor2-setup-first-screen.png"){: .right33}
+Η εκκίνηση του Emulator γίνεται από το μενού , οπότε και εμφανίζεται ένα τερματικό
+όπως φαίνεται στα δεξιά.
 
   - Επισκεφτείτε την ιστοσελίδα <http://ai2.appinventor.mit.edu> (+ στον
     σύνδεσμο που εμφανίζεται στο τερματικό),
