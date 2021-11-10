@@ -28,7 +28,7 @@ sudo apt-get install appinventor2-setup
 Στη συνέχεια, θα χρειαστεί [δημοσίευση του εικονικού
 δίσκου](sch-scripts/Δημοσίευση_εικονικού_δίσκου.md),
 ώστε να ενημερωθούν οι [fat
-clients](LTSP/Αρχιτεκτονική.md#Fat_client).
+clients](LTSP/Αρχιτεκτονική.md#ltsp-clients).
 
 ## Εκτέλεση
 
