@@ -37,8 +37,7 @@ clients](LTSP/Αρχιτεκτονική.md#Fat_client).
     στους [fat](LTSP/Αρχιτεκτονική.md#ltsp-clients) σταθμούς εργασίας και
     όχι στους [thin](LTSP/Αρχιτεκτονική.md#ltsp-clients).
 
-![Appinventor2-setup-first-screen.png](Appinventor2-setup-first-screen.png
-"Appinventor2-setup-first-screen.png"){: .right33}
+![Appinventor2-setup-first-screen.png](Appinventor2-setup-first-screen.png){: .right33}
 Η εκκίνηση του Emulator γίνεται από το μενού ++"Εφαρμογές ▸ Εκπαίδευση ▸ AppInventor aiStarter"++,
 οπότε και εμφανίζεται ένα τερματικό όπως φαίνεται στα δεξιά.
 
@@ -72,7 +71,7 @@ clients](LTSP/Αρχιτεκτονική.md#Fat_client).
     δίσκου](sch-scripts/Δημοσίευση_εικονικού_δίσκου.md).
   - Στη συνέχεια και εάν δεν έχει διορθωθεί το πρόβλημα, κλείστε και
     ξαναανοίξτε το τερματικό του Emulator, και μετά πηγαίνετε στη
-    σελίδα του AppInventor και στο μενού ++"Connect ▸ Hard Reset"++ ,
+    σελίδα του AppInventor και στο μενού ++"Connect ▸ Hard Reset"++,
     ώστε να διαγραφεί η εικονική κάρτα μνήμης του Emulator και να
     ξαναφτιαχτεί εξ' αρχής στην επόμενη εκτέλεσή του.
   - Εάν αυτό όντως βοηθήσει, μπορείτε να το κάνετε για όλους τους
