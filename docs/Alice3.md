@@ -14,8 +14,7 @@
 
   - Μεταφορτώστε το εκπαιδευτικό λογισμικό από
     [εδώ](http://www.alice.org/wp-content/uploads/2019/04/Alice3_unix_3_5.sh),
-    το οποίο διατίθεται σε μορφή [Shell
-    script](http://en.wikipedia.org/wiki/Shell_script)
+    το οποίο διατίθεται σε μορφή [Shell script](http://en.wikipedia.org/wiki/Shell_script)
   - Εγκαταστήστε την OpenJDK Java δίνοντας την εντολή:
     ``` bash
     sudo apt-get install default-jre
