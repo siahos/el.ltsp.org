@@ -76,23 +76,7 @@ H προσθήκη των κόμβων στην λίστα εξαίρεσης τ
 sudo update-alternatives --config java
 ```
 Το αποτέλεσμα της εντολής αυτής μοιάζει κάπως έτσι:
-```shell hl_lines="1-20"
-There are 2 choices for the alternative java (providing /usr/bin/java).
-
-Selection Path Priority Status
-------------------------------------------------------------
-* 0 /usr/lib/jvm/java-8-oracle/bin/java 1062 auto mode
-1 /usr/lib/jvm/java-6-openjdk/jre/bin/java 1061 manual mode
-2 /usr/lib/jvm/java-8-oracle/bin/java 1062 manual mode
-
-Press enter to keep the current choice[*], or type selection number:
-```
-
-**ΟΛΑ ΜΑΖΙ**
-
-```shell hl_lines="2-11"
-$ sudo update-alternatives --config java
-
+```output
 There are 2 choices for the alternative java (providing /usr/bin/java).
 
 Selection Path Priority Status
