@@ -16,11 +16,11 @@
     [εδώ](http://www.alice.org/wp-content/uploads/2019/04/Alice3_unix_3_5.sh),
     το οποίο διατίθεται σε μορφή [Shell script](http://en.wikipedia.org/wiki/Shell_script)
   - Εγκαταστήστε την OpenJDK Java δίνοντας την εντολή:
-    ``` bash
+    ```shell
     sudo apt-get install default-jre
     ```
   - Εκτελεστέ το μεταφορτωμένο Shell script δίνοντας την εντολή:
-    ``` bash
+    ```shell
     sudo sh Alice3_unix_3_5.sh
     ```
     και ακολουθήστε τα βήματα εγκατάστασης διατηρώντας τις
@@ -33,7 +33,6 @@
 
 Η απεγκατάσταση του εκπαιδευτικού λογισμικού Alice 3 μπορεί να
 επιτευχθεί δίνοντας την εντολή σε ένα τερματικό:
-
-``` bash
+```shell
 sudo sh /opt/Alice3/uninstall
 ```

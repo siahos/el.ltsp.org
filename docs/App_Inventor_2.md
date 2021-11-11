@@ -16,7 +16,7 @@ AppInventor. Οι εφαρμογές που θα αναπτυχθούν μπορ
 
 Η εγκατάσταση του App Inventor 2 Emulator μπορεί να επιτευχθεί είτε μέσω
 τερματικού (πατώντας ++alt+ctrl+"T"++) δίνοντας την εντολή:
-``` bash
+```shell
 sudo apt-get install appinventor2-setup
 ```
 είτε διαφορετικά μέσα από την εφαρμογή ++"Κέντρο Λογισμικού Ubuntu"++
@@ -63,7 +63,7 @@ clients](LTSP/Αρχιτεκτονική.md#ltsp-clients).
 
   - Ελέγξτε εάν υπάρχει διαθέσιμη κάποια νεότερη έκδοση του πακέτου
     appinventor2-setup:
-    ``` bash linenums="1"
+    ```shell
     sudo apt-get update
     sudo apt-get install appinventor2-setup
     ```
@@ -76,6 +76,6 @@ clients](LTSP/Αρχιτεκτονική.md#ltsp-clients).
     ξαναφτιαχτεί εξ' αρχής στην επόμενη εκτέλεσή του.
   - Εάν αυτό όντως βοηθήσει, μπορείτε να το κάνετε για όλους τους
     χρήστες με μία εντολή:
-    ``` bash
+    ```shell
     sudo rm -rf /home/*/.appinventor
     ```
