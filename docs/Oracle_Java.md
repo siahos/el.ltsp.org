@@ -37,7 +37,7 @@ sudo apt-get purge --auto-remove oracle-java8-installer
 Από την έκδοση Oracle Java **7u51** και μετέπειτα για λόγους ασφαλείας στην
 καρτέλα ++"Security"++ στην εφαρμογή ++"Java Control Panel"++
 προστέθηκε η επιλογή ++"Exception Site List"++ στην οποία ο χρήστης καλείται να
-προσθέσει τους κόμβους που περιέχουν μη [ψηφιακά πιστοποιημένες εφαρμογές](http://el.wikipedia.org/wiki/%CE%A8%CE%B7%CF%86%CE%B9%CE%B1%CE%BA%CF%8C_%CF%80%CE%B9%CF%83%CF%84%CE%BF%CF%80%CE%BF%CE%B9%CE%B7%CF%84%CE%B9%CE%BA%CF%8C)
+προσθέσει τους κόμβους που περιέχουν μη [ψηφιακά πιστοποιημένες εφαρμογές](https://el.wikipedia.org/wiki/Ψηφιακό_πιστοποιητικό)
 με σκοπό την επιτυχή εκτέλεση τους.
 
 #### Non-LTSP
