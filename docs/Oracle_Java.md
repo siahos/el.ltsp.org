@@ -76,7 +76,7 @@ H προσθήκη των κόμβων στην λίστα εξαίρεσης τ
 sudo update-alternatives --config java
 ```
 Το αποτέλεσμα της εντολής αυτής μοιάζει κάπως έτσι:
-```output
+```shell-session
 There are 2 choices for the alternative java (providing /usr/bin/java).
 
 Selection Path Priority Status

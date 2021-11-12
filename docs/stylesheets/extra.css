@@ -2,6 +2,10 @@ h2, h3 {
   clear: both;
 }
 
+.md-typeset code {
+  color: #17202A;
+}
+
 .md-typeset ol, .md-typeset ul {
   display: initial;
   margin: 0;
