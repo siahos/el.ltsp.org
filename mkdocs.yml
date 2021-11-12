@@ -9,6 +9,7 @@ markdown_extensions:
   - attr_list
   - pymdownx.superfences
   - pymdownx.keys
+  - tables
   - pymdownx.tabbed:
       alternate_style: true
   - toc:
