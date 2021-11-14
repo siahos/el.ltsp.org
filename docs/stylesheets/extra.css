@@ -2,8 +2,8 @@ h2, h3 {
   clear: both;
 }
 
-.md-typeset code {
-  color: #17202A;
+.md-typeset code .gp {
+  color: red;
 }
 
 .md-typeset ol, .md-typeset ul {
