@@ -46,12 +46,12 @@ gsettings reset org.gnome.desktop.wm.preferences theme
 
 ## Πώς βλέπω σε τι ταχύτητα δικτύου έχει "κλειδώσει" η κάρτα δικτύου του εξυπηρετητή;
 
-Από το mate-panel κάνοντας ++"κλικ"++ στο ++"εικονίδιο δικτύου"++ και επιλέγοντας ++"Πληροφορίες σύνδεσης"++
+Από το mate-panel κάνοντας ++"κλικ"++ στο ++"εικονίδιο δικτύου"++ και επιλέγοντας ++"Πληροφορίες σύνδεσης"++.
 
 ## Ξέχασα τον κωδικό του administrator. Τι κάνω;
 
 Ακολουθήστε τις οδηγίες στο
-<https://help.ubuntu.com/community/LiveCdRecovery#Lost_Password>
+<https://help.ubuntu.com/community/LiveCdRecovery#Lost_Password>.
 
 ## Δεν μπορώ να εκτελέσω εφαρμογές .exe με διπλό κλικ
 
