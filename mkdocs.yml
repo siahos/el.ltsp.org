@@ -10,6 +10,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.keys
   - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tabbed:
       alternate_style: true
   - toc:
