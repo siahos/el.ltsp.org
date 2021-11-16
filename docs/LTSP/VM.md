@@ -54,12 +54,6 @@ Ubuntu 12.04 LTSP (αρχείο ts.sch.gr -- Ubuntu-LTSP 12.04.zip) που εί�
 |:-------------:|:-----------------:|
 | administrator |       pwdpwd      |
 
-</center>
-
-test
-
-<center>
-
 ### Λογαριασμοί μαθητών
 
 |      Όνομα χρήστη      |    Κωδικός πρόσβασης   |
