@@ -64,8 +64,8 @@ clients](LTSP/Αρχιτεκτονική.md#ltsp-clients).
   - Ελέγξτε εάν υπάρχει διαθέσιμη κάποια νεότερη έκδοση του πακέτου
     appinventor2-setup:
     ```shell
-    sudo apt-get update
-    sudo apt-get install appinventor2-setup
+    $ sudo apt-get update
+    $ sudo apt-get install appinventor2-setup
     ```
   - Εάν ναι, θα χρειαστεί να κάνετε και [δημοσίευση του εικονικού
     δίσκου](sch-scripts/Δημοσίευση_εικονικού_δίσκου.md).
