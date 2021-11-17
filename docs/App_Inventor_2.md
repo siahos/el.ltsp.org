@@ -63,7 +63,7 @@ clients](LTSP/Αρχιτεκτονική.md#ltsp-clients).
 
   - Ελέγξτε εάν υπάρχει διαθέσιμη κάποια νεότερη έκδοση του πακέτου
     appinventor2-setup:
-    ```shell
+    ```shell-session
     $ sudo apt-get update
     $ sudo apt-get install appinventor2-setup
     ```
