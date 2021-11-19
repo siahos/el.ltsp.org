@@ -1,9 +1,10 @@
-Εδώ θα βρείτε βοηθητικά κείμενα σχετικά με το Linux.
+# Εγχειρίδιο Linux
+
+Το παρόν εγχειρίδιο αναφέρεται κυρίως σε σχολικά εργαστήρια με Ubuntu Linux.
+Είναι διαθέσιμο και σε [μορφή pdf](linux.pdf).
 
 ## Ubuntu
 
-  - [Live USB / CD για δοκιμή του περιβάλλοντος Ubuntu 20.04 και
-    εγκατάστασή του](liveusb.md)
   - [Οδηγός εγκατάστασης λειτουργικού συστήματος Ubuntu
     20.04](Εγκατάσταση_Ubuntu/index.md)
   - [Προχωρημένα θέματα σχετικά με το
@@ -22,26 +23,15 @@
   - [Εγκατάσταση Λογισμικού](Εγκατάσταση_λογισμικού.md)
   - [Κατάλογος Λογισμικού](Λογισμικό.md)
 
-## Εφαρμογές
+## Τεκμηρίωση εφαρμογών
 
-  - [Εγχειρίδιο της εφαρμογής Διαχείριση ΣΕΠΕΗΥ
-    (sch-scripts)](sch-scripts/index.md)
-  - [Εγχειρίδιο της εφαρμογής Επόπτης
-    (Epoptes)](epoptes/index.md)
-  - [Εγχειρίδιο της εφαρμογής Gparted](Gparted/index.md)
-  - [Εγχειρίδιο της εφαρμογής Oracle Java](Oracle_Java.md)
-  - [Εγχειρίδιο της λογισμικού LAMP](LAMP_server/index.md)
-  - [Εγχειρίδιο της εφαρμογής Alice 3](Alice3.md)
-  - [Εγχειρίδιο του λογισμικού App Inventor
-    2](App_Inventor_2.md)
-  - [Εγχειρίδιο της εφαρμογής Arduino IDE](Arduino.md)
-  - [Εγχειρίδιο της εφαρμογής MATE System
-    Monitor](mate-system-monitor.md)
-  - [Εγχειρίδιο της εφαρμογής GameMaker](GameMaker.md)
-
-Επίσης, τα παρακάτω θέματα μπορεί να σας φανούν χρήσιμα:
-
-  - [Εικονική μηχανή με Ubuntu MATE 18.04 32bit, που μπορεί είτε να
-    εγγραφεί απευθείας στο δίσκο παλιών Η/Υ είτε να επιτρέψει σε
-    νέο 64bit LTSP να εκκινήσει 32bit
-    clients](LTSP/VM.md)
+  - [Διαχείριση ΣΕΠΕΗΥ (sch-scripts)](sch-scripts/index.md)
+  - [Επόπτης (Epoptes)](epoptes/index.md)
+  - [Gparted](Gparted/index.md)
+  - [Oracle Java](Oracle_Java.md)
+  - [LAMP (Linux, Apache, MySQL, PHP)](LAMP_server/index.md)
+  - [Alice 3](Alice3.md)
+  - [App Inventor 2](App_Inventor_2.md)
+  - [Arduino IDE](Arduino.md)
+  - [MATE System Monitor](mate-system-monitor.md)
+  - [GameMaker](GameMaker.md)
