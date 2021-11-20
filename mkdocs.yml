@@ -10,6 +10,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.keys
   - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tabbed:
       alternate_style: true
   - toc:
@@ -21,7 +24,7 @@ plugins:
       minify_html: true
   - redirects:
       redirect_maps:
-        test.md: index.md
+        LTSP/Εγκατάσταση_λογισμικού.md: Εγκατάσταση_λογισμικού.md
   - search
   - with-pdf:
       author: Έκδοση pdf του https://ts.sch.gr/wiki/Linux
