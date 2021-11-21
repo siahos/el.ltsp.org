@@ -45,11 +45,13 @@ theme:
 # logo: logo-icon.png
   name: material
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       toggle:
         icon: material/toggle-switch-off-outline
         name: Αλλαγή σε σκούρο θέμα
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Αλλαγή σε ανοιχτό θέμα
