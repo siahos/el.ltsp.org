@@ -6,10 +6,10 @@ https://ts.sch.gr/wiki/Linux.
 ## Development environment
 
 ```shell
-sudo apt install mkdocs python3-pip
+sudo apt install python3-pip
 pip install mkdocs-material mkdocs-minify-plugin mkdocs-redirects mkdocs-with-pdf
 mkdocs serve
-xdg-open http://localhost:8000
+open http://localhost:8000
 ```
 
 ## Πώς έγινε η μετατροπή από mediawiki

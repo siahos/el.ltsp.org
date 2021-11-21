@@ -1,13 +1,19 @@
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color: #2573a7;
+  --md-primary-fg-color: #206592;
+  --md-accent-fg-color: #439bd6;
 }
 
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #58a6da;
+  --md-primary-fg-color: #6db1df;
+  --md-accent-fg-color: #96c7e8;
 }
 
 h2, h3 {
   clear: both;
+}
+
+.md-header {
+  background-color: #2573a7;
 }
 
 .md-typeset code .gp {
