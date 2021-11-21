@@ -1,4 +1,18 @@
-# Πώς έγινε η μετατροπή
+# Τεκμηρίωση Linux για ΣΕΠΕΗΥ
+
+Το παρόν repository αποτελεί τον πηγαίο κώδικα της σελίδας
+https://ts.sch.gr/wiki/Linux.
+
+## Development environment
+
+```shell
+sudo apt install mkdocs python3-pip
+pip install mkdocs-material mkdocs-minify-plugin mkdocs-redirects mkdocs-with-pdf
+mkdocs serve
+xdg-open http://localhost:8000
+```
+
+## Πώς έγινε η μετατροπή από mediawiki
 
 * Εισαγωγή με το https://github.com/outofcontrol/mediawiki-to-gfm
 * Αντιγραφή όλων των εικόνων με scp από το ts.sch.gr
