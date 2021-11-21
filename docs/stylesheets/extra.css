@@ -1,5 +1,9 @@
-* {
+[data-md-color-scheme="default"] {
   --md-primary-fg-color: #2573a7;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #58a6da;
 }
 
 h2, h3 {
@@ -8,6 +12,10 @@ h2, h3 {
 
 .md-typeset code .gp {
   color: red;
+}
+
+.md-typeset img, .md-typeset svg {
+  vertical-align: middle;
 }
 
 .md-typeset ol, .md-typeset ul {
@@ -20,8 +28,4 @@ h2, h3 {
   float: right;
   width: 33%;
   margin: 0 0 0.5em 0.5em;
-}
-
-.md-typeset img, .md-typeset svg {
-  vertical-align: middle;
 }
