@@ -11,4 +11,6 @@ TODO:
 5. Αν στο αριστερό μενού έχουμε κάνει scroll για να επιλέξουμε κάτι, όταν το επιλέξουμε η scroll bar χάνει τη θέση της και επιστρέφει στην κορυφή, με αποτέλεσμα να χάνεται - οπτικά - η θέση που βρισκόμασταν.
 Η δοκιμή έγινε σε ανάλυση 1366x768.
 
-6. TODO: `killall -f firefox` or `killall GeckoMain` <https://pe86.github.io/linux/epoptes/Διαδραστική_εκπαίδευση/#εκτέλεση-εντολής-στους-επιλεγμένους-υπολογιστές>
+6. Content tabs - Bad pdf export <https://pe86.github.io/linux/epoptes/Δημιουργία_τάξης/>
+
+7. `killall -f firefox` or `killall GeckoMain` <https://pe86.github.io/linux/epoptes/Διαδραστική_εκπαίδευση/#εκτέλεση-εντολής-στους-επιλεγμένους-υπολογιστές>
