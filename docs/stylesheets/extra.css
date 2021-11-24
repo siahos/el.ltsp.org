@@ -25,12 +25,13 @@ h2, h3 {
 }
 
 .md-typeset mark, mark {
-  background-color:#fafbfc;
-  border: solid 1px #d1d5da;
-  border-bottom-color: #c6cbd1;
-  border-radius: 3px;
-  padding: 2px 4px;
-  font-size: 90%;
+  background-color: var(--md-typeset-kbd-color);
+  box-shadow-kbd: 0 .1rem 0 .05rem var(--md-typeset-kbd-border-color),0 .1rem 0 var(--md-typeset-kbd-border-color),0 -.1rem .2rem var(--md-typeset-kbd-accent-color) inset;
+  border: .05rem solid #00000020;
+  border-radius: .1rem;
+  color: var(--md-default-fg-color);
+  padding: 0.05rem .2rem;
+  font-size: .95em;
 }
 
 .md-typeset ol, .md-typeset ul {
@@ -42,5 +43,5 @@ h2, h3 {
   clear: both;
   float: right;
   width: 33%;
-  margin: 0 0 0.5em 0.5em;
+  margin: 0 0 0.4rem 0.4rem;
 }
