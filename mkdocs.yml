@@ -21,7 +21,7 @@ markdown_extensions:
       title: Περιεχόμενα σελίδας
 plugins:
   - minify:
-      minify_html: true
+      minify_html: false
   - redirects:
       redirect_maps:
         LTSP/Εγκατάσταση_λογισμικού.md: Εγκατάσταση_λογισμικού.md
@@ -35,6 +35,7 @@ plugins:
       output_path: linux.pdf
 repo_url: https://github.com/pe86/linux
 site_name: Τεχνική Στήριξη ΣΕΠΕΗΥ
+site_url: https://ts.sch.gr/wiki/Linux
 strict: false
 theme:
 # favicon: favicon.ico
