@@ -50,7 +50,11 @@ h2, h3 {
   display: flex;
 }
 
-.md-typeset table:not([class]) {
+.md-typeset table:not([class]), table {
   width: auto;
   margin: 0 auto;
+}
+
+body {
+  font-size: initial;
 }
