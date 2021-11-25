@@ -6,7 +6,7 @@
 
 ## Υποστήριξη από το BIOS
 
-![Enable-OnboardLan-and-BootROM.jpg](Enable-OnboardLan-and-BootROM.jpg){: .right33}
+![Enable-OnboardLan-and-BootROM.jpg](Enable-OnboardLan-and-BootROM.jpg){.right33}
 Εάν οι κάρτες δικτύου των σταθμών εργασίας είναι ενσωματωμένες στη μητρική
 πλακέτα και όχι επιπρόσθετες σε PCI slot, κατά πάσα πιθανότητα θα
 υποστηρίζουν εκκίνηση από το δίκτυο. Υπάρχει μια μικρή πιθανότητα
@@ -15,7 +15,7 @@
 
 Μπείτε στο BIOS των υπολογιστών και ορίστε όσες από τις παρακάτω
 ρυθμίσεις βρείτε:
-![Lan-1st-Boot-Device02.jpg](Lan-1st-Boot-Device02.jpg){: .right33}
+![Lan-1st-Boot-Device02.jpg](Lan-1st-Boot-Device02.jpg){.right33}
 
   - Onboard H/W LAN: Enabled (για την ενεργοποίηση της κάρτας δικτύου
     της μητρικής)

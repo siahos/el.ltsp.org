@@ -1,4 +1,4 @@
-![12.04.3_ubuntu_install_keep_linux_install_type.png](12.04.3_ubuntu_install_keep_linux_install_type.png){: .right33}
+![12.04.3_ubuntu_install_keep_linux_install_type.png](12.04.3_ubuntu_install_keep_linux_install_type.png){.right33}
 Στην περίπτωση που έχετε ήδη εγκατεστημένη κάποια διανομή Linux, ο
 διάλογος που θα σας εμφανιστεί σε αυτό το βήμα θα είναι παρόμοιος
 με αυτό που φαίνεται στην εικόνα δεξιά σας.
@@ -12,13 +12,13 @@
 
 ## Διατήρηση του περιβάλλοντος Linux
 
-![12.04.3_ubuntu_install_keep_linux_choose_size.png](12.04.3_ubuntu_install_keep_linux_choose_size.png){: .right33}
+![12.04.3_ubuntu_install_keep_linux_choose_size.png](12.04.3_ubuntu_install_keep_linux_choose_size.png){.right33}
 Εάν θέλετε να εγκαταστήσετε το Ubuntu παράλληλα με το περιβάλλον Linux
 που έχετε:
 
 1.  Επιλέξτε την πρώτη επιλογή
 
-    ![12.04.3_ubutnu_install_keep_linux_choice.png](12.04.3_ubutnu_install_keep_linux_choice.png){: .right33}
+    ![12.04.3_ubutnu_install_keep_linux_choice.png](12.04.3_ubutnu_install_keep_linux_choice.png){.right33}
     και έπειτα . Με αυτήν την επιλογή θα πραγματοποιηθεί σμίκρυνση στην
     κατάτμηση του λειτουργικού συστήματος Linux ώστε να προκύψει
     ελεύθερος χώρος στον οποίο θα εγκατασταθεί το Ubuntu.
@@ -38,20 +38,20 @@
 
 1.  Επιλέξτε την δεύτερη επιλογή
 
-    ![12.04.3_ubuntu_install_upgrade_linux_choice.png](12.04.3_ubuntu_install_upgrade_linux_choice.png){: .right33}
+    ![12.04.3_ubuntu_install_upgrade_linux_choice.png](12.04.3_ubuntu_install_upgrade_linux_choice.png){.right33}
     και έπειτα . Με αυτήν την επιλογή θα διατηρηθούν τα προσωπικά σας
     δεδομένα και εάν είναι δυνατό και οι εφαρμογές που είχατε
     εγκαταστήσει.
 
 ## Διαγραφή του περιβάλλοντος Linux
 
-![12.04.3_ubuntu_install_replace_linux_choose_size.png](12.04.3_ubuntu_install_replace_linux_choose_size.png){: .right33}
+![12.04.3_ubuntu_install_replace_linux_choose_size.png](12.04.3_ubuntu_install_replace_linux_choose_size.png){.right33}
 Εάν επιθυμείτε να διαγράψετε το εγκατεστημένο λειτουργικό Linux και να
 εγκαταστήσετε το Ubuntu:
 
 1.  Επιλέξτε την τρίτη επιλογή
 
-    ![12.04.3_ubuntu_install_replace_linux_choice.png](12.04.3_ubuntu_install_replace_linux_choice.png){: .right33}
+    ![12.04.3_ubuntu_install_replace_linux_choice.png](12.04.3_ubuntu_install_replace_linux_choice.png){.right33}
     και έπειτα .
 2.  Στον επόμενο διάλογο αρκεί να επιλέξτε  για να ξεκινήσει η
     εγκατάσταση.
