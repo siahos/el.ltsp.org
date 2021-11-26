@@ -35,7 +35,7 @@ sudo apt-get install gparted
 sudo gparted
 ```
 
-!!! tip
+!!! tip "Συμβουλή"
     Η εφαρμογή απαιτεί δικαιώματα διαχειριστή (sudo) για να εκτελεστεί.
 
 ## Γενικά
