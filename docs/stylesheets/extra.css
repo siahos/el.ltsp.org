@@ -20,11 +20,7 @@ h2, h3 {
   color: red;
 }
 
-.md-typeset img, .md-typeset svg {
-  vertical-align: middle;
-}
-
-.md-typeset mark, mark {
+em > strong, strong > em, strong > code {
   background-color: var(--md-typeset-kbd-color);
   box-shadow-kbd: 0 .1rem 0 .05rem var(--md-typeset-kbd-border-color),0 .1rem 0 var(--md-typeset-kbd-border-color),0 -.1rem .2rem var(--md-typeset-kbd-accent-color) inset;
   border: .05rem solid #00000020;
@@ -32,6 +28,21 @@ h2, h3 {
   color: var(--md-default-fg-color);
   padding: 0.05rem .2rem;
   font-size: .95em;
+  font-weight: normal;
+  font-style: normal;
+}
+
+blockquote em > strong {
+  display: block;
+}
+
+div.see {
+  background-color: green;
+  border: 1px solid lightgreen;
+}
+
+.md-typeset img, .md-typeset svg {
+  vertical-align: middle;
 }
 
 .md-typeset ol, .md-typeset ul {
