@@ -49,11 +49,11 @@
 
 Παράδειγμα σύνταξης:
     
-    ++alt+ctrl+t++
+    **`Alt`**+**`Ctrl`**+**`T`**
       
 Αποτέλεσμα:
         
-++alt+ctrl+t++
+**`Alt`**+**`Ctrl`**+**`T`**
     
 Περισσότερα στο
 [Extending/Modifying Key-Map](https://facelessuser.github.io/pymdown-extensions/extensions/keys/#extendingmodifying-key-map-index).
