@@ -43,7 +43,7 @@ theme:
   features:
     - navigation.indexes
     - navigation.instant
-  language: gr
+  language: el
 # logo: logo-icon.png
   name: material
   palette:

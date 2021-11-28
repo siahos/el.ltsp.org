@@ -21,7 +21,7 @@ reiser4, ufs, xfs
 ## Εγκατάσταση GParted
 
 [*![](Gparted_install.png)*](Gparted_install.png)
-Μπορείτε να εγκαταστήσετε το `gparted` από το [Synaptic](..\Εγκατάσταση_λογισμικού.md#χρήση-του-synaptic) ή με την
+Μπορείτε να εγκαταστήσετε το `gparted` από το [Synaptic](../Εγκατάσταση_λογισμικού.md#χρήση-του-synaptic) ή με την
 παρακάτω εντολή σε ένα τερματικό:
 
 ```shell
