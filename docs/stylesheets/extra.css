@@ -38,8 +38,8 @@ body.vscode-body {
 }
 
 .vscode-body pre, .vscode-body pre code {
-  color: rgba(0,0,0,.8);
-  background-color: rgba(0,0,0,.1);
+  color: #333;
+  background-color: #ddd;
 }
 
 /* Customize mkdocs-material */
