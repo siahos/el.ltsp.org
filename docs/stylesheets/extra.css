@@ -36,7 +36,7 @@ blockquote em > strong {
   display: block;
 }
 
-div.see {
+.green {
   background-color: green;
   border: 1px solid lightgreen;
 }
@@ -50,7 +50,7 @@ div.see {
   margin: 0;
 }
 
-.right33 {
+a > em > img {
   clear: both;
   float: right;
   width: 33%;

@@ -8,35 +8,35 @@
 
 ## Βήματα εγκατάστασης
 
-  - ![Win32-loader-language.png](Win32-loader-language.png){.right33}
+  - [*![](Win32-loader-language.png)*](Win32-loader-language.png)
     Κάντε [λήψη του win32-loader.exe](http://ftp.debian.org/debian/tools/win32-loader/stable/win32-loader.exe)
     και εκτελέστε το μέσα από τα Windows για να ξεκινήσει η εγκατάσταση.
   - Στο διάλογο ***Επιλογής γλώσσας***, διαλέξτε ***Greek*** .
-  - ![Win32-loader-pxe-mode.png](Win32-loader-pxe-mode.png){.right33}
+  - [*![](Win32-loader-pxe-mode.png)*](Win32-loader-pxe-mode.png)
     Στο διάλογο ***Επιλογής τύπου εγκατάστασης***,
     διαλέξτε ***Κατάσταση PXE: Εγκαταστήστε τον φορτωτή του PXE ώστε να φορτωθεί ο πυρήνας απομακρυσμένα***.
   - Στο διάλογο ολοκλήρωσης της εγκατάστασης, πατήστε ***Κλείσιμο***.
-  - ![Win32-loader-reboot.png](Win32-loader-reboot.png){.right33}
+  - [*![](Win32-loader-reboot.png)*](Win32-loader-reboot.png)
     Αγνοήστε το διάλογο που αναφέρει ότι θα πρέπει να επανεκκινήσετε τον
     υπολογιστή για να συνεχίσετε την εγκατάσταση. Το win32-loader
     χρησιμοποιείται και για απομακρυσμένες εγκαταστάσεις Debian,
     αλλά εμείς χρησιμοποιούμε μόνο την δυνατότητα εκκίνησης από το
     δίκτυο, οπότε δεν μας ενδιαφέρει. Πατήστε ***ΟΚ**.
   - Στο διάλογο ***Επανεκκίνησης***, επιλέξτε ***Όχι***.
-  - ![Win32-loader-boot-ini.png](Win32-loader-boot-ini.png){.right33}
+  - [*![](Win32-loader-boot-ini.png)*](Win32-loader-boot-ini.png)
     Κάντε δεξί κλικ στο εικονίδιο ***Ο Υπολογιστής μου*** και επιλέξτε διαδοχικά
     ***Ιδιότητες*** ▸ ***Για προχωρημένους*** ▸ ***Ρυθμίσεις (Εκκίνηση και αποκατάσταση)***.
     Θα εμφανιστούν οι διάλογοι που φαίνονται δεξιά, από όπου μπορείτε να προσαρμόσετε την
     προεπιλεγμένη καταχώρηση και το χρόνο επιλογής της. Εάν
     χρειαστείτε περισσότερες πληροφορίες, ανατρέξτε στο
     [σχετικό άρθρο βοήθειας της Microsoft](http://support.microsoft.com/kb/289022).
-  - ![Win32-loader-boot-menu.png](Win32-loader-boot-menu.png){.right33}
+  - [*![](Win32-loader-boot-menu.png)*](Win32-loader-boot-menu.png)
     Κατά την επόμενη **επανεκκίνηση**, ο boot manager των Windows θα
     εμφανίσει τις επιλογές που εμφανίζονται στην εικόνα δεξιά.
 
 ## Βήματα απεγκατάστασης
 
-![Win32-loader-uninstall.png](Win32-loader-uninstall.png){.right33}
+[*![](Win32-loader-uninstall.png)*](Win32-loader-uninstall.png)
 Εάν για κάποιο λόγο θελήσετε να αφαιρέσετε τον win32-loader, μπορείτε να τον
 καταργήσετε από την προσθαφαίρεση προγραμμάτων, όπως φαίνεται στη
 διπλανή εικόνα.

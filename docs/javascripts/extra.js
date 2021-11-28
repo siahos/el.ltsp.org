@@ -1,3 +1,5 @@
+/*
+Not needed anymore
 document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('.right33').forEach(function(pic) {
     console.log(pic);
@@ -5,3 +7,4 @@ document.addEventListener('DOMContentLoaded', function() {
       '</a>';
   });
 }, false);
+*/

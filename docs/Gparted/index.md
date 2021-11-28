@@ -20,7 +20,7 @@ reiser4, ufs, xfs
 
 ## Εγκατάσταση GParted
 
-![Gparted_install.png](Gparted_install.png){.right33}
+[*![](Gparted_install.png)*](Gparted_install.png)
 Μπορείτε να εγκαταστήσετε το `gparted` από το [synaptic](synaptic.md) ή με την
 παρακάτω εντολή σε ένα τερματικό:
 
@@ -40,7 +40,7 @@ sudo gparted
 
 ## Γενικά
 
-![Gparted-start-screen.png](Gparted-start-screen.png){.right33}
+[*![](Gparted-start-screen.png)*](Gparted-start-screen.png)
 Κατά την εκκίνηση, η εφαρμογή σαρώνει το
 υπολογιστή για την ανίχνευση όλων των σκληρών δίσκων. Στην εικόνα
 δεξιά σας φαίνεται η αρχική οθόνη της εφαρμογής. Ο δίσκος που
@@ -111,7 +111,7 @@ sudo gparted
     συσκευής.
   - Κάνετε κλικ στο εικονίδιο
     ![Gparted-new-partition.png](Gparted-new-partition.png).
-    ![Gparted-new-partion-dialog.png](Gparted-new-partion-dialog.png){.right33}
+    [*![](Gparted-new-partion-dialog.png)*](Gparted-new-partion-dialog.png)
     Η εφαρμογή εμφανίζει έναν διάλογο με τίτλο ***Δημιουργία νέας κατάτμησης***.
 
     !!! tip "Συμβουλή"
@@ -128,7 +128,7 @@ sudo gparted
         είτε μετατοπίζοντας τα βελάκια αριστερά και δεξιά στην γραφική
         αναπαράσταση της συσκευής που εμφανίζεται στον διάλογο.
 
-  - Ορίζετε την στοίχιση της κατάτμησης.![Gparted-synopsis-new-partition.png](Gparted-synopsis-new-partition.png){.right33}
+  - Ορίζετε την στοίχιση της κατάτμησης.[*![](Gparted-synopsis-new-partition.png)*](Gparted-synopsis-new-partition.png)
   - Ορίζετε τον τύπο της κατάτμησης.
   - Ορίζετε τον σύστημα αρχείων της κατάτμησης
   - Ορίζετε την ετικέτα για την κατάτμηση αυτή
@@ -150,14 +150,14 @@ sudo gparted
 Για να δημιουργήσετε ελεύθερο χώρο στον δίσκο θα πρέπει να μειώσετε (shrink) το
 μέγεθος μιας κατάτμησης. Για να μειώσετε το μέγεθος:
 
-  - ![Gparted-shrink-dialog.png](Gparted-shrink-dialog.png){.right33}Επιλέξτε
+  - [*![](Gparted-shrink-dialog.png)*](Gparted-shrink-dialog.png)Επιλέξτε
     την κατάτμηση την που επιθυμείτε.
   - Επιλέξτε το μενού ***Κατάτμηση*** ▸ ***Αλλαγή μεγέθους/μετακίνηση***. Η
     εφαρμογή εμφανίζει έναν διάλογο με τίτλο ***Αλλαγή μεγέθους / μετακίνηση
     /path/to/partition***.
   - Ρυθμίστε το μέγεθος και την τοποθεσία της κατάτμησης.
   - Ρυθμίστε την στοίχιση της κατάτμησης.
-  - ![Gparted-shrink-synopsis.png](Gparted-shrink-synopsis.png){.right33}
+  - [*![](Gparted-shrink-synopsis.png)*](Gparted-shrink-synopsis.png)
     Τέλος, επιλέξτε ***Αλλαγή μεγέθους/ Μετακίνηση*** και κάντε κλικ στο
     εικονίδιο
     ![Gparted-apply-new-partition.png](Gparted-apply-new-partition.png) για να

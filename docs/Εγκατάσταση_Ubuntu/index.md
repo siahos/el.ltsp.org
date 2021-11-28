@@ -13,7 +13,7 @@
 
 ## Δοκιμή περιβάλλοντος
 
-![install-01-welcome.png](install-01-welcome.png){.right33} Μετά την εκκίνηση του
+[*![](install-01-welcome.png)*](install-01-welcome.png) Μετά την εκκίνηση του
 υπολογιστή από το live CD θα σας εμφανιστεί μία οθόνη που θα σας ρωτά
 στην Αγγλική γλώσσα αν θα εγκαταστήσετε το Ubuntu ή θα το δοκιμάσετε.
 Επιλέξτε τα  ως γλώσσα και κατόπιν πατήστε .
@@ -23,7 +23,7 @@
 
 ## Κυρίως περιβάλλον
 
-![install-02-desktop.png](install-02-desktop.png){.right33} Μετά την εκκίνηση του
+[*![](install-02-desktop.png)*](install-02-desktop.png) Μετά την εκκίνηση του
 υπολογιστή από το live CD θα σας εμφανιστεί το δοκιμαστικό περιβάλλον
 του λειτουργικού περιβάλλοντος όπως αυτό φαίνεται στην εικόνα δεξιά
 σας. Στο δοκιμαστικό περιβάλλον μπορείτε να εκτελέσετε όποια
@@ -37,14 +37,14 @@
 
 ## Καλωσορίσατε
 
-![install-03-language.png](install-03-language.png){.right33}
+[*![](install-03-language.png)*](install-03-language.png)
 
   - Βεβαιωθείτε ότι έχετε επιλέξει
   - Κλικ στο
 
 ## Διάταξη πληκτρολογίου
 
-![install-04-keyboard-layout.png](install-04-keyboard-layout.png){.right33}
+[*![](install-04-keyboard-layout.png)*](install-04-keyboard-layout.png)
 
   -
   -
@@ -52,7 +52,7 @@
 
 ## Ενημερώσεις και άλλο λογισμικό
 
-![install-05-updates-and-other-software.png](install-05-updates-and-other-software.png){.right33}
+[*![](install-05-updates-and-other-software.png)*](install-05-updates-and-other-software.png)
 
   - Επιλέξτε
   - Επιλέξτε
@@ -63,7 +63,7 @@
 
 ## Είδος εγκατάστασης
 
-![install-06-installation-type.png](install-06-installation-type.png){.right33} Από αυτό το
+[*![](install-06-installation-type.png)*](install-06-installation-type.png) Από αυτό το
 διάλογο ορίζονται οι κατατμήσεις όπου θα εγκατασταθεί το Ubuntu.
 Προσέξτε να μη διαγράψετε υπάρχουσες κατατμήσεις, εάν τυχόν έχετε
 ήδη κάποιο λειτουργικό στον υπολογιστή σας. Μπορείτε να μειώσετε το
@@ -82,14 +82,14 @@
 
 ## Πού βρίσκεστε;
 
-![install-08-where-are-you.png](install-08-where-are-you.png){.right33}
+[*![](install-08-where-are-you.png)*](install-08-where-are-you.png)
 
   - Επιλέξτε
   - Κλικ στο
 
 ## Πώς λέγεστε;
 
-![install-09-who-are-you.png](install-09-who-are-you.png){.right33}
+[*![](install-09-who-are-you.png)*](install-09-who-are-you.png)
 
   - Το ονοματεπώνυμό σας:
   - Το όνομα του υπολογιστή σας: . Το όνομα κάθε σχολικού server είναι
@@ -108,7 +108,7 @@
 
 ## Αντιγραφή αρχείων
 
-![install-10-progress.png](install-10-progress.png){.right33} Εάν θέλετε, όσο
+[*![](install-10-progress.png)*](install-10-progress.png) Εάν θέλετε, όσο
 περιμένετε να προχωρήσει η εγκατάσταση (περίπου 15', ανάλογα με
 την ταχύτητα της σύνδεσής σας στο Internet), ακολουθήστε την ενότητα
 για την [εκκίνηση των σταθμών εργασίας από το
@@ -117,6 +117,6 @@
 
 ## Η εγκατάσταση ολοκληρώθηκε
 
-![install-11-installation-complete.png](install-11-installation-complete.png){.right33}
+[*![](install-11-installation-complete.png)*](install-11-installation-complete.png)
 
   - Κλικ στο

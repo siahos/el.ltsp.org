@@ -1,6 +1,6 @@
 # Epoptes
 
-![0.5.7_epoptes_startup.png](0.5.7_epoptes_startup.png){.right33}
+[*![](0.5.7_epoptes_startup.png)*](0.5.7_epoptes_startup.png)
 Η εφαρμογή ++"Επόπτης (Epoptes)"++ αποτελεί
 μία σύγχρονη εφαρμογή διαχείρισης τάξης σε λειτουργικά
 συστήματα Ubuntu που έχει δημιουργηθεί και υποστηρίζεται από τη δράση
