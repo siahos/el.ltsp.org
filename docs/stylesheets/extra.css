@@ -103,7 +103,7 @@ blockquote em>strong {
 /* Menus and keyboard shortcuts */
 em>strong, strong>em, strong>code {
   background-color: var(--md-typeset-kbd-color);
-  box-shadow-kbd: 0 .1rem 0 .05rem var(--md-typeset-kbd-border-color), 0 .1rem 0 var(--md-typeset-kbd-border-color), 0 -.1rem .2rem var(--md-typeset-kbd-accent-color) inset;
+  box-shadow: 0 .1rem 0 .05rem var(--md-typeset-kbd-border-color), 0 .1rem 0 var(--md-typeset-kbd-border-color), 0 -.1rem .2rem var(--md-typeset-kbd-accent-color) inset;
   border: .05rem solid #00000020;
   border-radius: .1rem;
   color: var(--md-default-fg-color);
