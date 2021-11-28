@@ -12,6 +12,24 @@ mkdocs serve
 open http://localhost:8000
 ```
 
+### Windows development environment
+
+-   Στα Windows θα χρειαστεί να κάνετε εγκατάσταση την
+    [Python3](https://www.python.org/downloads/).
+-   Η εντολή `pip` έχει ίδια σύνταξη όπως και στο linux.
+
+-   Αν κατά την εκτέλεση του `mkdocs serve` εμφανιστεί το ακόλουθο error:
+
+    ```shell-session
+    > mkdocs serve
+    INFO     -  Building documentation...
+    cannot load library 'gobject-2.0-0': error 0x7e.  Additionally, ctypes.util.find_library() did not manage to locate a library called 'gobject-2.0-0'
+    ```
+
+    τότε θα πρέπει να εγκαταστήσετε και το [GTK3](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/).
+
+    Προσοχή: Μετά την εγκατάσταση κάντε επανεκκίνηση ώστε να ενημερωθεί η μεταβλητή συστήματος `Path` των Windows.
+
 ## Πώς έγινε η μετατροπή από mediawiki
 
 * Εισαγωγή με το https://github.com/outofcontrol/mediawiki-to-gfm
