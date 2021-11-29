@@ -77,8 +77,14 @@ body.vscode-body {
 
 /* Our CSS rules for easier markdown */
 
-/* Right align and shrink images that are links to pngs */
-a[href$=".png"]>img {
+/* Limit images to 100% width while printing */
+
+img {
+  max-width: 100%;
+}
+
+/* Right align and shrink images that are links to png or jpg */
+a[href$=".png"]>img, a[href$=".jpg"]>img {
   clear: both;
   float: right;
   width: 33%;
