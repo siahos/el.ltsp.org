@@ -66,11 +66,6 @@ body.vscode-body {
   vertical-align: middle;
 }
 
-.md-typeset :is(ul, ol):not([hidden]) {
-  display: initial;
-  margin: 0;
-}
-
 .md-typeset__table {
   display: flex;
 }
