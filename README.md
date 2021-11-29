@@ -17,7 +17,6 @@ open http://localhost:8000
 -   Στα Windows θα χρειαστεί να κάνετε εγκατάσταση την
     [Python3](https://www.python.org/downloads/).
 -   Η εντολή `pip` έχει ίδια σύνταξη όπως και στο linux.
-
 -   Αν κατά την εκτέλεση του `mkdocs serve` εμφανιστεί το ακόλουθο error:
 
     ```shell-session
@@ -28,7 +27,7 @@ open http://localhost:8000
 
     τότε θα πρέπει να εγκαταστήσετε και το [GTK3](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/).
 
-    Προσοχή: Μετά την εγκατάσταση κάντε επανεκκίνηση ώστε να ενημερωθεί η μεταβλητή συστήματος `Path` των Windows.
+    **Προσοχή**: Μετά την εγκατάσταση κάντε επανεκκίνηση ώστε να ενημερωθεί η μεταβλητή συστήματος `Path` των Windows.
 
 ## Πώς έγινε η μετατροπή από mediawiki
 
