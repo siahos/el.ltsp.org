@@ -77,8 +77,8 @@ body.vscode-body {
 
 /* Our CSS rules for easier markdown */
 
-/* Right align and shrink some images */
-a>em>img {
+/* Right align and shrink images that are links to pngs */
+a[href$=".png"]>img {
   clear: both;
   float: right;
   width: 33%;

@@ -1,6 +1,6 @@
 # sch-scripts
 
-[*![](Schscripts_first_screen.png)*](Schscripts_first_screen.png)
+[![](Schscripts_first_screen.png)](Schscripts_first_screen.png)
 Η εφαρμογή `sch-scripts` (Διαχείριση ΣΕΠΕΗΥ) είναι ένα εργαλείο δημιουργίας και
 παραμετροποίησης ενός LTSP (Linux Terminal Server Project) εξυπηρετητή σε
 λειτουργικά συστήματα Ubuntu που έχει δημιουργηθεί και υποστηρίζεται από τη

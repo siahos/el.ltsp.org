@@ -37,7 +37,7 @@ clients](LTSP/Αρχιτεκτονική.md#ltsp-clients).
     στους [fat](LTSP/Αρχιτεκτονική.md#ltsp-clients) σταθμούς εργασίας και
     όχι στους [thin](LTSP/Αρχιτεκτονική.md#ltsp-clients).
 
-[*![](Appinventor2-setup-first-screen.png)*](Appinventor2-setup-first-screen.png)
+[![](Appinventor2-setup-first-screen.png)](Appinventor2-setup-first-screen.png)
 Η εκκίνηση του Emulator γίνεται από το μενού ***Εφαρμογές*** ▸ ***Εκπαίδευση*** ▸ ***AppInventor aiStarter***,
 οπότε και εμφανίζεται ένα τερματικό όπως φαίνεται στα δεξιά.
 

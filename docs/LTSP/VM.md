@@ -1,4 +1,4 @@
-[*![](Ts_promo_ubuntu-VM.jpg)*](Ts_promo_ubuntu-VM.jpg)
+[![](Ts_promo_ubuntu-VM.jpg)](Ts_promo_ubuntu-VM.jpg)
 Για να δοκιμάσετε το περιβάλλον του Ubuntu LTSP χωρίς να πραγματοποιήσετε 
 εγκατάσταση σε περιβάλλον MS-Windows, μπορείτε να χρησιμοποιήσετε την ιδεατή μηχανή
 Ubuntu 12.04 LTSP (αρχείο ts.sch.gr -- Ubuntu-LTSP 12.04.zip) που είναι
