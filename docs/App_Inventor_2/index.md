@@ -1,3 +1,5 @@
+# App Inventor 2
+
 Το λογισμικό ***MIT App Inventor 2*** είναι ένα block-based εργαλείο ανάπτυξης
 εφαρμογών για Android συσκευές, το οποίο διατίθεται ως δωρεάν Web-based
 υπηρεσία στη σελίδα <http://ai2.appinventor.mit.edu>. Κάθε χρήστης που θέλει να
@@ -48,12 +50,10 @@ http://ai2.appinventor.mit.edu, μπορεί ο Emulator να σταματήσε
 
 - Ελέγξτε εάν υπάρχει διαθέσιμη κάποια νεότερη έκδοση του πακέτου
   `appinventor2-setup`:
-
   ```shell-session
   $ sudo apt-get update
   $ sudo apt-get install appinventor2-setup
   ```
-
 - Στη συνέχεια και εάν δεν έχει διορθωθεί το πρόβλημα, κλείστε και ξαναανοίξτε
   το τερματικό του Emulator, και μετά πηγαίνετε στη σελίδα του AppInventor και
   στο μενού ***Connect*** ▸ ***Hard Reset***, ώστε να διαγραφεί η εικονική
@@ -61,7 +61,6 @@ http://ai2.appinventor.mit.edu, μπορεί ο Emulator να σταματήσε
   του.
 - Εάν αυτό όντως βοηθήσει, μπορείτε να το κάνετε για όλους τους χρήστες με μία
   εντολή:
-
   ```shell
   sudo rm -rf /home/*/.appinventor
   ```
