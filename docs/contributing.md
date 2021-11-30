@@ -159,11 +159,11 @@ $ μπορούμε να χρησιμοποιήσουμε το $
 
 Παράδειγμα σύνταξης:
 
-    [![](Synaptic.png)](https://pe86.github.io/linux/Εγκατάσταση_λογισμικού/#χρήση-του-synaptic)
+    [![](Synaptic.png)](https://pe86.github.io/linux/Εγκατάσταση_λογισμικού/#use-of-synaptic)
 
 Αποτέλεσμα:
 
-[![](Synaptic.png)](https://pe86.github.io/linux/Εγκατάσταση_λογισμικού/#χρήση-του-synaptic)
+[![](Synaptic.png)](https://pe86.github.io/linux/Εγκατάσταση_λογισμικού/#use-of-synaptic)
 
 ## Για προσθήκη εικόνας δεξιά σε κείμενο
 
