@@ -36,7 +36,7 @@ clients.
 - [Oracle Java](Oracle_Java.md)
 - [LAMP (Linux, Apache, MySQL, PHP)](LAMP_server/index.md)
 - [Alice 3](Alice3.md)
-- [App Inventor 2](App_Inventor_2.md)
+- [App Inventor 2](App_Inventor_2/index.md)
 - [Arduino IDE](Arduino.md)
 - [MATE System Monitor](mate-system-monitor.md)
 - [GameMaker](GameMaker.md)

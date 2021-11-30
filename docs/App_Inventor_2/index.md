@@ -22,10 +22,9 @@ sudo apt-get install appinventor2-setup
 
 ## Εκτέλεση
 
-[![](Appinventor2-setup-first-screen.png)](Appinventor2-setup-first-screen.png)
-Η εκκίνηση του Emulator γίνεται από το μενού ***Εφαρμογές*** ▸ ***Εκπαίδευση***
-▸ ***AppInventor aiStarter***, οπότε και εμφανίζεται ένα τερματικό όπως
-φαίνεται στην εικόνα δεξιά.
+[![](appinventor2.png)](appinventor2.png)Η εκκίνηση του Emulator γίνεται από το
+μενού ***Εφαρμογές*** ▸ ***Εκπαίδευση*** ▸ ***AppInventor aiStarter***, οπότε
+και εμφανίζεται ένα τερματικό όπως φαίνεται στην εικόνα δεξιά.
 
 - Επισκεφτείτε την ιστοσελίδα <http://ai2.appinventor.mit.edu> κάνοντας
   **`Ctrl`**+**`κλικ`** στον σύνδεσμο που εμφανίζεται στο τερματικό.
