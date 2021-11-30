@@ -216,18 +216,30 @@ $ μπορούμε να χρησιμοποιήσουμε το $
 
 ## Για αναφορά σε εξωτερικό σύνδεσμο
 
-Παράδειγμα σύνταξης:
+1.  Παράδειγμα σύνταξης:
 
-    [LiveCdRecovery - Lost Password](https://help.ubuntu.com/community/LiveCdRecovery#Lost_Password)
+        <https://help.ubuntu.com/community/LiveCdRecovery#Lost_Password>
 
-Αποτέλεσμα:
-
-[LiveCdRecovery - Lost Password](https://help.ubuntu.com/community/LiveCdRecovery#Lost_Password)
-
-Παράδειγμα σύνταξης:
+    Αποτέλεσμα:
 
     <https://help.ubuntu.com/community/LiveCdRecovery#Lost_Password>
 
-Αποτέλεσμα:
 
-<https://help.ubuntu.com/community/LiveCdRecovery#Lost_Password>
+2.  Παράδειγμα σύνταξης:
+
+        [LiveCdRecovery - Lost Password](https://help.ubuntu.com/community/LiveCdRecovery#Lost_Password)
+
+    Αποτέλεσμα:
+
+    [LiveCdRecovery - Lost Password](https://help.ubuntu.com/community/LiveCdRecovery#Lost_Password)
+
+3.  Αν θέλουμε να τονίσουμε έναν εξωτερικό σύνδεσμο με μορφή
+    ***button*** τότε στο τέλος προσθέτουμε `{.md-button}`:
+
+    Παράδειγμα σύνταξης:
+
+        [LiveCdRecovery - Lost Password](https://help.ubuntu.com/community/LiveCdRecovery#Lost_Password){.md-button}
+
+    Αποτέλεσμα:
+
+    [LiveCdRecovery - Lost Password](https://help.ubuntu.com/community/LiveCdRecovery#Lost_Password){.md-button}
