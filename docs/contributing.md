@@ -159,6 +159,16 @@ $ μπορούμε να χρησιμοποιήσουμε το $
 
 Παράδειγμα σύνταξης:
 
+    [![](Synaptic.png)](https://pe86.github.io/linux/Εγκατάσταση_λογισμικού/#χρήση-του-synaptic)
+
+Αποτέλεσμα:
+
+[![](Synaptic.png)](https://pe86.github.io/linux/Εγκατάσταση_λογισμικού/#χρήση-του-synaptic)
+
+## Test "Use of Synaptic"
+
+Παράδειγμα σύνταξης:
+
     [![](Synaptic.png)](https://pe86.github.io/linux/Εγκατάσταση_λογισμικού/#use-of-synaptic)
 
 Αποτέλεσμα:
