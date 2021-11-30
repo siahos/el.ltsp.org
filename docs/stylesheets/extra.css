@@ -42,6 +42,12 @@ body.vscode-body {
   background-color: #ddd;
 }
 
+.vscode-body .md-button {
+  font-weight: bold;
+  border: 0.15em solid #3f6ec6;
+  padding: 0.7em;
+}
+
 /* Customize mkdocs-material */
 
 [data-md-color-scheme="default"] {
@@ -125,4 +131,8 @@ strong>code {
 .green {
   background-color: green;
   border: 1px solid lightgreen;
+}
+
+.center {
+  text-align: center;
 }
