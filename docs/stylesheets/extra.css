@@ -75,6 +75,10 @@ body.vscode-body {
   margin: 0 auto;
 }
 
+.md-typeset :is(ul, ol):not([hidden]) {
+  display: block;
+}
+
 /* Our CSS rules for easier markdown */
 
 /* Limit images to 100% width while printing */
