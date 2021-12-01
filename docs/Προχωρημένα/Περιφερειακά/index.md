@@ -1,9 +1,1 @@
-<splist
- parent=Linux/Προχωρημένα/Περιφερειακά
- showparent=no
- sort=desc
- sortby=title
- liststyle=ordered
- showpath=no
- kidsonly=no
-/>
+# Περιφερειακά
