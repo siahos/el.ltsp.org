@@ -1,4 +1,3 @@
-# copyright: Copyright © 2000-2021 the <a href="https://github.com/ltsp/ltsp/graphs/contributors">LTSP developers</a>
 edit_uri: edit/main/docs
 extra_css:
   - stylesheets/extra.css
@@ -57,34 +56,35 @@ theme:
 nav:
   - index.md
   - Ubuntu:
-    - Ubuntu.md
+    - ubuntu/index.md
     - liveusb.md
+    - ubuntu/installation.md
     - Εγκατάσταση:
-      - Εγκατάσταση_Ubuntu/index.md
-      - Εγκατάσταση_Ubuntu/Δίσκος_Linux.md
-      - Εγκατάσταση_Ubuntu/Δίσκος_Ms-Windows.md
-      - Εγκατάσταση_Ubuntu/Δίσκος_Κενός.md
+      - ubuntu/installation.md
+      - ubuntu/Δίσκος_Linux.md
+      - ubuntu/Δίσκος_Ms-Windows.md
+      - ubuntu/Δίσκος_Κενός.md
     - Αποθετήρια.md
     - Εγκατάσταση_λογισμικού.md
   - LTSP:
     - Προετοιμασία:
-      - LTSP/Αρχιτεκτονική.md
-      - LTSP/Απαιτήσεις.md
-      - LTSP/Πλεονεκτήματα.md
-      - LTSP/Μειονεκτήματα.md
-    - Εγκατάσταση: LTSP/index.md
+      - ltsp/Αρχιτεκτονική.md
+      - ltsp/Απαιτήσεις.md
+      - ltsp/Πλεονεκτήματα.md
+      - ltsp/Μειονεκτήματα.md
+    - Εγκατάσταση: ltsp/index.md
     - Ρύθμιση clients:
-      - LTSP/Εκκίνηση_από_το_δίκτυο/index.md
-      - LTSP/Εκκίνηση_από_το_δίκτυο/Win32-loader.md
-    - 'Αντιμετώπιση προβλημάτων': LTSP/FAQ.md
+      - ltsp/Εκκίνηση_από_το_δίκτυο/index.md
+      - ltsp/Εκκίνηση_από_το_δίκτυο/Win32-loader.md
+    - 'Αντιμετώπιση προβλημάτων': ltsp/FAQ.md
     - Προχωρημένα:
-      - LTSP/Προχωρημένα/index.md
-      - LTSP/Προχωρημένα/Αυτόματη_σύνδεση.md
-      - LTSP/Προχωρημένα/Εκτυπωτές.md
-      - LTSP/Προχωρημένα/Πολλά_εργαστήρια.md
-      - LTSP/Προχωρημένα/Σαρωτές.md
-      - LTSP/Προχωρημένα/Στατικά_hostnames.md
-      - LTSP/Προχωρημένα/Χάρτης.md
+      - ltsp/Προχωρημένα/index.md
+      - ltsp/Προχωρημένα/Αυτόματη_σύνδεση.md
+      - ltsp/Προχωρημένα/Εκτυπωτές.md
+      - ltsp/Προχωρημένα/Πολλά_εργαστήρια.md
+      - ltsp/Προχωρημένα/Σαρωτές.md
+      - ltsp/Προχωρημένα/Στατικά_hostnames.md
+      - ltsp/Προχωρημένα/Χάρτης.md
   - Διαχείριση ΣΕΠΕΗΥ:
     - sch-scripts/index.md
     - sch-scripts/Αρχεία_ρυθμίσεων.md
@@ -93,7 +93,7 @@ nav:
     - sch-scripts/Δικαιώματα_καταλόγων.md
     - sch-scripts/Εγκατάσταση.md
     - sch-scripts/Εκκίνηση_της_εφαρμογής.md
-    - sch-scripts/Εντολές_LTSP.md
+    - sch-scripts/Εντολές_ltsp.md
     - sch-scripts/Κοινόχρηστοι_κατάλογοι.md
     - sch-scripts/Ρύθμιση_σύνδεσης_δικτύου.md
     - sch-scripts/Συντήρηση_ΣΕΠΕΗΥ.md
