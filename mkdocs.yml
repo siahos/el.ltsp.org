@@ -61,9 +61,9 @@ nav:
     - liveusb.md
     - Εγκατάσταση:
       - ubuntu/install.md
-      - ubuntu/Δίσκος_Linux.md
-      - ubuntu/Δίσκος_Ms-Windows.md
-      - ubuntu/Δίσκος_Κενός.md
+      - ubuntu/disk-empty/index.md
+      - ubuntu/disk-windows/index.md
+      - ubuntu/disk-linux/index.md
     - Αποθετήρια.md
     - Εγκατάσταση_λογισμικού.md
   - LTSP:
