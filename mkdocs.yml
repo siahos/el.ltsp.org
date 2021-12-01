@@ -24,7 +24,7 @@ plugins:
       minify_html: false
   - search
   - with-pdf:
-      author: Έκδοση pdf του https://ts.sch.gr/wiki/Linux
+      author: Έκδοση pdf του https://ts.sch.gr/docs/linux
       copyright: Copyright © 2008-2021 Τεχνική Στήριξη ΣΕΠΕΗΥ
       cover_title: ΣΕΠΕΗΥ με Linux
       cover_subtitle: Ubuntu 20.04/LTSP/Epoptes/sch-scripts
@@ -32,7 +32,7 @@ plugins:
       output_path: linux.pdf
 repo_url: https://github.com/pe86/linux
 site_name: Τεχνική Στήριξη ΣΕΠΕΗΥ
-site_url: https://ts.sch.gr/wiki/Linux
+site_url: https://ts.sch.gr/docs/linux
 strict: false
 theme:
 # favicon: favicon.ico
@@ -58,7 +58,7 @@ nav:
   - Ubuntu:
     - ubuntu/index.md
     - ubuntu/download.md
-    - liveusb.md
+    - liveusb/index.md
     - Εγκατάσταση:
       - ubuntu/install.md
       - ubuntu/disk-empty/index.md
@@ -114,29 +114,29 @@ nav:
     - epoptes/Εκκίνηση_εφαρμογής.md
     - epoptes/Ετικέτες.md
   - Εφαρμογές:
-    - alice.md
+    - alice/index.md
     - appinventor/index.md
-    - arduino.md
-    - gamemaker.md
+    - arduino/index.md
+    - gamemaker/index.md
     - gparted/index.md
-    - java.md
+    - java/index.md
     - lamp/index.md
     - lamp/phpMyAdmin.md
-    - mate-system-monitor.md
-    - sch-webapp-launcher.md
+    - mate-system-monitor/index.md
+    - sch-webapp-launcher/index.md
   - Προχωρημένα:
-    - Προχωρημένα/index.md
-    - Προχωρημένα/LTSEnablementStack.md
-    - Προχωρημένα/Αναβάθμιση.md
-    - Προχωρημένα/Απομακρυσμένη_πρόσβαση.md
-    - Προχωρημένα/Έλεγχος_συμβατότητας.md
-    - Προχωρημένα/Περιοδικές_εργασίες.md
-    - Προχωρημένα/Περιφερειακά/index.md
-    - Προχωρημένα/Περιφερειακά/UPS.md
-    - Προχωρημένα/Περιφερειακά/Διαδραστικοί.md
-    - Προχωρημένα/Περιφερειακά/Εκτυπωτές.md
-    - Προχωρημένα/Περιφερειακά/Κάμερες.md
-    - Προχωρημένα/Περιφερειακά/Σαρωτές.md
-    - contributing.md
+    - advanced/index.md
+    - advanced/kernel.md
+    - advanced/Αναβάθμιση.md
+    - advanced/Απομακρυσμένη_πρόσβαση.md
+    - advanced/Έλεγχος_συμβατότητας.md
+    - advanced/Περιοδικές_εργασίες.md
+    - advanced/Περιφερειακά/index.md
+    - advanced/Περιφερειακά/UPS.md
+    - advanced/Περιφερειακά/Διαδραστικοί.md
+    - advanced/Περιφερειακά/Εκτυπωτές.md
+    - advanced/Περιφερειακά/Κάμερες.md
+    - advanced/Περιφερειακά/Σαρωτές.md
+    - advanced/contributing.md
     - TODO.md
   - support/index.md
