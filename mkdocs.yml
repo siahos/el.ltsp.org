@@ -41,8 +41,8 @@ strict: false
 theme:
 # favicon: favicon.ico
   features:
-    - navigation.indexes
-    - navigation.instant
+    - todo-navigation.indexes
+    - todo-navigation.instant
   language: el
 # logo: logo-icon.png
   name: material
@@ -57,3 +57,89 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Αλλαγή σε ανοιχτό θέμα
+nav:
+  - index.md
+  - Ubuntu:
+    - Ubuntu.md
+    - liveusb.md
+    - Εγκατάσταση:
+      - Εγκατάσταση_Ubuntu/index.md
+      - Εγκατάσταση_Ubuntu/Δίσκος_Linux.md
+      - Εγκατάσταση_Ubuntu/Δίσκος_Ms-Windows.md
+      - Εγκατάσταση_Ubuntu/Δίσκος_Κενός.md
+    - Αποθετήρια.md
+    - Εγκατάσταση_λογισμικού.md
+  - LTSP:
+    - Προετοιμασία:
+      - LTSP/Αρχιτεκτονική.md
+      - LTSP/Απαιτήσεις.md
+      - LTSP/Πλεονεκτήματα.md
+      - LTSP/Μειονεκτήματα.md
+    - Εγκατάσταση: LTSP/index.md
+    - Ρύθμιση clients:
+      - LTSP/Εκκίνηση_από_το_δίκτυο/index.md
+      - LTSP/Εκκίνηση_από_το_δίκτυο/Win32-loader.md
+    - 'Αντιμετώπιση προβλημάτων': LTSP/FAQ.md
+    - Προχωρημένα:
+      - LTSP/Προχωρημένα/index.md
+      - LTSP/Προχωρημένα/Αυτόματη_σύνδεση.md
+      - LTSP/Προχωρημένα/Εκτυπωτές.md
+      - LTSP/Προχωρημένα/Πολλά_εργαστήρια.md
+      - LTSP/Προχωρημένα/Σαρωτές.md
+      - LTSP/Προχωρημένα/Στατικά_hostnames.md
+      - LTSP/Προχωρημένα/Χάρτης.md
+  - Διαχείριση ΣΕΠΕΗΥ:
+    - sch-scripts/index.md
+    - sch-scripts/Αρχεία_ρυθμίσεων.md
+    - sch-scripts/Βοήθεια.md
+    - sch-scripts/Δημοσίευση_εικονικού_δίσκου.md
+    - sch-scripts/Δικαιώματα_καταλόγων.md
+    - sch-scripts/Εγκατάσταση.md
+    - sch-scripts/Εκκίνηση_της_εφαρμογής.md
+    - sch-scripts/Εντολές_LTSP.md
+    - sch-scripts/Κοινόχρηστοι_κατάλογοι.md
+    - sch-scripts/Ρύθμιση_σύνδεσης_δικτύου.md
+    - sch-scripts/Συντήρηση_ΣΕΠΕΗΥ.md
+    - sch-scripts/Τμήματα.md
+    - sch-scripts/Χρήστες/index.md
+    - sch-scripts/Χρήστες/Δημιουργία_χρηστών.md
+    - sch-scripts/Χρήστες/Διαγραφή_χρηστών.md
+    - sch-scripts/Χρήστες/Εκτέλεση_εντολών.md
+    - sch-scripts/Χρήστες/Επεξεργασία_χρηστών.md
+  - Επόπτης:
+    - epoptes/index.md
+    - epoptes/Βοήθεια.md
+    - epoptes/Δημιουργία_τάξης.md
+    - epoptes/Διαδραστική_εκπαίδευση.md
+    - epoptes/Διαχείριση_υπολογιστών.md
+    - epoptes/Εγκατάσταση.md
+    - epoptes/Είσοδος_χρηστών.md
+    - epoptes/Εκκίνηση_εφαρμογής.md
+    - epoptes/Ετικέτες.md
+  - Εφαρμογές:
+    - Alice3.md
+    - Arduino.md
+    - GameMaker.md
+    - Oracle_Java.md
+    - App_Inventor_2/index.md
+    - Gparted/index.md
+    - LAMP_server/index.md
+    - LAMP_server/phpMyAdmin.md
+    - mate-system-monitor.md
+  - Προχωρημένα:
+    - Προχωρημένα/index.md
+    - Προχωρημένα/LTSEnablementStack.md
+    - Προχωρημένα/Αναβάθμιση.md
+    - Προχωρημένα/Απομακρυσμένη_πρόσβαση.md
+    - Προχωρημένα/Έλεγχος_συμβατότητας.md
+    - Προχωρημένα/Περιοδικές_εργασίες.md
+    - Προχωρημένα/Περιφερειακά/index.md
+    - Προχωρημένα/Περιφερειακά/UPS.md
+    - Προχωρημένα/Περιφερειακά/Διαδραστικοί.md
+    - Προχωρημένα/Περιφερειακά/Εκτυπωτές.md
+    - Προχωρημένα/Περιφερειακά/Κάμερες.md
+    - Προχωρημένα/Περιφερειακά/Σαρωτές.md
+  - Υποστήριξη:
+    - support/index.md
+    - contributing.md
+    - TODO.md
