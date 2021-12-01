@@ -1,9 +1,1 @@
-<splist
- parent=Linux/Προχωρημένα
- showparent=no
- sort=desc
- sortby=title
- liststyle=ordered
- showpath=no
- kidsonly=0
-/>
+# Προχωρημένα

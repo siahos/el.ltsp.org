@@ -1,3 +1,5 @@
+# Δίσκος με Linux
+
 [![](12.04.3_ubuntu_install_keep_linux_install_type.png)](12.04.3_ubuntu_install_keep_linux_install_type.png)
 Στην περίπτωση που έχετε ήδη εγκατεστημένη κάποια διανομή Linux, ο
 διάλογος που θα σας εμφανιστεί σε αυτό το βήμα θα είναι παρόμοιος

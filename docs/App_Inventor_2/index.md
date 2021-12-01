@@ -1,4 +1,4 @@
-# App Inventor 2
+# App Inventor
 
 Το λογισμικό ***MIT App Inventor 2*** είναι ένα block-based εργαλείο ανάπτυξης
 εφαρμογών για Android συσκευές, το οποίο διατίθεται ως δωρεάν Web-based

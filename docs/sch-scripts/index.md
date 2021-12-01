@@ -1,4 +1,4 @@
-# sch-scripts
+# Διαχείριση ΣΕΠΕΗΥ
 
 [![](Schscripts_first_screen.png)](Schscripts_first_screen.png)
 Η εφαρμογή `sch-scripts` (Διαχείριση ΣΕΠΕΗΥ) είναι ένα εργαλείο δημιουργίας και

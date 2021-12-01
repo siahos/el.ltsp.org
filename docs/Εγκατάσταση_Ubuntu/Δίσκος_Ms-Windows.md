@@ -1,3 +1,5 @@
+# Δίσκος με Windows
+
 [![](12.04.3_ubuntu_install_keep_windows_install_type.png)](12.04.3_ubuntu_install_keep_windows_install_type.png)
 Στην περίπτωση που έχετε ήδη εγκατεστημένη κάποια έκδοση MS-Windows ο
 διάλογος που θα σας εμφανιστεί σε αυτό το βήμα θα είναι παρόμοιος με

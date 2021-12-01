@@ -1,4 +1,4 @@
-# Contributing
+# Συνεισφορές
 
 Για τη συγγραφή των markdown (.md) αρχείων ακολουθούνται
 οι ίδιοι κανόνες με το [LTSP Project](https://ltsp.org/advanced/markdown/):
