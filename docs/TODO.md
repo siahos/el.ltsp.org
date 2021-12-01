@@ -1,16 +1,12 @@
-TODO:
+# TODO
 
-1. [SiteMap](https://pe86.github.io/linux/SiteMap/)
+1. Αν στο αριστερό μενού έχουμε κάνει scroll για να επιλέξουμε κάτι, όταν το
+   επιλέξουμε η scroll bar χάνει τη θέση της και επιστρέφει στην κορυφή, με
+   αποτέλεσμα να χάνεται - οπτικά - η θέση που βρισκόμασταν. Η δοκιμή έγινε σε
+   ανάλυση 1366x768.
 
-2. [Λογισμικό](https://pe86.github.io/linux/Λογισμικό/)
+2. Content tabs - Bad pdf export
+   <https://pe86.github.io/linux/epoptes/Δημιουργία_τάξης/>
 
-3. [Χάρτης Βιωματικών εργαστηρίων](https://pe86.github.io/linux/LTSP/Βιωματικά_εργαστήρια/#χάρτης-βιωματικών-εργαστηρίων)
-
-4. [Προχωρημένα](https://pe86.github.io/linux/LTSP/Προχωρημένα/)
-
-5. Αν στο αριστερό μενού έχουμε κάνει scroll για να επιλέξουμε κάτι, όταν το επιλέξουμε η scroll bar χάνει τη θέση της και επιστρέφει στην κορυφή, με αποτέλεσμα να χάνεται - οπτικά - η θέση που βρισκόμασταν.
-Η δοκιμή έγινε σε ανάλυση 1366x768.
-
-6. Content tabs - Bad pdf export <https://pe86.github.io/linux/epoptes/Δημιουργία_τάξης/>
-
-7. `killall -f firefox` or `killall GeckoMain` <https://pe86.github.io/linux/epoptes/Διαδραστική_εκπαίδευση/#εκτέλεση-εντολής-στους-επιλεγμένους-υπολογιστές>
+3. `killall -f firefox` or `killall GeckoMain`
+   <https://pe86.github.io/linux/epoptes/Διαδραστική_εκπαίδευση/#εκτέλεση-εντολής-στους-επιλεγμένους-υπολογιστές>
