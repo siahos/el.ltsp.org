@@ -3,7 +3,7 @@
 TODO:
 
 <splist
- parent=Linux/LTSP/Προχωρημένα
+ parent=Linux/ltsp/Προχωρημένα
  showparent=no
  sort=desc
  sortby=title

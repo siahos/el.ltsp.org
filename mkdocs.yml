@@ -23,9 +23,6 @@ markdown_extensions:
 plugins:
   - minify:
       minify_html: false
-  - redirects:
-      redirect_maps:
-        LTSP/Εγκατάσταση_λογισμικού.md: Εγκατάσταση_λογισμικού.md
   - search
   - with-pdf:
       author: Έκδοση pdf του https://ts.sch.gr/wiki/Linux
@@ -139,7 +136,6 @@ nav:
     - Προχωρημένα/Περιφερειακά/Εκτυπωτές.md
     - Προχωρημένα/Περιφερειακά/Κάμερες.md
     - Προχωρημένα/Περιφερειακά/Σαρωτές.md
-  - Υποστήριξη:
-    - support/index.md
     - contributing.md
     - TODO.md
+  - support/index.md
