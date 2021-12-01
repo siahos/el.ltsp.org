@@ -64,8 +64,8 @@ nav:
       - ubuntu/disk-empty/index.md
       - ubuntu/disk-windows/index.md
       - ubuntu/disk-linux/index.md
-    - Αποθετήρια.md
-    - Εγκατάσταση_λογισμικού.md
+    - repositories/index.md
+    - software/index.md
   - LTSP:
     - Προετοιμασία:
       - ltsp/Αρχιτεκτονική.md
@@ -114,15 +114,16 @@ nav:
     - epoptes/Εκκίνηση_εφαρμογής.md
     - epoptes/Ετικέτες.md
   - Εφαρμογές:
-    - Alice3.md
-    - Arduino.md
-    - GameMaker.md
-    - Oracle_Java.md
-    - App_Inventor_2/index.md
-    - Gparted/index.md
-    - LAMP_server/index.md
-    - LAMP_server/phpMyAdmin.md
+    - alice.md
+    - appinventor/index.md
+    - arduino.md
+    - gamemaker.md
+    - gparted/index.md
+    - java.md
+    - lamp/index.md
+    - lamp/phpMyAdmin.md
     - mate-system-monitor.md
+    - sch-webapp-launcher.md
   - Προχωρημένα:
     - Προχωρημένα/index.md
     - Προχωρημένα/LTSEnablementStack.md

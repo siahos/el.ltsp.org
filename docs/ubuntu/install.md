@@ -125,3 +125,6 @@ MATE***. Στη συνέχεια θα βγει ο διάλογος "Καλώς �
 [![](install-11-installation-complete.png)](install-11-installation-complete.png)
 
 - Κλικ στο ***Επανεκκίνηση τώρα***.
+
+Μετά την επανεκκίνηση, συνεχίστε με τις οδηγίες της σελίδας [Αποθετήρια
+λογισμικού](../repositories/index.md)
