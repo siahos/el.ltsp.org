@@ -57,10 +57,10 @@ nav:
   - index.md
   - Ubuntu:
     - ubuntu/index.md
+    - ubuntu/download.md
     - liveusb.md
-    - ubuntu/installation.md
     - Εγκατάσταση:
-      - ubuntu/installation.md
+      - ubuntu/install.md
       - ubuntu/Δίσκος_Linux.md
       - ubuntu/Δίσκος_Ms-Windows.md
       - ubuntu/Δίσκος_Κενός.md
