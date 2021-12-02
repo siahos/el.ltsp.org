@@ -20,4 +20,5 @@
 - [Εγκατάσταση](install.md)
 - [Βασικές λειτουργίες](usage.md)
 - [Δημιουργία και χρήση ομάδων](groups.md)
+- [Μέτρηση ταχύτητας δικτύου](lan-benchmark.md)
 - [Εκτέλεση του Επόπτη από LTSP client](run-ltsp-client.md)

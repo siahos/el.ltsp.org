@@ -108,7 +108,8 @@ nav:
     - epoptes/install.md
     - epoptes/usage.md
     - epoptes/groups.md
-    - epoptes/run-ltsp-client.md
+    - epoptes/lan-benchmark.md
+    - epoptes/on-ltsp-client.md
   - Εφαρμογές:
     - alice/index.md
     - appinventor/index.md
