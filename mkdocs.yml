@@ -67,24 +67,23 @@ nav:
     - repositories/index.md
     - software/index.md
   - LTSP:
-    - Προετοιμασία:
-      - ltsp/Αρχιτεκτονική.md
-      - ltsp/Απαιτήσεις.md
-      - ltsp/Πλεονεκτήματα.md
-      - ltsp/Μειονεκτήματα.md
-    - Εγκατάσταση: ltsp/index.md
+    - ltsp/index.md
+    - ltsp/requirements.md
+    - ltsp/advantages.md
+    - ltsp/disadvantages.md
+    - ltsp/installation.md
     - Ρύθμιση clients:
-      - ltsp/Εκκίνηση_από_το_δίκτυο/index.md
-      - ltsp/Εκκίνηση_από_το_δίκτυο/Win32-loader.md
-    - 'Αντιμετώπιση προβλημάτων': ltsp/FAQ.md
+      - ltsp/netboot.md
+      - ltsp/win32-loader.md
+    - ltsp/faq.md
     - Προχωρημένα:
-      - ltsp/Προχωρημένα/index.md
-      - ltsp/Προχωρημένα/Αυτόματη_σύνδεση.md
-      - ltsp/Προχωρημένα/Εκτυπωτές.md
-      - ltsp/Προχωρημένα/Πολλά_εργαστήρια.md
-      - ltsp/Προχωρημένα/Σαρωτές.md
-      - ltsp/Προχωρημένα/Στατικά_hostnames.md
-      - ltsp/Προχωρημένα/Χάρτης.md
+      - ltsp/advanced/index.md
+      - ltsp/advanced/autologin.md
+      - ltsp/advanced/printers.md
+      - ltsp/advanced/multiple-labs.md
+      - ltsp/advanced/scanners.md
+      - ltsp/advanced/hostnames.md
+      - ltsp/advanced/map.md
   - Διαχείριση ΣΕΠΕΗΥ:
     - sch-scripts/index.md
     - sch-scripts/Αρχεία_ρυθμίσεων.md
@@ -93,7 +92,7 @@ nav:
     - sch-scripts/Δικαιώματα_καταλόγων.md
     - sch-scripts/Εγκατάσταση.md
     - sch-scripts/Εκκίνηση_της_εφαρμογής.md
-    - sch-scripts/Εντολές_ltsp.md
+    - sch-scripts/Εντολές_LTSP.md
     - sch-scripts/Κοινόχρηστοι_κατάλογοι.md
     - sch-scripts/Ρύθμιση_σύνδεσης_δικτύου.md
     - sch-scripts/Συντήρηση_ΣΕΠΕΗΥ.md
@@ -123,7 +122,7 @@ nav:
     - sch-webapp-launcher/index.md
   - Προχωρημένα:
     - advanced/index.md
-    - advanced/kernel.md
+    - advanced/kernels.md
     - advanced/Αναβάθμιση.md
     - advanced/Απομακρυσμένη_πρόσβαση.md
     - advanced/Έλεγχος_συμβατότητας.md
@@ -135,5 +134,4 @@ nav:
     - advanced/Περιφερειακά/Κάμερες.md
     - advanced/Περιφερειακά/Σαρωτές.md
     - advanced/contributing.md
-    - TODO.md
   - support/index.md
