@@ -105,14 +105,10 @@ nav:
     - sch-scripts/Χρήστες/Επεξεργασία_χρηστών.md
   - Επόπτης:
     - epoptes/index.md
-    - epoptes/Βοήθεια.md
-    - epoptes/Δημιουργία_τάξης.md
-    - epoptes/Διαδραστική_εκπαίδευση.md
-    - epoptes/Διαχείριση_υπολογιστών.md
-    - epoptes/Εγκατάσταση.md
-    - epoptes/Είσοδος_χρηστών.md
-    - epoptes/Εκκίνηση_εφαρμογής.md
-    - epoptes/Ετικέτες.md
+    - epoptes/install.md
+    - epoptes/usage.md
+    - epoptes/groups.md
+    - epoptes/run-ltsp-client.md
   - Εφαρμογές:
     - alice/index.md
     - appinventor/index.md
