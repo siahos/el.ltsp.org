@@ -1,13 +1,10 @@
 # Προχωρημένα
 
-TODO:
+Στις ακόλουθες σελίδες περιγράφονται ορισμένα προχωρημένα θέματα για το LTSP.
 
-<splist
- parent=Linux/ltsp/Προχωρημένα
- showparent=no
- sort=desc
- sortby=title
- liststyle=ordered
- showpath=no
- kidsonly=0
-/>
+- [Αυτόματη σύνδεση](autologin.md)
+- [Εκτυπωτές](printers.md)
+- [Πολλά εργαστήρια](multiple-labs.md)
+- [Σαρωτές](scanners.md)
+- [Στατικά hostnames](hostnames.md)
+- [Χάρτης](map.md)
