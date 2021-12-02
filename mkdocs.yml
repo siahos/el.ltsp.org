@@ -61,9 +61,9 @@ nav:
     - liveusb/index.md
     - Εγκατάσταση:
       - ubuntu/install.md
-      - ubuntu/disk-empty/index.md
-      - ubuntu/disk-windows/index.md
-      - ubuntu/disk-linux/index.md
+      - ubuntu/disk-empty.md
+      - ubuntu/disk-windows.md
+      - ubuntu/disk-linux.md
     - repositories/index.md
     - software/index.md
   - LTSP:
