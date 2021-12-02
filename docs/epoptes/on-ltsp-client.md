@@ -1,17 +1,18 @@
 # Εκτέλεση από LTSP client
 
-**TODO: μετάφραση από το <https://epoptes.org/documentation/run-fat/>**
+!!! warning ""
+    Αυτή η σελίδα προϋποθέτει ότι έχετε εγκαταστήσει τα
+    [sch-scripts](../sch-scripts/Εγκατάσταση.md).
 
-Αυτή η σελίδα προϋποθέτει ότι έχετε ήδη εγκαταστήσει τα
-[sch-scripts](../sch-scripts/Εγκατάσταση.md).
-
-Ας υποθέσουμε ότι ο LTSP server εξυπηρετεί 3 εργαστήρια υπολογιστών.
-Σε αυτή την περίπτωση, πώς θα μπορούσε να εκτελείται ο `epoptes` για κάθε ένα εργαστήριο;
+Συνήθως ο Επόπτης εκτελείται από τον καθηγητή που συνδέεται στον LTSP server.
+Όμως, σε ορισμένες περιπτώσεις είναι επιθυμητή η εκτέλεσή του από LTSP client,
+για παράδειγμα όταν ένας server εξυπηρετεί πολλά εργαστήρια, ή όταν ο server
+είναι τοποθετημένος μακρυά από την έδρα του καθηγητή.
 
 Υπάρχουν δύο λύσεις:
 
--   «Απομακρυσμένα»
--   «Τοπικά»
+- [Απομακρυσμένα](#απομακρυσμένα)
+- [Τοπικά](#τοπικά)
 
 Ο παρακάτω πίνακας τις συγκρίνει:
 
@@ -23,57 +24,43 @@
 | Είναι ασφαλές;              | Ναι                                    | Όχι τόσο πολύ                               |
 
 Επομένως, σε όλες τις περιπτώσεις η λύση «Τοπικά» είναι καλύτερη, εκτός από την
-ασφάλεια, καθώς τότε το ιδιωτικό κλειδί του `epoptes` εκτίθεται στο τοπικό δίκτυο,
-επιτρέποντας επιθέσεις [man-in-the-middle](https://el.wikipedia.org/wiki/Επίθεση_man-in-the-middle) αλλά
-**όχι** [network sniffing](https://el.wikipedia.org/wiki/Packet_sniffer).
+ασφάλεια, καθώς τότε το ιδιωτικό κλειδί του Επόπτη εκτίθεται στο τοπικό δίκτυο,
+επιτρέποντας επιθέσεις
+[man-in-the-middle](https://el.wikipedia.org/wiki/Επίθεση_man-in-the-middle)
+αλλά **όχι** [network sniffing](https://el.wikipedia.org/wiki/Packet_sniffer).
 
 ## Απομακρυσμένα
 
-«Απομακρυσμένα» σημαίνει ότι συνδεόμαστε στον διακομιστή LTSP και η εκκίνηση
-του ***Επόπτης*** γίνεται μέσω του LTSP server, παρόμοια με τα `epoptes
-ltsp-remoteapps` στο παλαιότερο LTSP5.
+«Απομακρυσμένα» σημαίνει ότι όταν οι καθηγητές συνδέονται σε LTSP client και
+επιλέγουν το μενού ***Εφαρμογές*** → ***Διαδίκτυο*** → ***Επόπτης***, τότε ο
+Επόπτης εκτελείται στον server χρησιμοποιώνας την τεχνολογία [ltsp
+remoteapps](https://ltsp.org/man/ltsp-remoteapps/). Για την υλοποίηση αυτής της
+λύσης, ανοίξτε την [Διαχείριση ΣΕΠΕΗΥ](../sch-scripts/index.md) και επιλέξτε το
+μενού ***Εξυπηρετητής*** ▸ ***Αρχεία ρυθμίσεων*** ▸ ***ltsp.conf***. Κάτω
+από την ενότητα `[clients]`, τοποθετήστε την ακόλουθη παράμετρο:
 
-Δεδομένου όμως ότι το νέο LTSP δεν υποστηρίζει `remoteapps`, απαιτούνται τα
-ακόλουθα βήματα:
-
-1. Προσθέστε στο `ltsp.conf` τα ακόλουθα:
-   ```text title="ltsp.conf"
-   [clients]
-   POST_INIT_EPOPTES="sed 's|^Exec=/usr/bin/epoptes|Exec=ssh -X server dbus-launch epoptes|' -i /usr/share/applications/epoptes.desktop"
-   ```
-2. εκτελέστε την εντολή:
-   ```shell
-   ltsp initrd
-   ```
-3. και επανεκκινήστε τα clients.
-
-Στη συνέχεια, θα πρέπει όλοι οι χρήστες της ομάδας `epoptes` να συνδεθούν σε
-έναν client και να εκτελέσουν τις ακόλουθες εντολές **μία φορά**:
-
-```shell
-# Generate an SSH key if it doesn't already exist:
-test -f ~/.ssh/id_rsa || ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -N ''
-# Enable "passwordless SSH" by trusting the key:
-install -m 0600 ~/.ssh/id_rsa.pub ~/.ssh/authorized_keys
-# Connect to the LTSP server once, in order to trust the server as well:
-ssh -X server x-terminal-emulator
+```text title="/etc/ltsp/ltsp.conf"
+[clients]
+REMOTEAPPS="epoptes"
 ```
-Μετά από αυτό, θα μπορούν να εκτελούν το ***Επόπτης***, από το μενού συστήματος.
+
+Στη συνέχεια επιλέξτε το μενού ***Εξυπηρετητής*** ▸ ***Εντολές LTSP*** ▸
+***ltsp initrd*** και επανεκκινήστε τους clients.
 
 ## Τοπικά
 
-Σε αυτή τη λύση, ένας LTSP client ανά εργαστήριο ονομάζεται `the epoptes PC`.
-Σε αυτούς τους clients δίνουμε συγκεκριμένα ονόματα `hostnames`, για παράδειγμα
-`a00` για το `lab-a`, ώστε να τους επιτρέπεται να εκτελούν την υπηρεσία
-`epoptes` αλλά και το ***Επόπτης*** (GUI). Τα υπόλοιπα LTSP clients του
-εργαστηρίου λαμβάνουν οδηγίες ώστε να συνδεθούν στον `the epoptes PC` και όχι
-στον LTSP server. Για να γίνουν όλα αυτά, χρειάζονται οι ακόλουθες ρυθμίσεις
-στο `ltsp.conf`. Συγχωνεύστε την ενότητα `[server]` με αυτήν που ήδη έχετε και
-ΜΗ δημιουργήσετε νέα:
+Σε αυτήν την λύση, ένας LTSP client ανά εργαστήριο θεωρείται ότι είναι ο
+υπολογιστής του καθηγητή. Σε αυτούς τους clients δίνουμε συγκεκριμένα ονόματα
+(hostnames), για παράδειγμα `a00` για το `lab-a`, ώστε να τους επιτρέπεται να
+εκτελούν και την υπηρεσία αλλά και το γραφικό περιβάλλον του Επόπτη. Τα
+υπόλοιπα LTSP clients του εργαστηρίου λαμβάνουν οδηγίες ώστε να συνδεθούν στον
+υπολογιστή του καθηγητή και όχι στον LTSP server. Για να γίνουν όλα αυτά,
+χρειάζονται οι ακόλουθες ρυθμίσεις στο `ltsp.conf`. Συγχωνεύστε την ενότητα
+`[server]` με αυτήν που ήδη έχετε και ***μην*** δημιουργήσετε νέα:
 
 ```text title="ltsp.conf"
 [server]
-# Διατήρηση του ιδιωτικού κλειδου (private key) του Επόπτη, στους εικονικούς δίσκους LTSP.
+# Διατήρηση του ιδιωτικού κλειδιού (private key) του Επόπτη στον εικονικού δίσκο LTSP.
 OMIT_IMAGE_EXCLUDES="etc/epoptes/server.key"
 
 [lab-a]
@@ -81,23 +68,17 @@ OMIT_IMAGE_EXCLUDES="etc/epoptes/server.key"
 # Οι καταλήξεις `.local` προσθέτονται αυτόματα στα hostnames από την υπηρεσία `avahi`.
 POST_INIT_EPOPTES="sed 's/.*SERVER=.*/SERVER=a00.local/' -i /etc/default/epoptes-client"
 
-[mac:address:of:lab-a-epoptes-pc]
+[mac:address:of:lab-a-teacher-pc]
 HOSTNAME=a00
-# Στο epoptes client, εκκίνηση της υπηρεσία `epoptes`
+# Στον υπολογιστή του καθηγητή να γίνεται εκκίνηση της υπηρεσίας `epoptes`
 KEEP_SYSTEM_SERVICES="epoptes"
 IGNORE_EPOPTES=1
 
 [mac:address:of:lab-a-client01]
 HOSTNAME=a01
-# Χρήση οδηγίας `INCLUDE` για αντιστοίχηση clients σε όνομα εργαστηρίου.
+# Χρήση οδηγίας `INCLUDE` για αντιστοίχιση clients σε όνομα εργαστηρίου.
 INCLUDE=lab-a
 ```
 
-Τέλος, εκτελέστε τις ακόλουθες εντολές στον LTSP server ως `root`:
-
-```shell
-# Δημιουργία εικονικού δίσκου.
-ltsp image /
-# Ενημέρωση του /srv/tftp/ltsp/ltsp.img με τις αλλαγές στο `ltsp.conf`.
-ltsp initrd
-```
+Τέλος, από την [Διαχείριση ΣΕΠΕΗΥ](../sch-scripts/index.md) επιλέξτε το μενού
+***Εξυπηρετητής*** ▸ ***Εντολές LTSP*** ▸ ***ltsp image (δημοσίευση)***.
