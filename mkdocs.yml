@@ -68,9 +68,9 @@ nav:
     - software/index.md
   - LTSP:
     - ltsp/index.md
-    - ltsp/requirements.md
     - ltsp/advantages.md
     - ltsp/disadvantages.md
+    - ltsp/requirements.md
     - ltsp/installation.md
     - Ρύθμιση clients:
       - ltsp/netboot.md
