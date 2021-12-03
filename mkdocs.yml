@@ -121,16 +121,16 @@ nav:
     - mate-system-monitor/index.md
     - sch-webapp-launcher/index.md
   - Προχωρημένα:
-    - index.md
-    - remote-access.md
-    - smartboards.md
-    - printers.md
-    - compatibility.md
-    - clean-upgrade.md
-    - cameras.md
-    - maintenance.md
-    - kernels.md
-    - scanners.md
-    - contributing.md
-    - ups.md
+    - advanced/index.md
+    - advanced/remote-access.md
+    - advanced/smartboards.md
+    - advanced/printers.md
+    - advanced/compatibility.md
+    - advanced/clean-upgrade.md
+    - advanced/cameras.md
+    - advanced/maintenance.md
+    - advanced/kernels.md
+    - advanced/scanners.md
+    - advanced/contributing.md
+    - advanced/ups.md
   - support/index.md
