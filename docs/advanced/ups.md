@@ -1,4 +1,4 @@
-# UPS
+# Συστήματα αδιάλειπτης τροφοδοσίας (UPS)
 
 Η επικοινωνία του εξυπηρετητή με το UPS γίνεται με χρήση του πακέτου nut
 ([Network UPS Tools](http://www.networkupstools.org/index.html)).
