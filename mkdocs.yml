@@ -60,7 +60,7 @@ nav:
     - ubuntu/download.md
     - liveusb/index.md
     - Εγκατάσταση:
-      - ubuntu/install.md
+      - ubuntu/installation.md
       - ubuntu/disk-empty.md
       - ubuntu/disk-windows.md
       - ubuntu/disk-linux.md
@@ -104,7 +104,7 @@ nav:
     - sch-scripts/Χρήστες/Επεξεργασία_χρηστών.md
   - Επόπτης:
     - epoptes/index.md
-    - epoptes/install.md
+    - epoptes/installation.md
     - epoptes/usage.md
     - epoptes/groups.md
     - epoptes/lan-benchmark.md

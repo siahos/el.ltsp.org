@@ -5,7 +5,7 @@
 
 1. [Επιλογή έκδοσης Ubuntu και λήψη](download.md)
 2. [Δημιουργία live USB stick](../liveusb/index.md)
-3. [Εγκατάσταση του Ubuntu](install.md)
+3. [Εγκατάσταση του Ubuntu](installation.md)
 4. [Εγκατάσταση λογισμικού](../software/index.md)
 
 Προαιρετικά στη συνέχεια μπορείτε να ανατρέξετε στις υπόλοιπες ενότητες του
