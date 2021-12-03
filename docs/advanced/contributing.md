@@ -83,7 +83,7 @@
     - `!!! warning "Προσοχή"`
 
     Περισσότερα λεκτικά στο
-    [Admonitions/Supported-types](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types).
+    [Admonitions - Supported types](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types).
 
 !!! warning "Προσοχή"
     Από προεπιλογή εφαρμόζεται **wraping** π.χ. όταν προηγείται εικόνα.
@@ -150,37 +150,27 @@ $ μπορούμε να χρησιμοποιήσουμε το $
 
 Παράδειγμα σύνταξης:
 
-    ![Synaptic.png](Synaptic.png)
+    ![synaptic.png](synaptic.png)
 
 Αποτέλεσμα:
 
-![Synaptic.png](Synaptic.png)
+![synaptic.png](synaptic.png)
 
 ## Για προσθήκη εικόνας με link σε URL
 
 Παράδειγμα σύνταξης:
 
-    [![](Synaptic.png)](https://pe86.github.io/linux/Εγκατάσταση_λογισμικού/#χρήση-του-synaptic)
+    [![](synaptic.png)](https://pe86.github.io/linux/software/#χρήση-του-synaptic)
 
 Αποτέλεσμα:
 
-[![](Synaptic.png)](https://pe86.github.io/linux/Εγκατάσταση_λογισμικού/#χρήση-του-synaptic)
-
-## Test "Use of Synaptic"
-
-Παράδειγμα σύνταξης:
-
-    [![](Synaptic.png)](https://pe86.github.io/linux/Εγκατάσταση_λογισμικού/#use-of-synaptic)
-
-Αποτέλεσμα:
-
-[![](Synaptic.png)](https://pe86.github.io/linux/Εγκατάσταση_λογισμικού/#use-of-synaptic)
+[![](synaptic.png)](https://pe86.github.io/linux/software/#χρήση-του-synaptic)
 
 ## Για προσθήκη εικόνας δεξιά σε κείμενο
 
 Παράδειγμα σύνταξης:
 
-    [![](Synaptic.png)](Synaptic.png)
+    [![](synaptic.png)](synaptic.png)
     Η εκτέλεση του Synaptic γίνεται από το μενού
     ***Σύστημα*** ▸ ***Διαχείριση συστήματος*** ▸ ***Διαχείριση πακέτων Synaptic***.
     Για να αναζητήσετε το λογισμικό που σας ενδιαφέρει,
@@ -188,24 +178,24 @@ $ μπορούμε να χρησιμοποιήσουμε το $
 
 Αποτέλεσμα:
 
-[![](Synaptic.png)](Synaptic.png)
+[![](synaptic.png)](synaptic.png)
 Η εκτέλεση του Synaptic γίνεται από το μενού
 ***Σύστημα*** ▸ ***Διαχείριση συστήματος*** ▸ ***Διαχείριση πακέτων Synaptic***.
 Για να αναζητήσετε το λογισμικό που σας ενδιαφέρει,
 χρησιμοποιήστε το κουμπί ***Αναζήτηση*** της γραμμής εργαλείων.
 
 !!! warning "Προσοχή"
-    Η `εικόνα` πρέπει να βρίσκεται στον ίδιο φάκελο με το αντίστοιχο `.md` αρχείο.
+    Σε όλα τα παραδείγματα η εικόνα `synaptic.png` βρίσκεται στον ίδιο φάκελο με το `contributing.md`.
 
 ## Για αναφορά σε τοπικό .md αρχείο
 
 Παράδειγμα σύνταξης:
 
-    [Εγκατάσταση Λογισμικού](Εγκατάσταση_λογισμικού.md)
+    [Εγκατάσταση Λογισμικού](../software/index.md)
 
 Αποτέλεσμα:
 
-[Εγκατάσταση Λογισμικού](Εγκατάσταση_λογισμικού.md)
+[Εγκατάσταση Λογισμικού](../software/index.md)
 
 !!! info "Πληροφορία"
     Όταν θέλουμε να αναφερθούμε σε **Περιεχόμενα σελίδας** σε συγκεκριμένο `.md`,
@@ -213,17 +203,11 @@ $ μπορούμε να χρησιμοποιήσουμε το $
 
     Παράδειγμα σύνταξης:
 
-        [Εγκατάσταση Λογισμικού - Χρήση του Synaptic](Εγκατάσταση_λογισμικού.md#χρήση-του-synaptic)
+        [Εγκατάσταση Λογισμικού - Χρήση του Synaptic](../software/index.md#χρήση-του-synaptic)
 
     Αποτέλεσμα:
 
-    [Εγκατάσταση Λογισμικού - Χρήση του Synaptic](Εγκατάσταση_λογισμικού.md#χρήση-του-synaptic)
-
-!!! warning "Προσοχή"
-    Όταν το αρχείο βρίσκεται σε διαφορετικό φάκελο από το τρέχον .md αυτό
-    πρέπει αυτό να καθορίζεται π.χ.
-
-        [Επόπτης (Epoptes)](epoptes/index.md)
+    [Εγκατάσταση Λογισμικού - Χρήση του Synaptic](../software/index.md#χρήση-του-synaptic)
 
 ## Για αναφορά σε εξωτερικό σύνδεσμο
 
