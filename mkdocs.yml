@@ -23,7 +23,6 @@ plugins:
   - minify:
       minify_html: false
   - search
-  - section-index
   - with-pdf:
       author: Έκδοση pdf του https://ts.sch.gr/docs/linux
       copyright: Copyright © 2008-2021 Τεχνική Στήριξη ΣΕΠΕΗΥ
