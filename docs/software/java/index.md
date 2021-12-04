@@ -19,7 +19,7 @@ sudo apt install default-jre
 
 Η Oracle Java χρειάζεται για την εκτέλεση κάποιων παλιών ή προβληματικών
 λογισμικών τα οποία δεν είναι συμβατά με την OpenJDK, αλλά και για την
-εμφάνιση παλιών java applets που εκτελούνται μέσω browser plugin όπως είναι
+εμφάνιση παλιών Java applets που εκτελούνται μέσω browser plugin όπως είναι
 ελάχιστα εκπαιδευτικά λογισμικά της σελίδας <https://ts.sch.gr/software>.
 
 Η εγκατάσταση της Oracle Java 8 μπορεί να επιτευχθεί είτε μέσω του `synaptic`
@@ -34,51 +34,54 @@ sudo apt-get install oracle-java8-installer
 
 ### Java applets
 
-Η εκτέλεση java applets εντός των browsers είχε τεράστια θέματα ασφαλείας και
+Η εκτέλεση Java applets εντός των browsers είχε τεράστια θέματα ασφαλείας και
 από τον Ιανουάριο του 2021 καταργήθηκε τελείως στους Google Chrome και
-Mozilla Firefox. Πλέον η εκτέλεση java applets είναι ιδιαίτερα επίπονη, και
+Mozilla Firefox. Πλέον η εκτέλεση Java applets είναι ιδιαίτερα επίπονη, και
 απαιτεί τα παρακάτω βήματα:
 
-1. Εγκαταστήστε το [sch-webapp-launcher](sch-webapp-launcher) (δείτε τη
-   σχετική σελίδα). Έτσι θα εγκατασταθεί αυτόματα και ο περιηγητής Palemoon που
-   υποστηρίζει ακόμα την εκτέλεση java applets.
+ 1. Εγκαταστήστε το [sch-webapp-launcher](sch-webapp-launcher) (δείτε τη
+    σχετική σελίδα). Έτσι θα εγκατασταθεί αυτόματα και ο περιηγητής Palemoon
+    που υποστηρίζει ακόμα την εκτέλεση Java applets.
 
-2. Ορίστε τον ιστοχώρο της Τεχνικής Στήριξης ως ασφαλή:
-   - Ανοίξτε τον πίνακα ελέγχου της Java επιλέγοντας ***Σύστημα*** ▸
-     ***Προτιμήσεις*** ▸ ***Άλλα*** ▸ ***Oracle Java 8 Plugin Control Panel***
-     ή εκτελώντας `/usr/lib/jvm/java-8-oracle/bin/ControlPanel` σε ένα
-     τερματικό.
-   - Επιλέξτε την καρτέλα ***Security*** και το κουμπί ***Edit Site List…***
-   - Πατήστε ***Add***, προσθέστε τη διεύθυνση <https://ts.sch.gr> και στη
-     συνέχεια πατήστε ***OK***, ***Continue***, ***OK***, ***OK***.
+ 2. Ορίστε τον ιστοχώρο της Τεχνικής Στήριξης ως ασφαλή:
+    - Ανοίξτε τον πίνακα ελέγχου της Java επιλέγοντας ***Σύστημα*** ▸
+      ***Προτιμήσεις*** ▸ ***Άλλα*** ▸ ***Oracle Java 8 Plugin Control Panel***
+      ή εκτελώντας `/usr/lib/jvm/java-8-oracle/bin/ControlPanel` σε ένα
+      τερματικό.
+    - Επιλέξτε την καρτέλα ***Security*** και το κουμπί ***Edit Site List…***
+    - Πατήστε ***Add***, προσθέστε τη διεύθυνση <https://ts.sch.gr> και στη
+      συνέχεια πατήστε ***OK***, ***Continue***, ***OK***, ***OK***.
 
-3. Πηγαίνετε στο μενού ***Εφαρμογές*** ▸ *** Εκπαίδευση*** ▸ ***Ιστότοπος
-   εκπαιδευτικών λογισμικών***, το οποίο θα ανοίξει τη σελίδα
-   <https://ts.sch.gr/software> με τον περιηγητή Palemoon. Επιλέξτε το
-   λογισμικό που σας ενδιαφέρει, για παράδειγμα [Μαθηματατικά Γ΄ & Δ΄
-   Δημοτικού](https://ts.sch.gr/repo/online-packages/dim-mathimatika-c-d/d05-web/index.html)
-   ▸ ***Χελωνόκοσμος***.
+ 3. Πηγαίνετε στο μενού ***Εφαρμογές*** ▸ *** Εκπαίδευση*** ▸ ***Ιστότοπος
+    εκπαιδευτικών λογισμικών***, το οποίο θα ανοίξει τη σελίδα
+    <https://ts.sch.gr/software> με τον περιηγητή Palemoon. Επιλέξτε το
+    λογισμικό Java που σας ενδιαφέρει, για παράδειγμα [Μαθηματατικά Γ΄ & Δ΄
+    Δημοτικού](https://ts.sch.gr/repo/online-packages/dim-mathimatika-c-d/d05-web/index.html)
+    ▸ [Χελωνοσελίδα](https://ts.sch.gr/repo/online-packages/dim-mathimatika-c-d/d05-web/classG/programs/JLogo.html).
 
-4. Θα εμφανιστεί ένας διάλογος *Security Warning*, στον οποίο πρέπει να
-   επιλέξετε:
+ 4. Θα εμφανιστεί ένας διάλογος *Security Warning*, στον οποίο πρέπει να
+    επιλέξετε:
 
-   - *Do you want to run this application?*
+      - *Do you want to run this application?*
 
-      ***[x] I accept the risk and want to run this application***
+        ***☑ I accept the risk and want to run this application***
 
-      ***Run***
-   - *Block potentially unsafe components from being run?*
+        ***Run***
 
-      ***Don't Block***
-   - *Do you want to run this application?*
+      - *Block potentially unsafe components from being run?*
 
-      ***Run***
+        ***Don't Block***
+
+      - *Do you want to run this application?*
+
+         ***Run***
 
 ## Προεπιλεγμένη Java
 
 Είναι δυνατόν να εγκαταστήσετε ταυτόχρονα το OpenJDK για τοπικές εφαρμογές και
-την Oracle Java για τα browser java applets. Για να επιλέξετε ποια από τις δύο
-θα χρησιμοποιείται για τοπικές εφαρμογές, εκτελέστε σε ένα τερματικό:
+την Oracle Java για τα Java applets εντός του browser. Για να επιλέξετε ποια
+από τις δύο θα χρησιμοποιείται για τοπικές εφαρμογές, εκτελέστε σε ένα
+τερματικό:
 
 ```shell
 sudo update-alternatives --config java
