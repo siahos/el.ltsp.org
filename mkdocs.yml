@@ -115,7 +115,9 @@ nav:
     - software/appinventor/index.md
     - software/arduino/index.md
     - software/gamemaker/index.md
-    - software/gparted/index.md
+    - Gparted:
+      - software/gparted/index.md
+      - software/gparted/create-clients-swap.md
     - software/java/index.md
     - software/lamp-server/index.md
     - software/phpmyadmin/index.md
