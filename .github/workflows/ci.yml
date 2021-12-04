@@ -15,5 +15,6 @@ jobs:
       - run: pip install mkdocs-minify-plugin
       - run: pip install mkdocs-material
       - run: pip install mkdocs-redirects
+      - run: pip install mkdocs-section-index
       - run: pip install mkdocs-with-pdf
       - run: ENABLE_PDF_EXPORT=0 mkdocs gh-deploy --force
