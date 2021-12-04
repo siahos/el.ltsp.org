@@ -116,8 +116,8 @@ nav:
     - gamemaker/index.md
     - gparted/index.md
     - java/index.md
-    - lamp/index.md
-    - lamp/phpMyAdmin.md
+    - lamp-server/index.md
+    - phpmyadmin/index.md
     - mate-system-monitor/index.md
     - sch-webapp-launcher/index.md
   - Προχωρημένα:
