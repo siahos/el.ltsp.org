@@ -59,14 +59,12 @@ nav:
   - Ubuntu:
     - ubuntu/index.md
     - ubuntu/download.md
-    - liveusb/index.md
+    - ubuntu/liveusb.md
     - Εγκατάσταση:
       - ubuntu/installation.md
       - ubuntu/disk-empty.md
       - ubuntu/disk-windows.md
       - ubuntu/disk-linux.md
-    - repositories/index.md
-    - software/index.md
   - LTSP:
     - ltsp/index.md
     - ltsp/advantages.md
@@ -110,17 +108,19 @@ nav:
     - epoptes/groups.md
     - epoptes/lan-benchmark.md
     - epoptes/on-ltsp-client.md
-  - Εφαρμογές:
-    - alice/index.md
-    - appinventor/index.md
-    - arduino/index.md
-    - gamemaker/index.md
-    - gparted/index.md
-    - java/index.md
-    - lamp-server/index.md
-    - phpmyadmin/index.md
-    - mate-system-monitor/index.md
-    - sch-webapp-launcher/index.md
+  - Λογισμικό:
+    - software/index.md
+    - software/repositories/index.md
+    - software/mate-system-monitor/index.md
+    - software/alice/index.md
+    - software/appinventor/index.md
+    - software/arduino/index.md
+    - software/gamemaker/index.md
+    - software/gparted/index.md
+    - software/java/index.md
+    - software/lamp-server/index.md
+    - software/phpmyadmin/index.md
+    - software/sch-webapp-launcher/index.md
   - Προχωρημένα:
     - advanced/index.md
     - advanced/remote-access.md
