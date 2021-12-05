@@ -23,6 +23,7 @@ plugins:
   - minify:
       minify_html: false
   - search
+  - section-index
   - with-pdf:
       author: Έκδοση pdf του https://ts.sch.gr/docs/linux
       copyright: Copyright © 2008-2021 Τεχνική Στήριξη ΣΕΠΕΗΥ
@@ -66,40 +67,31 @@ nav:
       - ubuntu/disk-linux.md
   - LTSP:
     - ltsp/index.md
+    - ltsp/architecture.md
     - ltsp/advantages.md
     - ltsp/disadvantages.md
     - ltsp/requirements.md
-    - ltsp/installation.md
-    - Ρύθμιση clients:
-      - ltsp/netboot.md
-      - ltsp/win32-loader.md
-    - ltsp/faq.md
-    - Προχωρημένα:
-      - ltsp/advanced/index.md
-      - ltsp/advanced/autologin.md
-      - ltsp/advanced/printers.md
-      - ltsp/advanced/multiple-labs.md
-      - ltsp/advanced/scanners.md
-      - ltsp/advanced/hostnames.md
-      - ltsp/advanced/map.md
+    - ltsp/map.md
   - Διαχείριση ΣΕΠΕΗΥ:
     - sch-scripts/index.md
-    - sch-scripts/Αρχεία_ρυθμίσεων.md
-    - sch-scripts/Βοήθεια.md
-    - sch-scripts/Δημοσίευση_εικονικού_δίσκου.md
-    - sch-scripts/Δικαιώματα_καταλόγων.md
-    - sch-scripts/Εγκατάσταση.md
-    - sch-scripts/Εκκίνηση_της_εφαρμογής.md
-    - sch-scripts/Εντολές_LTSP.md
-    - sch-scripts/Κοινόχρηστοι_κατάλογοι.md
-    - sch-scripts/Ρύθμιση_σύνδεσης_δικτύου.md
-    - sch-scripts/Συντήρηση_ΣΕΠΕΗΥ.md
-    - sch-scripts/Τμήματα.md
-    - sch-scripts/Χρήστες/index.md
-    - sch-scripts/Χρήστες/Δημιουργία_χρηστών.md
-    - sch-scripts/Χρήστες/Διαγραφή_χρηστών.md
-    - sch-scripts/Χρήστες/Εκτέλεση_εντολών.md
-    - sch-scripts/Χρήστες/Επεξεργασία_χρηστών.md
+    - sch-scripts/installation.md
+    - sch-scripts/server-network.md
+    - sch-scripts/ltsp-commands.md
+    - sch-scripts/users.md
+    - sch-scripts/netboot.md
+    - Προχωρημένα:
+      - sch-scripts/advanced/ltsp-conf.md
+      - sch-scripts/advanced/hostnames.md
+      - sch-scripts/advanced/shared-folders.md
+      - sch-scripts/advanced/autologin.md
+      - sch-scripts/advanced/groups.md
+      - sch-scripts/advanced/index.md
+      - sch-scripts/advanced/maintenance.md
+      - sch-scripts/advanced/folder-permissions.md
+      - sch-scripts/advanced/printers.md
+      - sch-scripts/advanced/multiple-labs.md
+      - sch-scripts/advanced/scanners.md
+      - sch-scripts/advanced/run-commands.md
   - Επόπτης:
     - epoptes/index.md
     - epoptes/installation.md
@@ -115,13 +107,12 @@ nav:
     - software/appinventor/index.md
     - software/arduino/index.md
     - software/gamemaker/index.md
-    - Gparted:
-      - software/gparted/index.md
-      - software/gparted/create-clients-swap.md
+    - software/gparted/index.md
     - software/java/index.md
     - software/lamp-server/index.md
     - software/phpmyadmin/index.md
     - software/sch-webapp-launcher/index.md
+    - software/win32-loader/index.md
   - Προχωρημένα:
     - advanced/index.md
     - advanced/remote-access.md
