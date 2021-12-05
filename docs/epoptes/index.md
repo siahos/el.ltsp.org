@@ -21,4 +21,4 @@
 - [Βασικές λειτουργίες](usage.md)
 - [Δημιουργία και χρήση ομάδων](groups.md)
 - [Μέτρηση ταχύτητας δικτύου](lan-benchmark.md)
-- [Εκτέλεση του Επόπτη από LTSP client](run-ltsp-client.md)
+- [Εκτέλεση του Επόπτη από LTSP client](on-ltsp-client.md)

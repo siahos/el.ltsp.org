@@ -82,15 +82,16 @@ nav:
     - sch-scripts/ltsp.conf.md
     - sch-scripts/hostnames.md
     - sch-scripts/dm.md
+    - sch-scripts/faq.md
     - Προχωρημένα:
-      - sch-scripts/advanced/index.md
-      - sch-scripts/advanced/folder-permissions.md
-      - sch-scripts/advanced/run-commands.md
-      - sch-scripts/advanced/printers.md
-      - sch-scripts/advanced/multiple-labs.md
-      - sch-scripts/advanced/scanners.md
-      - sch-scripts/advanced/maintenance.md
-      - sch-scripts/advanced/groups.md
+      - sch-scripts/advanced.md
+      - sch-scripts/folder-permissions.md
+      - sch-scripts/run-commands.md
+      - sch-scripts/printers.md
+      - sch-scripts/multiple-labs.md
+      - sch-scripts/scanners.md
+      - sch-scripts/maintenance.md
+      - sch-scripts/groups.md
   - Επόπτης:
     - epoptes/index.md
     - epoptes/installation.md
@@ -116,6 +117,7 @@ nav:
     - advanced/index.md
     - advanced/remote-access.md
     - advanced/smartboards.md
+    - advanced/printers.md
     - advanced/compatibility.md
     - advanced/clean-upgrade.md
     - advanced/kernels.md
