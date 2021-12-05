@@ -38,7 +38,6 @@ strict: false
 theme:
 # favicon: favicon.ico
   features:
-    - todo-navigation.indexes
     - todo-navigation.instant
   language: el
 # logo: logo-icon.png
@@ -79,19 +78,19 @@ nav:
     - sch-scripts/ltsp-commands.md
     - sch-scripts/users.md
     - sch-scripts/netboot.md
+    - sch-scripts/shared-folders.md
+    - sch-scripts/ltsp.conf.md
+    - sch-scripts/hostnames.md
+    - sch-scripts/dm.md
     - Προχωρημένα:
-      - sch-scripts/advanced/ltsp-conf.md
-      - sch-scripts/advanced/hostnames.md
-      - sch-scripts/advanced/shared-folders.md
-      - sch-scripts/advanced/autologin.md
-      - sch-scripts/advanced/groups.md
       - sch-scripts/advanced/index.md
-      - sch-scripts/advanced/maintenance.md
       - sch-scripts/advanced/folder-permissions.md
-      - sch-scripts/advanced/printers.md
+      - sch-scripts/advanced/groups.md
+      - sch-scripts/advanced/maintenance.md
       - sch-scripts/advanced/multiple-labs.md
-      - sch-scripts/advanced/scanners.md
+      - sch-scripts/advanced/printers.md
       - sch-scripts/advanced/run-commands.md
+      - sch-scripts/advanced/scanners.md
   - Επόπτης:
     - epoptes/index.md
     - epoptes/installation.md
