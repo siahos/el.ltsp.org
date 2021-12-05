@@ -23,14 +23,16 @@ plugins:
   - minify:
       minify_html: false
   - search
-  - section-index
   - with-pdf:
       author: Έκδοση pdf του https://ts.sch.gr/docs/linux
       copyright: Copyright © 2008-2021 Τεχνική Στήριξη ΣΕΠΕΗΥ
       cover_title: ΣΕΠΕΗΥ με Linux
       cover_subtitle: Ubuntu 20.04/LTSP/Epoptes/sch-scripts
       enabled_if_env: ENABLE_PDF_EXPORT
+      heading_shift: true
+      ordered_chapter_level: 4
       output_path: linux.pdf
+      toc_level: 4
 repo_url: https://github.com/pe86/linux
 site_name: Τεχνική Στήριξη ΣΕΠΕΗΥ
 site_url: https://ts.sch.gr/docs/linux
@@ -92,6 +94,7 @@ nav:
       - sch-scripts/scanners.md
       - sch-scripts/maintenance.md
       - sch-scripts/groups.md
+      - sch-scripts/swap-partition.md
   - Επόπτης:
     - epoptes/index.md
     - epoptes/installation.md

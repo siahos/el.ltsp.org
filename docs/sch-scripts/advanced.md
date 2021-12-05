@@ -4,6 +4,7 @@
 ΣΕΠΕΗΥ:
 
 - [Δικαιώματα καταλόγων](folder-permissions.md)
+- [Δημιουργία swap partition](swap-partition.md)
 - [Εκτέλεση εντολών](run-commands.md)
 - [Εκτυπωτές](printers.md)
 - [Πολλά εργαστήρια](multiple-labs.md)
