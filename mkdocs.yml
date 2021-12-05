@@ -85,12 +85,12 @@ nav:
     - Προχωρημένα:
       - sch-scripts/advanced/index.md
       - sch-scripts/advanced/folder-permissions.md
-      - sch-scripts/advanced/groups.md
-      - sch-scripts/advanced/maintenance.md
-      - sch-scripts/advanced/multiple-labs.md
-      - sch-scripts/advanced/printers.md
       - sch-scripts/advanced/run-commands.md
+      - sch-scripts/advanced/printers.md
+      - sch-scripts/advanced/multiple-labs.md
       - sch-scripts/advanced/scanners.md
+      - sch-scripts/advanced/maintenance.md
+      - sch-scripts/advanced/groups.md
   - Επόπτης:
     - epoptes/index.md
     - epoptes/installation.md
