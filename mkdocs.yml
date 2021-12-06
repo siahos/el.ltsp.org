@@ -66,36 +66,6 @@ nav:
       - ubuntu/disk-empty.md
       - ubuntu/disk-windows.md
       - ubuntu/disk-linux.md
-    - Προχωρημένα:
-      - advanced/kernels.md
-      - advanced/clean-upgrade.md
-      - software/mate-system-monitor/index.md
-      - advanced/compatibility.md
-      - advanced/printers.md
-      - advanced/smartboards.md
-  - Διαχείριση ΣΕΠΕΗΥ:
-    - sch-scripts/index.md
-    - sch-scripts/installation.md
-    - sch-scripts/server-network.md
-    - sch-scripts/users.md
-    - sch-scripts/netboot.md
-    - software/win32-loader/index.md
-    - sch-scripts/ltsp-commands.md
-    - sch-scripts/faq.md
-    - Προχωρημένα:
-#     - sch-scripts/advanced.md
-      - sch-scripts/ltsp.conf.md
-      - sch-scripts/hostnames.md
-      - sch-scripts/dm.md
-      - sch-scripts/multiple-labs.md
-      - sch-scripts/groups.md
-      - sch-scripts/shared-folders.md
-      - sch-scripts/folder-permissions.md
-      - sch-scripts/run-commands.md
-      - sch-scripts/maintenance.md
-      - advanced/remote-access.md
-      - sch-scripts/printers.md
-      - sch-scripts/scanners.md
   - LTSP:
     - ltsp/index.md
     - ltsp/architecture.md
@@ -103,18 +73,39 @@ nav:
     - ltsp/disadvantages.md
     - ltsp/requirements.md
     - ltsp/map.md
+  - Διαχείριση ΣΕΠΕΗΥ:
+    - sch-scripts/index.md
+    - sch-scripts/installation.md
+    - sch-scripts/server-network.md
+    - sch-scripts/ltsp-commands.md
+    - sch-scripts/users.md
+    - sch-scripts/netboot.md
+    - sch-scripts/shared-folders.md
+    - sch-scripts/ltsp.conf.md
+    - sch-scripts/hostnames.md
+    - sch-scripts/dm.md
+    - sch-scripts/faq.md
+    - Προχωρημένα:
+      - sch-scripts/advanced.md
+      - sch-scripts/folder-permissions.md
+      - sch-scripts/run-commands.md
+      - sch-scripts/printers.md
+      - sch-scripts/multiple-labs.md
+      - sch-scripts/scanners.md
+      - sch-scripts/maintenance.md
+      - sch-scripts/groups.md
+      - sch-scripts/swap-partition.md
   - Επόπτης:
     - epoptes/index.md
     - epoptes/installation.md
     - epoptes/usage.md
     - epoptes/groups.md
     - epoptes/lan-benchmark.md
-    - Προχωρημένα:
-      - epoptes/on-ltsp-client.md
+    - epoptes/on-ltsp-client.md
   - Λογισμικό:
-    - software/repositories/index.md
     - software/index.md
-    - software/sch-webapp-launcher/index.md
+    - software/repositories/index.md
+    - software/mate-system-monitor/index.md
     - software/alice/index.md
     - software/appinventor/index.md
     - software/arduino/index.md
@@ -123,10 +114,15 @@ nav:
     - software/java/index.md
     - software/lamp-server/index.md
     - software/phpmyadmin/index.md
+    - software/sch-webapp-launcher/index.md
+    - software/win32-loader/index.md
   - Προχωρημένα:
-#   - advanced/index.md
-    - Χρήσιμοι οδηγοί:
-      - LTSP Clients:
-        - sch-scripts/swap-partition.md
+    - advanced/index.md
+    - advanced/remote-access.md
+    - advanced/smartboards.md
+    - advanced/printers.md
+    - advanced/compatibility.md
+    - advanced/clean-upgrade.md
+    - advanced/kernels.md
     - advanced/contributing.md
   - support/index.md
