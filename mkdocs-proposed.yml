@@ -1,0 +1,133 @@
+edit_uri: edit/main/docs
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.superfences
+  - pymdownx.keys
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.mark
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.uslugify
+      title: Περιεχόμενα σελίδας
+plugins:
+  - minify:
+      minify_html: false
+  - search
+  - with-pdf:
+      author: Έκδοση pdf του https://ts.sch.gr/docs/linux
+      copyright: Copyright © 2008-2021 Τεχνική Στήριξη ΣΕΠΕΗΥ
+      cover_title: ΣΕΠΕΗΥ με Linux
+      cover_subtitle: Ubuntu 20.04/LTSP/Epoptes/sch-scripts
+      enabled_if_env: ENABLE_PDF_EXPORT
+      heading_shift: true
+      ordered_chapter_level: 4
+      output_path: linux.pdf
+      toc_level: 4
+repo_url: https://github.com/pe86/linux
+site_name: Τεχνική Στήριξη ΣΕΠΕΗΥ
+site_url: https://ts.sch.gr/docs/linux
+strict: false
+theme:
+# favicon: favicon.ico
+  features:
+    - todo-navigation.instant
+  language: el
+# logo: logo-icon.png
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Αλλαγή σε σκούρο θέμα
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Αλλαγή σε ανοιχτό θέμα
+nav:
+  - index.md
+  - Ubuntu:
+    - ubuntu/index.md
+    - ubuntu/download.md
+    - ubuntu/liveusb.md
+    - Εγκατάσταση:
+      - ubuntu/installation.md
+      - ubuntu/disk-empty.md
+      - ubuntu/disk-windows.md
+      - ubuntu/disk-linux.md
+    - Βασικές λειτουργίες:
+      - software/mate-system-monitor/index.md
+      - advanced/printers.md
+      - advanced/smartboards.md
+  - Διαχείριση ΣΕΠΕΗΥ:
+    - sch-scripts/index.md
+    - sch-scripts/installation.md
+    - sch-scripts/server-network.md
+    - sch-scripts/users.md
+    - sch-scripts/ltsp-commands.md
+    - sch-scripts/netboot.md
+    - software/win32-loader/index.md
+    - Βασικές λειτουργίες:
+      - sch-scripts/ltsp.conf.md
+      - sch-scripts/hostnames.md
+      - sch-scripts/dm.md
+      - sch-scripts/multiple-labs.md
+      - sch-scripts/groups.md
+      - sch-scripts/shared-folders.md
+      - sch-scripts/printers.md
+      - sch-scripts/scanners.md
+    - sch-scripts/faq.md
+  - LTSP:
+    - ltsp/index.md
+    - ltsp/architecture.md
+    - ltsp/advantages.md
+    - ltsp/disadvantages.md
+    - ltsp/requirements.md
+    - ltsp/map.md
+  - Επόπτης:
+    - epoptes/index.md
+    - epoptes/installation.md
+    - epoptes/usage.md
+    - epoptes/groups.md
+    - epoptes/lan-benchmark.md
+  - Λογισμικό:
+    - software/repositories/index.md
+    - software/index.md
+    - software/sch-webapp-launcher/index.md
+    - software/alice/index.md
+    - software/appinventor/index.md
+    - software/arduino/index.md
+    - software/gamemaker/index.md
+    - software/gparted/index.md
+    - software/java/index.md
+    - software/lamp-server/index.md
+    - software/phpmyadmin/index.md
+  - Προχωρημένα:
+#   - advanced/index.md
+    - Ubuntu:
+      - advanced/kernels.md
+      - advanced/clean-upgrade.md
+      - advanced/compatibility.md
+    - Διαχείριση ΣΕΠΕΗΥ:
+      - LTSP:
+        - sch-scripts/folder-permissions.md
+        - sch-scripts/run-commands.md
+        - sch-scripts/maintenance.md
+        - advanced/remote-access.md
+      - Fat clients:
+        - sch-scripts/swap-partition.md
+    - Eπόπτης:
+      - epoptes/on-ltsp-client.md
+    - advanced/contributing.md
+  - support/index.md
