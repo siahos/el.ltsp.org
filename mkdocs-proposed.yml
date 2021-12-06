@@ -120,6 +120,7 @@ nav:
       - advanced/clean-upgrade.md
       - advanced/compatibility.md
     - Διαχείριση ΣΕΠΕΗΥ:
+#     - sch-scripts/advanced.md
       - LTSP:
         - sch-scripts/folder-permissions.md
         - sch-scripts/run-commands.md
