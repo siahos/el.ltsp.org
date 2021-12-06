@@ -42,7 +42,7 @@ theme:
   features:
     - todo-navigation.instant
   language: el
-# logo: logo-icon.png
+  logo: stylesheets/ts-logo.png
   name: material
   palette:
     - media: "(prefers-color-scheme: light)"
