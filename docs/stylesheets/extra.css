@@ -101,6 +101,11 @@ a[href$=".png"]>img, a[href$=".jpg"]>img {
   margin: 0 0 0.4rem 0.4rem;
 }
 
+img.glossary {
+  float: right;
+  width: 3em;
+}
+
 /* Test for home-made admonitions using blockquotes */
 blockquote em>strong {
   display: block;

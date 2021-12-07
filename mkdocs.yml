@@ -27,7 +27,7 @@ plugins:
       author: Έκδοση pdf του https://ts.sch.gr/docs/linux
       copyright: Copyright © 2008-2021 Τεχνική Στήριξη ΣΕΠΕΗΥ
       cover_title: ΣΕΠΕΗΥ με Linux
-      cover_subtitle: Ubuntu 20.04/LTSP/Epoptes/sch-scripts
+      cover_subtitle: Ubuntu 20.04/LTSP/Epoptes/ltsp
       enabled_if_env: ENABLE_PDF_EXPORT
       heading_shift: true
       ordered_chapter_level: 4
@@ -66,35 +66,37 @@ nav:
       - ubuntu/disk-empty.md
       - ubuntu/disk-windows.md
       - ubuntu/disk-linux.md
-  - LTSP:
+    - ubuntu/repositories.md
+    - ubuntu/software.md
+  - ΣΕΠΕΗΥ με LTSP:
     - ltsp/index.md
-    - ltsp/architecture.md
-    - ltsp/advantages.md
-    - ltsp/disadvantages.md
-    - ltsp/requirements.md
-    - ltsp/map.md
-  - Διαχείριση ΣΕΠΕΗΥ:
-    - sch-scripts/index.md
-    - sch-scripts/installation.md
-    - sch-scripts/server-network.md
-    - sch-scripts/ltsp-commands.md
-    - sch-scripts/users.md
-    - sch-scripts/netboot.md
-    - sch-scripts/shared-folders.md
-    - sch-scripts/ltsp.conf.md
-    - sch-scripts/hostnames.md
-    - sch-scripts/dm.md
-    - sch-scripts/faq.md
+    - Προετοιμασία:
+      - ltsp/preparation.md
+      - ltsp/architecture.md
+      - ltsp/advantages.md
+      - ltsp/disadvantages.md
+      - ltsp/requirements.md
+      - ltsp/map.md
+    - ltsp/installation.md
+    - ltsp/server-network.md
+    - ltsp/ltsp-commands.md
+    - ltsp/users.md
+    - ltsp/netboot.md
+    - ltsp/shared-folders.md
+    - ltsp/ltsp.conf.md
+    - ltsp/hostnames.md
+    - ltsp/dm.md
+    - ltsp/faq.md
     - Προχωρημένα:
-      - sch-scripts/advanced.md
-      - sch-scripts/folder-permissions.md
-      - sch-scripts/run-commands.md
-      - sch-scripts/printers.md
-      - sch-scripts/multiple-labs.md
-      - sch-scripts/scanners.md
-      - sch-scripts/maintenance.md
-      - sch-scripts/groups.md
-      - sch-scripts/swap-partition.md
+      - ltsp/advanced.md
+      - ltsp/folder-permissions.md
+      - ltsp/run-commands.md
+      - ltsp/printers.md
+      - ltsp/multiple-labs.md
+      - ltsp/scanners.md
+      - ltsp/maintenance.md
+      - ltsp/groups.md
+      - ltsp/swap-partition.md
   - Επόπτης:
     - epoptes/index.md
     - epoptes/installation.md
@@ -102,27 +104,25 @@ nav:
     - epoptes/groups.md
     - epoptes/lan-benchmark.md
     - epoptes/on-ltsp-client.md
-  - Λογισμικό:
-    - software/index.md
-    - software/repositories/index.md
-    - software/mate-system-monitor/index.md
-    - software/alice/index.md
-    - software/appinventor/index.md
-    - software/arduino/index.md
-    - software/gamemaker/index.md
-    - software/gparted/index.md
-    - software/java/index.md
-    - software/lamp-server/index.md
-    - software/phpmyadmin/index.md
-    - software/sch-webapp-launcher/index.md
-    - software/win32-loader/index.md
-  - Προχωρημένα:
-    - advanced/index.md
-    - advanced/remote-access.md
-    - advanced/smartboards.md
-    - advanced/printers.md
-    - advanced/compatibility.md
-    - advanced/clean-upgrade.md
-    - advanced/kernels.md
-    - advanced/contributing.md
+  - Συλλογή οδηγών:
+    - guides/index.md
+    - guides/alice/index.md
+    - guides/appinventor/index.md
+    - guides/arduino/index.md
+    - guides/gamemaker/index.md
+    - guides/gparted/index.md
+    - guides/java/index.md
+    - guides/lamp-server/index.md
+    - guides/phpmyadmin/index.md
+    - guides/sch-webapp-launcher/index.md
+    - guides/win32-loader/index.md
+    - guides/remote-access/index.md
+    - guides/smartboards/index.md
+    - guides/printers/index.md
+    - guides/compatibility/index.md
+    - guides/clean-upgrade/index.md
+    - guides/mate-system-monitor/index.md
+    - guides/kernels/index.md
+    - guides/contributing/index.md
   - support/index.md
+  - glossary/index.md
