@@ -64,6 +64,10 @@ body.vscode-body {
   background-color: #2573a7;
 }
 
+.md-source__facts {
+  display: none;
+}
+
 .md-typeset code .gp {
   color: red;
 }
