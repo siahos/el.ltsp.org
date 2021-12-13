@@ -8,7 +8,7 @@
   Ubuntu](https://wiki.ubuntu.com/HardwareSupport) για το συγκεκριμένο υλικό.
   - Αν ο κατασκευαστής του υπολογιστή έχει πιστοποιήσει το υλικό με το Ubuntu,
     τότε αυτό θα αναφέρεται σαν [Ubuntu
-    Certified](http://www.ubuntu.com/certification/desktop/).
+    Certified](http://www.ubuntu.com/certification).
 - Εάν ο υπολογιστής που διαθέτετε δεν ανήκει σε αυτήν την κατηγορία μην
   απογοητεύεστε, μπορείτε να ελέγξετε αν το υλικό (CPU, Chipset, VGA, Ethernet
   κλπ) που απαρτίζει τον υπολογιστή σας είναι Certified,
