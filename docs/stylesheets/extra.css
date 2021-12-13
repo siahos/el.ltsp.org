@@ -145,3 +145,10 @@ strong>code {
 .red {
   color: red;
 }
+
+/* Work around some weasyprint issues */
+@media print {
+  div.admonition, div.highlight {
+    clear: both
+  }
+}
