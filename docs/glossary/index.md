@@ -7,7 +7,7 @@
 
 - Μενού: ***Εφαρμογές*** ▸ ***Διαδίκτυο*** ▸ ***Επόπτης***
 - Εντολή: epoptes
-- [Οδηγός](../epoptes/index.md)
+- [Οδηγός](../epoptes/index.md), [ιστοσελίδα](https://epoptes.org)
 
 ## LTSP
 
@@ -17,7 +17,7 @@
 εξυπηρετητή του ΣΕΠΕΗΥ.
 
 - Εντολή: `ltsp`
-- [Οδηγός](../ltsp/index.md)
+- [Οδηγός](../ltsp/index.md), [ιστοσελίδα](https://ltsp.org)
 
 ## sch-scripts
 
@@ -27,3 +27,11 @@
 - Μενού: ***Σύστημα*** ▸ ***Διαχείριση συστήματος*** ▸ ***Διαχείριση ΣΕΠΕΗΥ***
 - Εντολή: `sch-scripts`
 - [Οδηγός](../ltsp/index.md)
+
+## Ubuntu
+
+![](../images/ubuntu.png){.glossary}Δημοφιλής διανομή του λειτουργικού
+συστήματος Linux. Βασίζεται στο [Debian](https://www.debian.org/) και
+υποστηρίζεται από την εταιρία Canonical.
+
+- [Οδηγός](../ubuntu/index.md), [ιστοσελίδα](https://ubuntu.com)
