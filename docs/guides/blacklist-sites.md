@@ -1,8 +1,8 @@
 # Απαγόρευση πρόσβασης σε συγκεκριμένες ιστοσελίδες
 
 Για γρήγορη απαγόρευση σελίδων, **χωρίς squid** και εφόσον έχετε ήδη
-εγκαταστήσει τα [sch-scripts](../../glossary/#sch-scripts), από
-[τερματικό](../../glossary/#terminal) εκτελείτε:
+εγκαταστήσει τα [sch-scripts](../glossary/index.md#sch-scripts), από
+[τερματικό](../glossary/index.md#terminal) εκτελείτε:
 
 ```
 sudo pluma /etc/dnsmasq.d/blacklist.conf
