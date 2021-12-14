@@ -116,6 +116,7 @@ nav:
     - guides/phpmyadmin/index.md
     - guides/sch-webapp-launcher/index.md
     - guides/win32-loader/index.md
+    - guides/blacklist-sites/index.md
     - guides/remote-access/index.md
     - guides/smartboards/index.md
     - guides/printers/index.md
@@ -123,7 +124,6 @@ nav:
     - guides/clean-upgrade/index.md
     - guides/mate-system-monitor/index.md
     - guides/kernels/index.md
-    - guides/blacklist-sites.md
     - guides/contributing/index.md
   - support/index.md
   - glossary/index.md
