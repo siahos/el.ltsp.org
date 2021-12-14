@@ -14,7 +14,7 @@
 - [phpMyAdmin](phpmyadmin/index.md)
 - [sch-webapp-launcher](sch-webapp-launcher/index.md)
 - [win32-loader](win32-loader/index.md)
-- [Απαγόρευση πρόσβασης σε ιστοχώρους](blacklist-sites/index.md)
+- [Απαγόρευση ιστοχώρων](blacklist-sites/index.md)
 - [Απομακρυσμένη πρόσβαση](remote-access/index.md)
 - [Διαδραστικοί](smartboards/index.md)
 - [Εκτυπωτές](printers/index.md)
