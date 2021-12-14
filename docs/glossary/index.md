@@ -36,9 +36,9 @@
 
 - [Οδηγός](../ubuntu/index.md), [ιστοσελίδα](https://ubuntu.com)
 
-## Τερματικό
+## Terminal
 
-![](../images/terminal.png){.glossary}Παράθυρο γραμμής εντολών.
+![](../images/terminal.png){.glossary}Παράθυρο γραμμής εντολών (*τερματικό, κονσόλα*).
 
 - Μενού: ***Εφαρμογές*** ▸ ***Εργαλεία συστήματος*** ▸ ***Τερματικό MATE***
 - Εντολή: `mate-terminal`

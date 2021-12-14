@@ -123,7 +123,7 @@ nav:
     - guides/clean-upgrade/index.md
     - guides/mate-system-monitor/index.md
     - guides/kernels/index.md
+    - guides/blacklist-sites.md
     - guides/contributing/index.md
-    - ltsp/ban-specific-websites.md
   - support/index.md
   - glossary/index.md
