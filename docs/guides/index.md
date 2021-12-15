@@ -22,4 +22,5 @@
 - [Καθαρή αναβάθμιση](clean-upgrade/index.md)
 - [Παρακολούθηση συστήματος](mate-system-monitor/index.md)
 - [Πυρήνες](kernels/index.md)
+- [Ρυθμίσεις δικτύου BIOS/UEFI](bios-uefi/index.md)
 - [Συνεισφορές](contributing/index.md)
