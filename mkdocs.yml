@@ -108,6 +108,7 @@ nav:
     - epoptes/on-ltsp-client.md
   - Συλλογή οδηγών:
     - guides/index.md
+    - guides/guides-proposed.md
     - guides/alice/index.md
     - guides/appinventor/index.md
     - guides/arduino/index.md
