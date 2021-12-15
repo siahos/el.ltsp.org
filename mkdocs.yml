@@ -116,6 +116,7 @@ nav:
     - guides/java/index.md
     - guides/lamp-server/index.md
     - guides/phpmyadmin/index.md
+    - guides/python-http-server/index.md
     - guides/sch-webapp-launcher/index.md
     - guides/win32-loader/index.md
     - guides/blacklist-sites/index.md

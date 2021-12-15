@@ -12,6 +12,7 @@
 - [Java](java/index.md)
 - [LAMP server](lamp-server/index.md)
 - [phpMyAdmin](phpmyadmin/index.md)
+- [Python HTTP server](python-http-server/index.md)
 - [sch-webapp-launcher](sch-webapp-launcher/index.md)
 - [win32-loader](win32-loader/index.md)
 - [Απαγόρευση ιστοχώρων](blacklist-sites/index.md)
