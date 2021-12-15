@@ -1,4 +1,4 @@
-edit_uri: edit/main/docs
+edit_uri: tree/main/docs
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
@@ -42,6 +42,7 @@ theme:
   features:
     - todo-navigation.instant
   language: el
+  locale: el
   logo: stylesheets/ts-logo.png
   name: material
   palette:
@@ -55,6 +56,7 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Αλλαγή σε ανοιχτό θέμα
+  titles_only: true
 nav:
   - index.md
   - Ubuntu:

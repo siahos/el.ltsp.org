@@ -89,6 +89,12 @@ body.vscode-body {
   display: block;
 }
 
+/* Customize readthedocs */
+
+.rst-content div[class^="highlight"] pre {
+  padding: 0;
+}
+
 /* Our CSS rules for easier markdown */
 
 /* Limit images to 100% width while printing */
