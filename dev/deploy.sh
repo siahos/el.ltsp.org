@@ -1,13 +1,6 @@
 #!/bin/sh
 # Script to deploy the site
 
-(
-    env
-    cat /proc/cpuinfo
-    free
-    ip a
-) >docs/github.txt
-
 pip install mkdocs-minify-plugin
 pip install 'mkdocs-material<5'
 site_packages=$(pip show mkdocs-material | awk '/Location:/ { print $2 }')
