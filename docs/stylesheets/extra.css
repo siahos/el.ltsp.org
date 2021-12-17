@@ -64,6 +64,12 @@ body.vscode-body {
   background-color: #2573a7;
 }
 
+/* Align logo in material 4.x */
+a.md-logo {
+  display: initial;
+  font-size: 1px;
+}
+
 .md-source__facts {
   display: none;
 }
