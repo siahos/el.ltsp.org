@@ -118,6 +118,7 @@ nav:
     - guides/python-http-server/index.md
     - guides/sch-webapp-launcher/index.md
     - guides/win32-loader/index.md
+    - guides/redirect-site/index.md
     - guides/blacklist-sites/index.md
     - guides/remote-access/index.md
     - guides/smartboards/index.md
@@ -125,6 +126,7 @@ nav:
     - guides/compatibility/index.md
     - guides/clean-upgrade/index.md
     - guides/mate-system-monitor/index.md
+    - guides/network-issues/index.md
     - guides/kernels/index.md
     - guides/bios-uefi/index.md
     - guides/contributing/index.md
