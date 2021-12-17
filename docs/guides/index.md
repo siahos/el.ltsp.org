@@ -15,7 +15,7 @@
 - [Python HTTP server](python-http-server/index.md)
 - [sch-webapp-launcher](sch-webapp-launcher/index.md)
 - [win32-loader](win32-loader/index.md)
-- [Ανακατεύθυνση σε νέα ιστοσελίδα](redirect-side/index.md)
+- [Ανακατεύθυνση σε νέα ιστοσελίδα](redirect-site/index.md)
 - [Απαγόρευση ιστοχώρων](blacklist-sites/index.md)
 - [Απομακρυσμένη πρόσβαση](remote-access/index.md)
 - [Διαδραστικοί](smartboards/index.md)
