@@ -1,3 +1,4 @@
+dev_addr: 0.0.0.0:7101
 edit_uri: tree/main/docs
 extra_css:
   - stylesheets/extra.css
