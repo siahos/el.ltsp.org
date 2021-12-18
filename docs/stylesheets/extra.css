@@ -1,6 +1,64 @@
 /* Minimal vscode compatibility */
 
 body.vscode-body {
+  background-color: var(--md-code-bg-color);
+  color: var(--md-code-fg-color);
+  font-size0: 110%;
+}
+
+.vscode-body pre, .vscode-body pre code {
+  color: #333;
+  background-color: #eee;
+}
+
+/* Customize mkdocs-material */
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #206592;
+  --md-accent-fg-color: #439bd6;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #6db1df;
+  --md-accent-fg-color: #96c7e8;
+}
+
+.md-header {
+  background-color: #2573a7;
+}
+
+.md-source__facts {
+  display: none;
+}
+
+.md-typeset code .gp {
+  color: red;
+}
+
+.md-typeset img, .md-typeset svg, .vscode-body img {
+  vertical-align: middle;
+}
+
+.md-typeset__table {
+  display: flex;
+}
+
+.md-typeset table:not([class]), table {
+  width: auto;
+  margin: 0 auto;
+}
+
+.md-typeset :is(ul, ol):not([hidden]) {
+  display: block;
+}
+
+/* Backport a few things to material 4.x */
+
+body {
+  --md-primary-fg-color: #206592;
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: #439bd6;
+  --md-accent-bg-color: #ffffff;
   --md-code-fg-color: #36464e;
   --md-code-bg-color: #f5f5f5;
   --md-code-hl-color: rgba(255, 255, 0, 0.5);
@@ -32,67 +90,57 @@ body.vscode-body {
   --md-footer-fg-color--lighter: hsla(0, 0%, 100%, 0.3);
   --md-footer-bg-color: rgba(0, 0, 0, 0.87);
   --md-footer-bg-color--dark: rgba(0, 0, 0, 0.32);
-  background-color: var(--md-code-bg-color);
-  color: var(--md-code-fg-color);
-  font-size: initial;
 }
 
-.vscode-body pre, .vscode-body pre code {
-  color: #333;
-  background-color: #ddd;
-}
-
-.vscode-body .md-button {
-  font-weight: bold;
-  border: 0.15em solid #3f6ec6;
-  padding: 0.7em;
-}
-
-/* Customize mkdocs-material */
-
-[data-md-color-scheme="default"] {
-  --md-primary-fg-color: #206592;
-  --md-accent-fg-color: #439bd6;
-}
-
-[data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #6db1df;
-  --md-accent-fg-color: #96c7e8;
-}
-
-.md-header {
-  background-color: #2573a7;
-}
-
-/* Align logo in material 4.x */
 a.md-logo {
   display: initial;
   font-size: 1px;
 }
 
-.md-source__facts {
-  display: none;
+.md-typeset pre {
+  margin-top: 0;
 }
 
-.md-typeset code .gp {
-  color: red;
-}
-
-.md-typeset img, .md-typeset svg, .vscode-body img {
-  vertical-align: middle;
-}
-
-.md-typeset__table {
-  display: flex;
-}
-
-.md-typeset table:not([class]), table {
-  width: auto;
-  margin: 0 auto;
-}
-
-.md-typeset :is(ul, ol):not([hidden]) {
+.highlight span.filename {
+  background-color: #eee;
+  border-bottom: .05rem solid var(--md-default-fg-color--lightest);
+  border-top-left-radius: .1rem;
+  border-top-right-radius: .1rem;
   display: block;
+  font-size: .85em;
+  font-weight: 700;
+  margin-top: 1em;
+  padding: .6617647059em 1.1764705882em;
+  position: relative;
+}
+
+.md-button {
+  border: .1rem solid;
+  border-radius: .1rem;
+  color: var(--md-primary-fg-color);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  padding: .625em 2em;
+  transition: color 125ms, background-color 125ms, border-color 125ms;
+}
+
+a.md-button:hover {
+  border-color: var(--md-primary-fg-color);
+  background-color: var(--md-accent-fg-color);
+  color: var(--md-accent-bg-color);
+}
+
+.md-button.md-button--primary {
+  background-color: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+  color: var(--md-accent-bg-color);
+}
+
+a.md-button--primary:hover {
+  background-color: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-accent-bg-color);
 }
 
 /* Customize readthedocs */
@@ -144,8 +192,9 @@ em>strong, strong>em, strong>code {
   font-style: normal;
 }
 
-strong>code {
+.md-typeset strong>code, strong>code {
   box-shadow: 0 .1rem 0 .05rem var(--md-typeset-kbd-border-color), 0 .1rem 0 var(--md-typeset-kbd-border-color), 0 -.1rem .2rem var(--md-typeset-kbd-accent-color) inset;
+  padding: 0.05rem .2rem;
 }
 
 /* Test for markdown class selectors */
