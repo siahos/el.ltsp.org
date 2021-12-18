@@ -39,9 +39,14 @@ body.vscode-body {
   vertical-align: middle;
 }
 
-.md-typeset__table {
+.md-typeset .md-typeset__table {
   display: flex;
 }
+
+.md-typeset .md-typeset__table tr:nth-child(even) {
+  background-color: #eee;
+}
+
 
 .md-typeset table:not([class]), table {
   width: auto;
