@@ -1,15 +1,15 @@
 # Τεκμηρίωση Linux για ΣΕΠΕΗΥ
 
 Το παρόν repository αποτελεί τον πηγαίο κώδικα της σελίδας
-https://ts.sch.gr/wiki/Linux.
+https://ts.sch.gr/docs/linux.
 
 ## Development environment
 
 ```shell
 sudo apt install python3-pip
-pip install mkdocs-material mkdocs-minify-plugin mkdocs-redirects mkdocs-with-pdf
+pip install 'mkdocs-material<5' mkdocs-material-extensions mkdocs-minify-plugin mkdocs-redirects mkdocs-with-pdf
 mkdocs serve
-open http://localhost:8000
+open http://localhost:7101
 ```
 
 ### Windows development environment
