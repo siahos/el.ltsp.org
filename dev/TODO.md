@@ -12,6 +12,7 @@
    <https://pe86.github.io/linux/epoptes/Διαδραστική_εκπαίδευση/#εκτέλεση-εντολής-στους-επιλεγμένους-υπολογιστές>
 
 4. Να φιξαριστούν τα "v" και "x". Παραδείγματα χρήσης:
-   <https://pe86.github.io/linux/ltsp/shared-folders/#τεχνικό-υπόβαθρο>
-   <https://pe86.github.io/linux/ltsp/ltsp-commands/>
-   <https://pe86.github.io/linux/guides/multiseat/#υλοποιήσεις-multiseat>
+
+   -  <https://pe86.github.io/linux/ltsp/shared-folders/#τεχνικό-υπόβαθρο>
+   -  <https://pe86.github.io/linux/ltsp/ltsp-commands/>
+   -  <https://pe86.github.io/linux/guides/multiseat/#υλοποιήσεις-multiseat>
