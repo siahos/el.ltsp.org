@@ -17,8 +17,7 @@ open http://localhost:7101
 -   Στα Windows θα χρειαστεί να κάνετε εγκατάσταση την
     [Python3](https://www.python.org/downloads/).
 -   ```shell
-    > pip install "mkdocs-material<5" mkdocs-material-extensions
-    mkdocs-minify-plugin mkdocs-redirects mkdocs-with-pdf
+    pip install "mkdocs-material<5" mkdocs-material-extensions mkdocs-minify-plugin mkdocs-redirects mkdocs-with-pdf
     ```
 -   Αντιγραφή του
     [el.html](https://github.com/pe86/linux/blob/main/dev/el.html) στον φάκελο `site-packages\material\partials\language` των windows. Για να βρείτε που ακριβώς βρίσκεται ο φάκελος `site-packages` δείτε τη γραμμή `Location` της εντολής `pip show mkdocs-material`.
