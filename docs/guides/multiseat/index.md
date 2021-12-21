@@ -58,7 +58,7 @@ Multiseat σημαίνει **μία κεντρική μονάδα Η/Υ**, με 
         βήματα.
 
 6.  Αν έχει αναγνωριστεί (βήμα 4) τότε στο
-    [ltsp.conf](../../glossary/index.md#ltspconf) προσθέτουμε την ακόλουθη
+    [ltsp.conf](../../ltsp/ltsp.conf.md) προσθέτουμε την ακόλουθη
     οδηγία:
 
     ```text title="ltsp.conf"
@@ -66,7 +66,7 @@ Multiseat σημαίνει **μία κεντρική μονάδα Η/Υ**, με 
     MULTISEAT=1
     ```
 
-7.  Στη συνέχεια: [ltsp initrd](../../glossary/index.md#ltsp-initrd) και
+7.  Στη συνέχεια: [ltsp initrd](../../ltsp/ltsp-commands.md#-ltsp-initrd) και
     **επανεκκίνηση** του client.
 
     !!! tip "Συμβουλή"

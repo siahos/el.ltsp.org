@@ -19,22 +19,6 @@
 - Εντολή: `ltsp`
 - [Οδηγός](../ltsp/index.md), [ιστοσελίδα](https://ltsp.org)
 
-## ltsp.conf
-
-![](../images/ltsp.png){.glossary}Αρχείο ρυθμίσεων client LTSP. Τρόποι
-επεξεργασίας:
-
-- Μενού: ***Σύστημα*** ▸ ***Διαχείριση συστήματος*** ▸ ***Διαχείριση ΣΕΠΕΗΥ***,
-  και επιλέξτε ***Εξυπηρετητής*** ▸ ***Αρχεία ρυθμίσεων*** ▸ ***ltsp.conf***.
-- Εντολή: `sudo xdg-open /etc/ltsp/ltsp.conf`
-
-## ltsp initrd
-![](../images/ltsp.png){.glossary}Δημιουργεί το αρχείο `/srv/tftp/ltsp/ltsp.img`, μέσω του οποίου στέλνονται στους clients οι χρήστες και οι ρυθμίσεις του LTSP.
-
-- Μενού: ***Διαχείρηση ΣΕΠΕΗΥ*** ▸ ***Εξυπηρετητής*** ▸ ***Εντολές LTSP*** ▸
-  ***ltsp initrd***
-- Εντολή: `ltsp initrd`
-
 ## sch-scripts
 
 ![](../images/sch-scripts.svg){.glossary}Μια συλλογή από βοηθήματα για τη
