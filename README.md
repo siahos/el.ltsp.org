@@ -3,7 +3,7 @@
 Το παρόν repository αποτελεί τον πηγαίο κώδικα της σελίδας
 https://ts.sch.gr/docs/linux.
 
-### Linux development environment
+## Linux development environment
 
 ```shell
 sudo apt install python3-pip

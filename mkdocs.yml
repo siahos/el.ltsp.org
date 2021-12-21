@@ -114,6 +114,7 @@ nav:
     - guides/gparted/index.md
     - guides/java/index.md
     - guides/lamp-server/index.md
+    - guides/multiseat/index.md
     - guides/phpmyadmin/index.md
     - guides/python-http-server/index.md
     - guides/sch-webapp-launcher/index.md

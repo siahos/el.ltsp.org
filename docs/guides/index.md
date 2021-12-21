@@ -11,6 +11,7 @@
 - [GParted](gparted/index.md)
 - [Java](java/index.md)
 - [LAMP server](lamp-server/index.md)
+- [Multiseat](multiseat/index.md)
 - [phpMyAdmin](phpmyadmin/index.md)
 - [Python HTTP server](python-http-server/index.md)
 - [sch-webapp-launcher](sch-webapp-launcher/index.md)
