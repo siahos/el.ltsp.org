@@ -19,6 +19,15 @@
 - Εντολή: `ltsp`
 - [Οδηγός](../ltsp/index.md), [ιστοσελίδα](https://ltsp.org)
 
+## ltsp.conf
+
+![](../images/ltsp.png){.glossary}Αρχείο ρυθμίσεων client LTSP. Τρόποι
+επεξεργασίας:
+
+- Μενού: ***Σύστημα*** ▸ ***Διαχείριση συστήματος*** ▸ ***Διαχείριση ΣΕΠΕΗΥ***,
+  και επιλέξτε ***Εξυπηρετητής*** ▸ ***Αρχεία ρυθμίσεων*** ▸ ***ltsp.conf***.
+- Εντολή: `sudo pluma /etc/ltsp/ltsp.conf`
+
 ## sch-scripts
 
 ![](../images/sch-scripts.svg){.glossary}Μια συλλογή από βοηθήματα για τη
