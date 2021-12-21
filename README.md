@@ -3,24 +3,25 @@
 Το παρόν repository αποτελεί τον πηγαίο κώδικα της σελίδας
 https://ts.sch.gr/docs/linux.
 
-## Development environment
+### Linux development environment
 
 ```shell
 sudo apt install python3-pip
-pip install 'mkdocs-material<5' mkdocs-material-extensions mkdocs-minify-plugin mkdocs-redirects mkdocs-with-pdf
+pip install "mkdocs-material<5" mkdocs-material-extensions mkdocs-minify-plugin mkdocs-redirects mkdocs-with-pdf
 mkdocs serve
 open http://localhost:7101
 ```
 
-### Windows development environment
+## Windows development environment
 
--   Στα Windows θα χρειαστεί να κάνετε εγκατάσταση την
-    [Python3](https://www.python.org/downloads/).
--   ```shell
-    pip install "mkdocs-material<5" mkdocs-material-extensions mkdocs-minify-plugin mkdocs-redirects mkdocs-with-pdf
-    ```
--   Αντιγραφή του
-    [el.html](https://github.com/pe86/linux/blob/main/dev/el.html) στον φάκελο `site-packages\material\partials\language` των windows. Για να βρείτε που ακριβώς βρίσκεται ο φάκελος `site-packages` δείτε τη γραμμή `Location` της εντολής `pip show mkdocs-material`.
+-   Στα Windows εγκαταστήστε την [Python3](https://www.python.org/downloads/).
+-   Εκτελέστε την ίδια εντολή `pip install` που φαίνεται στην ενότητα Linux
+    πιο πάνω.
+-   Αντιγράψτε το αρχείο
+    [el.html](https://github.com/pe86/linux/blob/main/dev/el.html) στον φάκελο
+    `site-packages\material\partials\language` των windows. Για να βρείτε που
+    ακριβώς βρίσκεται ο φάκελος `site-packages` τρέξτε `pip show
+    mkdocs-material` και δείτε τη γραμμή `Location`.
 -   Αν κατά την εκτέλεση του `mkdocs serve` εμφανιστεί το ακόλουθο error:
 
     ```shell-session
@@ -31,7 +32,8 @@ open http://localhost:7101
 
     τότε θα πρέπει να εγκαταστήσετε και το [GTK3](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/).
 
-    **Προσοχή**: Μετά την εγκατάσταση κάντε επανεκκίνηση ώστε να ενημερωθεί η μεταβλητή συστήματος `Path` των Windows.
+    **Προσοχή**: Μετά την εγκατάσταση κάντε επανεκκίνηση ώστε να ενημερωθεί η
+    μεταβλητή συστήματος `Path` των Windows.
 
 ## Πώς έγινε η μετατροπή από mediawiki
 
