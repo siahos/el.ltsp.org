@@ -1,2 +1,4 @@
+mkdocs-minify-plugin
 mkdocs-material
-mkdocs-git-revision-date-plugin
+mkdocs-redirects
+mkdocs-with-pdf

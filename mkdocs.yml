@@ -1,3 +1,4 @@
+copyright: Copyright © 2008-2022 the <a href="https://ts.sch.gr">Ομάδα Τεχνικής Στήριξης</a>
 dev_addr: 0.0.0.0:7101
 edit_uri: tree/main/docs
 extra_css:
@@ -7,6 +8,7 @@ extra_javascript:
 markdown_extensions:
   - admonition
   - attr_list
+  - def_list
   - pymdownx.superfences
   - tables
   - pymdownx.emoji:
@@ -24,9 +26,9 @@ plugins:
   - search
   - with-pdf:
       author: Έκδοση pdf του https://ts.sch.gr/docs/linux
-      copyright: Copyright © 2008-2021 Τεχνική Στήριξη ΣΕΠΕΗΥ
+      copyright: Copyright © 2008-2022 Τεχνική Στήριξη ΣΕΠΕΗΥ
       cover_title: ΣΕΠΕΗΥ με Linux
-      cover_subtitle: Ubuntu 20.04/LTSP/Epoptes/ltsp
+      cover_subtitle: Ubuntu 22.04/LTSP/Epoptes/ltsp
       enabled_if_env: ENABLE_PDF_EXPORT
       heading_shift: true
       ordered_chapter_level: 4

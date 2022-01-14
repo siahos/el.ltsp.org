@@ -3,7 +3,6 @@
 body.vscode-body {
   background-color: var(--md-code-bg-color);
   color: var(--md-code-fg-color);
-  font-size0: 110%;
 }
 
 .vscode-body pre, .vscode-body pre code {
@@ -21,6 +20,53 @@ body.vscode-body {
 [data-md-color-scheme="slate"] {
   --md-primary-fg-color: #6db1df;
   --md-accent-fg-color: #96c7e8;
+}
+
+/* Icon compatibility with Firefox 52
+https://github.com/squidfunk/mkdocs-material/issues/3437#issuecomment-1008354954
+*/
+
+.md-nav__icon::after {
+  background-color: initial;
+  background-image: var(--md-nav-icon--next);
+  mask-image: none;
+}
+
+[data-md-color-scheme="slate"] .md-nav__icon::after {
+  filter: invert(100%);
+}
+
+.md-typeset :-moz-any(.tip, .hint, .important) > :-moz-any(.admonition-title, summary)::before {
+  background-color: initial;
+  background-image: var(--md-admonition-icon--tip);
+  filter: invert(100%) brightness(0.5) sepia(1) hue-rotate(100deg) saturate(5);
+  mask-image: none;
+}
+
+[data-md-color-scheme="slate"] .md-typeset :-moz-any(.tip, .hint, .important) > :-moz-any(.admonition-title, summary)::before {
+  filter: invert(100%) brightness(0.7) sepia(1) hue-rotate(100deg) saturate(5);
+}
+
+.md-typeset :-moz-any(.note) > :-moz-any(.admonition-title, summary)::before {
+  background-color: initial;
+  background-image: var(--md-admonition-icon--note);
+  filter: invert(100%) brightness(0.5) sepia(1) hue-rotate(180deg) saturate(5);
+  mask-image: none;
+}
+
+[data-md-color-scheme="slate"] .md-typeset :-moz-any(.note) > :-moz-any(.admonition-title, summary)::before {
+  filter: invert(100%) brightness(0.5) sepia(1) hue-rotate(180deg) saturate(5);
+}
+
+.md-typeset :-moz-any(.warning, .caution) > :-moz-any(.admonition-title, summary)::before {
+  background-color: initial;
+  background-image: var(--md-admonition-icon--warning);
+  filter: invert(100%) brightness(0.5) sepia(1) hue-rotate(-40deg) saturate(5);
+  mask-image: none;
+}
+
+[data-md-color-scheme="slate"] .md-typeset :-moz-any(.warning, .caution) > :-moz-any(.admonition-title, summary)::before {
+  filter: invert(100%) brightness(0.7) sepia(1) hue-rotate(-40deg) saturate(5);
 }
 
 .md-header {
@@ -46,7 +92,6 @@ body.vscode-body {
 .md-typeset .md-typeset__table tr:nth-child(even) {
   background-color: #eee;
 }
-
 
 .md-typeset table:not([class]), table {
   width: auto;
