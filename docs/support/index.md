@@ -12,7 +12,7 @@
     νέων ερωτήσεων στο Στέκι και στο Matrix απαιτείται (δωρεάν) εγγραφή, στην
     οποία προτείνεται να χρησιμοποιήσετε το **username που έχετε στο ΠΣΔ**.
 
-## Στέκι των Πληροφορικών {:#steki}
+## Στέκι των Πληροφορικών {#steki}
 
 To [Στέκι των Πληροφορικών](https://alkisg.mysch.gr/steki/) είναι το
 διασημότερο φόρουμ για καθηγητές ΠΕ86. Ο [πίνακας
@@ -24,7 +24,7 @@ Ubuntu/ltsp/Epoptes/sch-scripts. Μπορείτε να ανοίξετε εκεί
 [Πίνακας Linux στο Στέκι των
 Πληροφορικών](https://alkisg.mysch.gr/steki/index.php?board=67.0){.md-button}
 
-## Δωμάτιο Matrix {:#matrix}
+## Δωμάτιο Matrix {#matrix}
 
 Το matrix.org είναι λογισμικό ανοικτού κώδικα για ομαδικές συζητήσεις με
 κείμενο, ήχο ή εικόνα, παραπλήσιο με τα Slack, Google Chat, Discord, IRC κλπ.
@@ -33,7 +33,7 @@ Ubuntu/ltsp/Epoptes/sch-scripts. Μπορείτε να ανοίξετε εκεί
 
 [Δωμάτιο matrix #ts.sch.gr:matrix.org](https://app.element.io/#/room/#ts.sch.gr:matrix.org){.md-button}
 
-## Κανάλι IRC {:#irc}
+## Κανάλι IRC {#irc}
 
 Το IRC (Internet Relay Chat) επιτρέπει συζητήσεις ακόμα και χωρίς εγγραφή,
 αλλά υποστηρίζει μόνο κείμενο, οπότε το [matrix](#matrix) είναι προτιμότερο.

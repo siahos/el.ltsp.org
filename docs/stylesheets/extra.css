@@ -215,9 +215,15 @@ a[href$=".png"]>img, a[href$=".jpg"]>img {
   margin: 0 0 0.4rem 0.4rem;
 }
 
-img.glossary {
+img[src$="#inline"] {
+  height: 1em;
+  vertical-align: middle;
+}
+
+img[src$="#right-icon"] {
   float: right;
-  width: 3em;
+  width: 3rem;
+  clear: both;
 }
 
 /* Test for home-made admonitions using blockquotes */

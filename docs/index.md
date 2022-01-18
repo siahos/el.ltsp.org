@@ -7,17 +7,17 @@
 
 ## Αρχική εγκατάσταση και διαχείριση
 
--   ![](images/ubuntu.png){.glossary}Για εγκατάσταση Ubuntu σε οποιονδήποτε
+-   ![](images/ubuntu.png#right-icon)Για εγκατάσταση Ubuntu σε οποιονδήποτε
     υπολογιστή, ακολουθήστε τις οδηγίες της ενότητας [Ubuntu](ubuntu/index.md).
 -   Για προσθήκη λογισμικού, δείτε την [ομώνυμη
     σελίδα](ubuntu/software.md).
--   ![](images/ltsp.png){.glossary}Για να μεταμορφώσετε σε LTSP server έναν
+-   ![](images/ltsp.png#right-icon)Για να μεταμορφώσετε σε LTSP server έναν
     υπολογιστή με ήδη εγκατεστημένο Ubuntu, δείτε την ενότητα [ΣΕΠΕΗΥ με
     LTSP](ltsp/index.md).
 
 ## Χρήση
 
--   ![](images/epoptes.svg){.glossary}Η εφαρμογή [Επόπτης](epoptes/index.md)
+-   ![](images/epoptes.svg#right-icon)Η εφαρμογή [Επόπτης](epoptes/index.md)
     επιτρέπει στους καθηγητές να ελέγχουν τους υπολογιστές του εργαστηρίου, να
     κάνουν προβολή οθόνης κλπ.
 -   Στην ενότητα [Οδηγοί](guides/index.md) μπορείτε να αναζητήσετε πληροφορίες
