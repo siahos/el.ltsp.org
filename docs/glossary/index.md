@@ -1,6 +1,6 @@
 # Γλωσσάρι
 
-## epoptes
+## Επόπτης (epoptes) {#epoptes}
 
 ![](../images/epoptes.svg){.glossary}Λογισμικό διαχείρισης και εποπτείας
 εργαστηρίου υπολογιστών.
@@ -19,7 +19,7 @@
 - Εντολή: `ltsp`
 - [Οδηγός](../ltsp/index.md), [ιστοσελίδα](https://ltsp.org)
 
-## sch-scripts
+## Διαχείριση ΣΕΠΕΗΥ (sch-scripts) {#sch-scripts}
 
 ![](../images/sch-scripts.svg){.glossary}Μια συλλογή από βοηθήματα για τη
 διαχείριση εργαστηρίων με LTSP.
@@ -36,7 +36,7 @@
 
 - [Οδηγός](../ubuntu/index.md), [ιστοσελίδα](https://ubuntu.com)
 
-## Terminal
+## Τερματικό (terminal) {#terminal}
 
 ![](../images/terminal.png){.glossary}Παράθυρο γραμμής εντολών (*τερματικό, κονσόλα*).
 
