@@ -253,6 +253,33 @@ em>strong, strong>em, strong>code {
   padding: 0.05rem .2rem;
 }
 
+/* Classes for ![✔][✔], ![✖][✖], [✔]{.v} and [✖]{.x} */
+img[src$="/x.svg"] {
+  width: 1em;
+  height: 1em;
+  vertical-align: -10%;
+}
+
+img[src$="/v.svg"] {
+  width: 1em;
+  height: 1em;
+  vertical-align: -10%;
+}
+
+.x {
+  color: transparent;
+  background-image: url(../images/x.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.v {
+  color: transparent;
+  background-image: url(../images/v.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
 /* Test for markdown class selectors */
 .green {
   background-color: green;

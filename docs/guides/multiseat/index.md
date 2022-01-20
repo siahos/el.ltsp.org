@@ -105,11 +105,11 @@ Multiseat σημαίνει **μία κεντρική μονάδα Η/Υ**, με 
 
 | α/α |          Client         | Υποστήριξη από BIOS |
 |:---:|:-----------------------:|:-------------------:|
-|  1  |    Dell OptiPlex 390    |          ❌         |
-|  2  |     HP Compaq dc7900    |          ❌         |
-|  3  | Lenovo ThinkCentre M91p |          ✅         |
+|  1  |    Dell OptiPlex 390    |       ![✖][✖]       |
+|  2  |     HP Compaq dc7900    |       ![✖][✖]       |
+|  3  | Lenovo ThinkCentre M91p |       ![✔][✔]       |
 
-✅ : Επιτυχής υλοποίηση, ❌ : Ανεπιτυχής υλοποίηση
+![✔][✔] : Επιτυχής υλοποίηση, ![✖][✖] : Ανεπιτυχής υλοποίηση
 
 !!! info "Πληροφορία"
     Στις υλοποιήσεις 1-3 χρησιμοποιήθηκαν οι εξής video cards Low Profile (LP/SFF):
@@ -117,3 +117,7 @@ Multiseat σημαίνει **μία κεντρική μονάδα Η/Υ**, με 
     1.  [VGA REF RADEON X600 128MB PCIE DVI LP](https://cosmodata.gr/product/166873/)
     2.  [ATI 4550 512MB PCI-E Low Profile](https://cosmodata.gr/product/317420/)
         (Ο αντάπτορας που τη συνοδεύει είναι λειτουργικός)
+
+[link-reference-definitions]: https://github.github.com/gfm/#link-reference-definitions
+[✔]: ../../images/v.svg
+[✖]: ../../images/x.svg

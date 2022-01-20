@@ -182,16 +182,16 @@
 
 | Χρήστης  | Ομάδες | Ονομασία καταλόγου                 | Συντόμευση | Προορισμός συντόμευσης                                            |
 | :------: | :----: | ---------------------------------- | :--------: | ----------------------------------------------------------------- |
-|  user1   |   a1   | a1 - Κοινόχρηστα                   |     ✔      | /home/Shared/a1                                                   |
-|  user1   |   a1   | a1 - Πραγματικό όνομα του teacher1 |     ✔      | /home/Shared/.symlinks/a1 - teacher1 → /home/teacher1/Δημόσια/a1 |
-|  user2   |   a2   | a2 - Κοινόχρηστα                   |     ✔      | /home/Shared/a2                                                   |
-|  user2   |   a2   | a2 - Πραγματικό όνομα του teacher2 |     ✔      | /home/Shared/.symlinks/a2 - teacher2 → /home/teacher2/Δημόσια/a2 |
-| teacher1 |   a1   | a1                                 | *✘*{.red}  | *✘*{.red}                                                         |
-| teacher1 |   a1   | a1 - Κοινόχρηστα                   |     ✔      | /home/Shared/a1                                                   |
-| teacher1 |   a1   | teachers - Κοινόχρηστα             |     ✔      | /home/Shared/teachers                                             |
-| teacher2 |   a2   | a2                                 | *✘*{.red}  | *✘*{.red}                                                         |
-| teacher2 |   a2   | a2 - Κοινόχρηστα                   |     ✔      | /home/Shared/a2                                                   |
-| teacher2 |   a2   | teachers - Κοινόχρηστα             |     ✔      | /home/Shared/teachers                                             |
+|  user1   |   a1   | a1 - Κοινόχρηστα                   |  ![✔][✔]   | /home/Shared/a1                                                   |
+|  user1   |   a1   | a1 - Πραγματικό όνομα του teacher1 |  ![✔][✔]   | /home/Shared/.symlinks/a1 - teacher1 → /home/teacher1/Δημόσια/a1 |
+|  user2   |   a2   | a2 - Κοινόχρηστα                   |  ![✔][✔]   | /home/Shared/a2                                                   |
+|  user2   |   a2   | a2 - Πραγματικό όνομα του teacher2 |  ![✔][✔]   | /home/Shared/.symlinks/a2 - teacher2 → /home/teacher2/Δημόσια/a2 |
+| teacher1 |   a1   | a1                                 |  ![✖][✖]   | ![✖][✖]                                                           |
+| teacher1 |   a1   | a1 - Κοινόχρηστα                   |  ![✔][✔]   | /home/Shared/a1                                                   |
+| teacher1 |   a1   | teachers - Κοινόχρηστα             |  ![✔][✔]   | /home/Shared/teachers                                             |
+| teacher2 |   a2   | a2                                 |  ![✖][✖]   | ![✖][✖]                                                           |
+| teacher2 |   a2   | a2 - Κοινόχρηστα                   |  ![✔][✔]   | /home/Shared/a2                                                   |
+| teacher2 |   a2   | teachers - Κοινόχρηστα             |  ![✔][✔]   | /home/Shared/teachers                                             |
 
 Τεχνικά, η υλοποίηση γίνεται με τον εξής τρόπο:
 
@@ -210,3 +210,7 @@
     συντομεύσεις για group που δεν ανήκει πια.
   - Ένα ακόμα σημείο είναι ότι στους fat πελάτες ο φάκελος `/home/Shared`
     προσαρτάται από το server μέσω NFS.
+
+[link-reference-definitions]: https://github.github.com/gfm/#link-reference-definitions
+[✔]: ../images/v.svg
+[✖]: ../images/x.svg
