@@ -89,8 +89,12 @@ https://github.com/squidfunk/mkdocs-material/issues/3437#issuecomment-1008354954
   display: flex;
 }
 
-.md-typeset .md-typeset__table tr:nth-child(even) {
-  background-color: #eee;
+.md-typeset .md-typeset__table thead tr {
+  background-color: #00000020;
+}
+
+.md-typeset .md-typeset__table tbody tr:nth-child(even) {
+  background-color: #00000010;
 }
 
 .md-typeset table:not([class]), table {
