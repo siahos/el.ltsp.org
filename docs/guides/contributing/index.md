@@ -238,3 +238,36 @@ $ μπορούμε να χρησιμοποιήσουμε το $
     Αποτέλεσμα:
 
     [LiveCdRecovery - Lost Password](https://help.ubuntu.com/community/LiveCdRecovery#Lost_Password){.md-button}
+
+## Tests
+
+Ignore these, they're just tests. You can see the source code [on github](https://github.com/pe86/linux/blob/main/docs/guides/contributing/index.md?plain=1).
+
+### Blockquote admonitions
+
+> [NOTE]  
+> Admonitions can be easily implemented with special links as the first lines
+> of blockquotes. They can *optionally* use a two-space-break at EOL, so that
+> they display better on github.
+
+<br>
+
+> [Σημείωση]  
+> Since the CSS is based on the link and not on the link-reference text,
+> localized text can be used for admonitions.
+
+<br>
+
+> [A note with a custom **and even `formatted`** title][NOTE]  
+> Additionally, custom titles can be used as well.
+
+<br>
+
+> [!NOTE]  
+> Finally, by using e.g. `[!NOTE]`, they can support content that has been
+> written for the Microsoft doc pack.
+
+[link-reference-definitions]: https://github.github.com/gfm/#link-reference-definitions
+[NOTE]: #md-note "This is a note in English"
+[Σημείωση]: #md-note "This is a note in Greek"
+[!NOTE]: #md-note

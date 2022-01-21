@@ -1,8 +1,8 @@
 /* Minimal vscode compatibility */
 
 body.vscode-body {
-  background-color: var(--md-code-bg-color);
-  color: var(--md-code-fg-color);
+  background-color: #fff;
+  color: #333;
 }
 
 .vscode-body pre, .vscode-body pre code {
@@ -106,7 +106,7 @@ https://github.com/squidfunk/mkdocs-material/issues/3437#issuecomment-1008354954
   display: block;
 }
 
-/* Backport a few things to material 4.x */
+/* Backport a few things to material 4.x
 
 body {
   --md-primary-fg-color: #206592;
@@ -196,6 +196,7 @@ a.md-button--primary:hover {
   border-color: var(--md-accent-fg-color);
   color: var(--md-accent-bg-color);
 }
+ */
 
 /* Customize readthedocs */
 
@@ -228,11 +229,6 @@ img[src$="#right-icon"] {
   float: right;
   width: 3rem;
   clear: both;
-}
-
-/* Test for home-made admonitions using blockquotes */
-blockquote em>strong {
-  display: block;
 }
 
 /* Styles to avoid dangling floating images */
@@ -284,6 +280,32 @@ img[src$="/v.svg"] {
   background-repeat: no-repeat;
 }
 
+/* Work around some weasyprint issues */
+@media print {
+  div.admonition, div.highlight {
+    clear: both
+  }
+}
+
+/* TESTS */
+
+/* Tests for home-made admonitions using blockquotes */
+
+blockquote > p > a[href$="#md-note"] {
+  display: block;
+  background-color: #0000ff08;
+  background-image: url(../images/note.svg);
+  background-repeat: no-repeat;
+  padding: 0 0 0em 2em;
+  margin-bottom-: 0.2em;
+  border-bottom-: 0.01em solid #00000080;
+}
+
+/* Make two-spaces-break at EOL optional; with it, it's better on github */
+blockquote > p > a[href$="#md-note"] + br {
+  display: none;
+}
+
 /* Test for markdown class selectors */
 .green {
   background-color: green;
@@ -296,11 +318,4 @@ img[src$="/v.svg"] {
 
 .red {
   color: red;
-}
-
-/* Work around some weasyprint issues */
-@media print {
-  div.admonition, div.highlight {
-    clear: both
-  }
 }
