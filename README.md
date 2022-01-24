@@ -7,7 +7,7 @@ https://ts.sch.gr/docs/linux.
 
 ```shell
 sudo apt install python3-pip
-pip install "mkdocs-material<5" mkdocs-material-extensions mkdocs-minify-plugin mkdocs-redirects mkdocs-with-pdf
+pip install mkdocs-material mkdocs-material-extensions mkdocs-minify-plugin mkdocs-redirects mkdocs-with-pdf
 mkdocs serve
 open http://localhost:7101
 ```
