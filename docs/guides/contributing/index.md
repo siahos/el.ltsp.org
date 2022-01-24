@@ -29,13 +29,17 @@
 
     1.  κείμενο1
     2.  κείμενο2
-    3.  κείμενο3
+        1.  κείμενο3
+        2.  κείμενο4
+    3.  κείμενο5
 
 Αποτέλεσμα:
 
 1.  κείμενο1
 2.  κείμενο2
-3.  κείμενο3
+    1.  κείμενο3
+    2.  κείμενο4
+3.  κείμενο5
 
 ## Για εισαγωγή κουκίδων
 
@@ -44,14 +48,16 @@
     -   κείμενο1
     -   κείμενο2
         -   κείμενο3
-    -   κείμενο4
+        -   κείμενο4
+    -   κείμενο5
 
 Αποτέλεσμα:
 
 -   κείμενο1
 -   κείμενο2
     -   κείμενο3
--   κείμενο4
+    -   κείμενο4
+-   κείμενο5
 
 !!! tip "Συμβουλή"
     Για λόγους συμβατότητας με διάφορα πρότυπα σύνταξης markdown, να χρησιμοποιούνται πάντα τέσσερα (4) κενά από την αρχή της αρίθμησης/κουκίδας μέχρι το πρώτο γράμμα του κειμένου:
@@ -86,7 +92,7 @@
         περιεχόμενο των γραμμών επαναλαμβάνεται μπορείτε να χρησιμοποιήσετε το
         σύμβολο ditto mark: `〃`
 
-## Για εντολή, όνομα αρχείου, συγκεκριμένο περιεχόμενο τερματικού/αρχείου
+## Για εντολή, όνομα αρχείου, αναφορά σε περιεχόμενο τερματικού/αρχείου
 
     `εντολή` (όπου ` βάζουμε backticks)
 
@@ -398,14 +404,14 @@ Ignore these, they're just tests. You can see the source code [on github](https:
 
 ### Blockquote admonitions
 
-> [NOTE]  
+> [NOTE]
 > Admonitions can be easily implemented with special links as the first lines
 > of blockquotes. They can *optionally* use a two-space-break at EOL, so that
 > they display better on github.
 
 <br>
 
-> [Σημείωση]  
+> [Σημείωση]
 > Since the CSS is based on the link and not on the link-reference text,
 > localized text can be used for admonitions.
 
@@ -416,7 +422,7 @@ Ignore these, they're just tests. You can see the source code [on github](https:
 
 <br>
 
-> [!NOTE]  
+> [!NOTE]
 > Finally, by using e.g. `[!NOTE]`, they can support content that has been
 > written for the Microsoft doc pack.
 
