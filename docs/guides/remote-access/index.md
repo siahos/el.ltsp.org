@@ -115,3 +115,61 @@ ssh -p 7100 -L 3390:localhost:3389 administrator@srv-sxoleio.nom.sch.gr
 ```shell
 xfreerdp /v:localhost:3390 /relax-order-checks +glyph-cache /size:1600x900
 ```
+
+## Πρόσβαση με SSH κλειδιά (ενότητα για προχωρημένους) {:#ssh-keys}
+
+-   Αυτό μας εξασφαλίζει ότι ΜΟΝΟ όποιος έχει το σωστό SSH κλειδί (private)
+    μπορεί να συνδεθεί μέσω της πόρτας 7100 στον LTSP server.
+-   Εφαρμόζεται απαγόρευση password authentication στην πόρτα 7100, ώστε πλέον
+    η πόρτα 7100, να μη δέχεται αιτήματα σύνδεσης με username/password από
+    χρήστη ή bot.
+
+Βήματα:
+
+1.  Δημιουργούμε το αρχείο `/etc/ssh/sshd_config.d/local.conf` όπως
+    περιγράφεται στην ενότητα [Πρόσβαση με SSH](#πρόσβαση-με-ssh).
+
+2.  Δημιουργούμε τα SSH public/private keys (δύο αρχεία) όπως και το
+    authorized_keys (ένα αρχείο):
+    ```shell-session
+    $ ssh-keygen -qf ~/.ssh/id_ed25519 -N '' -t ed25519
+    $ ssh-copy-id administrator@localhost
+    The authenticity of host 'localhost (127.0.0.1)' can't be established.
+    ECDSA key fingerprint is SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
+    Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+    /bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+    /bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+    administrator@localhost's password:
+
+    Number of key(s) added: 1
+
+    Now try logging into the machine, with:   "ssh 'administrator@localhost'"
+    and check to make sure that only the key(s) you wanted were added.
+    ```
+3.  Ελέγχουμε αν τα αρχεία έχουν δημιουργηθεί επιτυχώς:
+    ```shell-session
+    $ ls -l .ssh/
+    σύνολο 16
+    -rw------- 1 administrator administrator 111 Νοε   5 19:55 authorized_keys
+    -rw------- 1 administrator administrator 419 Νοε   5 19:49 id_ed25519
+    -rw-r--r-- 1 administrator administrator 111 Νοε   5 19:49 id_ed25519.pub
+    -rw-r--r-- 1 administrator administrator 666 Νοε   5 19:55 known_hosts
+    ```
+4.  Στο τέλος του αρχείου `/etc/ssh/sshd_config`:
+    ```shell
+    sudo xdg-open /etc/ssh/sshd_config
+    ```
+    προσθέτουμε τις ακόλουθες γραμμές:
+    ```text
+    Match LocalPort 7100
+    PasswordAuthentication no
+    ```
+5.  Για να εφαρμοστούν οι αλλαγές:
+    ```shell
+    sudo systemctl restart ssh
+    ```
+6.  Αντιγράφουμε το `id_ed25519` (private key), από τον φάκελο `.ssh` του LTSP
+    server, στον αντίστοιχο `.ssh` των windows/ubuntu, του προσωπικού μας
+    υπολογιστή.
+7.  Από τον προσωπικό μας υπολογιστή, συνδεόμαστε στον LTSP server μέσω
+    [SSH](#πρόσβαση-με-ssh)/[VNC](#πρόσβαση-με-vnc)/[RDP](#πρόσβαση-με-rdp).
