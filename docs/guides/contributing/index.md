@@ -331,8 +331,8 @@ $ μπορούμε να χρησιμοποιήσουμε το $
     προστεθούν οι ακόλουθες γραμμές:
     ```text
     [link-reference-definitions]: https://github.github.com/gfm/#link-reference-definitions
-    [✔]: ../../images/v.svg
-    [✖]: ../../images/x.svg
+    [✔]: /docs/linux/images/v.svg
+    [✖]: /docs/linux/images/x.svg
     ```
 
 ## Αναφορά σε τοπικό .md αρχείο
@@ -436,5 +436,5 @@ Ignore these, they're just tests. You can see the source code [on github](https:
 [!NOTE]: #md-note
 
 [link-reference-definitions]: https://github.github.com/gfm/#link-reference-definitions
-[✔]: ../../images/v.svg
-[✖]: ../../images/x.svg
+[✔]: /docs/linux/images/v.svg
+[✖]: /docs/linux/images/x.svg
