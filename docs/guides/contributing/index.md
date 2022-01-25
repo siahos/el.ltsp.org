@@ -328,11 +328,12 @@ $ μπορούμε να χρησιμοποιήσουμε το $
 
 !!! warning "Προσοχή"
     Σε όποιο αρχείο χρησιμοποιηθούν τα σύμβολα θα πρέπει στο τέλος του, να
-    προστεθούν οι ακόλουθες γραμμές:
+    προστεθούν οι ακόλουθες γραμμές, διορθώνοντας - αν ειναι απαραίτητο - το
+    σχετικό path των εικόνων:
     ```text
     [link-reference-definitions]: https://github.github.com/gfm/#link-reference-definitions
-    [✔]: /docs/linux/images/v.svg
-    [✖]: /docs/linux/images/x.svg
+    [✔]: ../../images/v.svg
+    [✖]: ../../images/x.svg
     ```
 
 ## Αναφορά σε τοπικό .md αρχείο
@@ -436,5 +437,5 @@ Ignore these, they're just tests. You can see the source code [on github](https:
 [!NOTE]: #md-note
 
 [link-reference-definitions]: https://github.github.com/gfm/#link-reference-definitions
-[✔]: /docs/linux/images/v.svg
-[✖]: /docs/linux/images/x.svg
+[✔]: ../../images/v.svg
+[✖]: ../../images/x.svg
