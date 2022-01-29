@@ -20,6 +20,7 @@
 - [Απαγόρευση ιστοχώρων](blacklist-sites/index.md)
 - [Απομακρυσμένη πρόσβαση](remote-access/index.md)
 - [Διαδραστικοί](smartboards/index.md)
+- [Εγκατάσταση Ubuntu με προεγκατεστημένα UEFI Windows](install-with-uefi-windows/index.md)
 - [Εκτυπωτές](printers/index.md)
 - [Έλεγχος συμβατότητας](compatibility/index.md)
 - [Καθαρή αναβάθμιση](clean-upgrade/index.md)
