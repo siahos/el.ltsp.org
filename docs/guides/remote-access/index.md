@@ -110,10 +110,14 @@ ssh -p 7100 -L 3390:localhost:3389 administrator@srv-sxoleio.nom.sch.gr
 απομακρυσμένη σύνδεση τύπου RDP στο localhost. Η σχετική εντολή από Linux
 είναι:
 
+```shell
+xfreerdp /v:localhost:3390 /relax-order-checks +glyph-cache /size:1600x900
+```
+
 Ενώ η σχετική εντολή από Windows είναι:
 
 ```shell
-xfreerdp /v:localhost:3390 /relax-order-checks +glyph-cache /size:1600x900
+mstsc /v:localhost:3390
 ```
 
 ## Πρόσβαση με SSH κλειδιά (για προχωρημένους) {:#ssh-keys}
