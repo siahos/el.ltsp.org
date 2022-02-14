@@ -78,7 +78,7 @@ apt install --yes grub-ipxe
 
 -   να προστεθούν τα αποθετήρια της Τεχνικής Στήριξης.
 -   να υπάρχει υποστήριξη για UEFI.
--   να κάνει save default στον grub.
+-   να γίνεται save default στον grub.
 
 ### Υπολογιστές με Debian
 
