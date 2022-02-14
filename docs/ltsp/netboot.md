@@ -65,9 +65,20 @@
 
 ### Υπολογιστές με Ubuntu
 
-Εάν οι σταθμοί εργασίας έχουν Ubuntu, τότε εκτελέστε την εντολή `sudo apt-get
-install grub-ipxe`, ώστε να εμφανιστεί στον grub μία επιλογή για εκκίνηση από
-το δίκτυο.
+Εάν οι σταθμοί εργασίας έχουν Ubuntu, τότε από [τερματικό](../../glossary#terminal):
+```
+sudo -i
+mkdir -p /etc/default/grub.d
+wget https://gitlab.com/sch-scripts/sch-scripts/raw/main/share/sch-scripts/grub.cfg -O /etc/default/grub.d/sch-scripts.cfg
+add-apt-repository --yes ppa:ts.sch.gr
+apt update
+apt install --yes grub-ipxe
+```
+έτσι ώστε:
+
+-   να προστεθούν τα αποθετήρια της Τεχνικής Στήριξης.
+-   να υπάρχει υποστήριξη για UEFI.
+-   να κάνει save default στον grub.
 
 ### Υπολογιστές με Debian
 
