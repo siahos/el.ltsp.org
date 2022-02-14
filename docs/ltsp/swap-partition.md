@@ -11,7 +11,7 @@
 
 Η εγκατάσταση του GParted στον server γίνεται με δύο τρόπους:
 
-- Ανοίγοντας κονσόλα (**`Ctrl`**+**`Alt`**+**`T`**)) και δίνοντας:
+- Ανοίγοντας [κονσόλα](../glossary/index.md#terminal) και δίνοντας:
   ```shell
   sudo apt install --yes gparted
   ```
