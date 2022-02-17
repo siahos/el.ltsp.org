@@ -16,7 +16,7 @@ BIOS/UEFI.
 
     Εάν έχετε ήδη κάποιο λειτουργικό σύστημα όπως Microsoft Windows,
     είναι σημαντικό να εκκινήσετε στην ίδια κατάσταση με το υπάρχον λειτουργικό.
-    Στην πέρίπτωση των UEFI Windows, ακολουθήστε τον οδηγό
+    Στην περίπτωση των UEFI Windows, ακολουθήστε τον οδηγό
     [Εγκατάσταση Ubuntu με προεγκατεστημένα UEFI Windows](../guides/install-with-uefi-windows/index.md).
 
 ## Δοκιμή περιβάλλοντος [![](install-01-welcome.png)](install-01-welcome.png)
