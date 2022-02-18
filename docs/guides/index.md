@@ -18,6 +18,7 @@
 - [win32-loader](win32-loader/index.md)
 - [Ανακατεύθυνση σε νέα ιστοσελίδα](redirect-site/index.md)
 - [Απαγόρευση ιστοχώρων](blacklist-sites/index.md)
+- [Απογραφή υποδομών ΤΠΕ-ΣΕΠΕΗΥ (Κτηματολόγιο)](inventory/index.md)
 - [Απομακρυσμένη πρόσβαση](remote-access/index.md)
 - [Διαδραστικοί](smartboards/index.md)
 - [Εγκατάσταση Ubuntu με προεγκατεστημένα UEFI Windows](install-with-uefi-windows/index.md)
