@@ -1,7 +1,7 @@
 # Απογραφή υποδομών ΤΠΕ-ΣΕΠΕΗΥ (Κτηματολόγιο)
 
 Για να μπορέσετε να απογράψετε τους Η/Υ του εργαστηρίου ΣΕΠΕΗΥ στο Κτηματολόγιο
-(inventory.sch.gr), χρησιμοποιήστε τις ακόλουθες εντολές:
+(<http://inventory.sch.gr>), χρησιμοποιήστε τις ακόλουθες εντολές:
 
 ## Για τον LTSP Server
 
@@ -47,7 +47,7 @@ Version: Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
 
 ## Της μνήμης (RAM)
 
-Π.χ. Corsair 8GB DDR4 2133 Mhz:
+Π.χ. Corsair 8GB DDR4 2133 MHz:
 
 ```shell-session
 $ sudo dmidecode -t memory | grep "Size\|Type\|Speed\|Manufacturer"
@@ -77,24 +77,28 @@ Configured Memory Speed: Unknown
 1.  **HDD** (π.χ. Toshiba 1000GB):
 
     ```shell-session
-    $ lsblk -o name,model,size,rota | grep "sd"
+    $ lsblk -o name,model,size,rota
+    NAME   MODEL                      SIZE ROTA
     sda    TOSHIBA_DT01ACA100       931,5G    1
     ├─sda1                          139,7G    1
     ├─sda2                          232,8G    1
     ├─sda3                            551G    1
     └─sda4                              8G    1
+    sr0    HL-DT-ST_DVDRAM_GH22NS40  1024M    1
     ```
 
 2.  **SSD** (π.χ. Corsair 120GB):
 
     ```shell-session
-    $ lsblk -o name,model,size,rota | grep "sd"
+    $ lsblk -o name,model,size,rota
+    NAME   MODEL                     SIZE ROTA
     sda    Corsair_Force_LE200_SSD 111,8G    0
     ├─sda1                           499M    0
     ├─sda2                            99M    0
     ├─sda3                            16M    0
     ├─sda4                          55,4G    0
     └─sda5                          55,8G    0
+    sr0    PLDS_DVDROM_DH16D7SH     1024M    1
     ```
 
 !!! tip "Σημαντικό"
@@ -115,47 +119,32 @@ Configured Memory Speed: Unknown
     τοπικά***.
 
 2.  Στο παράθυρο (XTerm) που ανοίγει, μπορούμε να κάνουμε αντιγραφή (από τον
-    οδηγό) την εντολή που θέλουμε και την επικολλούμε, πατώντας το ***μεσαίο
-    κλικ*** (κλικ πατώντας τη ροδέλα του ποντικιού) ή με
+    οδηγό) την εντολή που θέλουμε και την επικολλούμε, πατώντας το **μεσαίο
+    κλικ** (κλικ πατώντας τη ροδέλα του ποντικιού) ή με
     **`Shift`**+**`Insert`**. π.χ.
 
     ```shell-session
-    root@pc01:~# sudo dmidecode -t memory | grep "Size\|Type\|Speed\|Manufacturer"
-            Error Correction Type: None
-            Error Correction Type: None
-            Size: 1 GB
-            Type: DDR2
-            Type Detail: Synchronous
-            Speed: 667 MT/s
-            Manufacturer: JEDEC ID:CE 00 00 00 00 00 00 00
-            Size: 1 GB
-            Type: DDR2
-            Type Detail: Synchronous
-            Speed: 667 MT/s
-            Manufacturer: JEDEC ID:AD 00 00 00 00 00 00 00
-            Size: 1 GB
-            Type: DDR2
-            Type Detail: Synchronous
-            Speed: 667 MT/s
-            Manufacturer: JEDEC ID:7F 7F 7F 0B 00 00 00 00
-            Size: 1 GB
-            Type: DDR2
-            Type Detail: Synchronous
-            Speed: 667 MT/s
-            Manufacturer: JEDEC ID:7F 98 00 00 00 00 00 00
-            Size: 4 MB
-            Type: Flash
-            Type Detail: Non-Volatile
-            Speed: Unknown
-            Manufacturer: Not Specified
+    root@ltsp134:~# sudo dmidecode -t memory | grep "Size\|Type\|Speed\|Manufacturer"
+        Error Correction Type: None
+        Size: 4 GB
+        Type: DDR3
+        Type Detail: Synchronous
+        Speed: 1333 MT/s
+        Manufacturer: Samsung
+        Size: No Module Installed
+        Type: Unknown
+        Type Detail: None
+        Speed: Unknown
+        Manufacturer: [Empty]
     ```
-    Στο συγκεκριμένο παράδειγμα έχουμε **4 module DDR2 του 1GB στα 667Mhz της JEDEC**.
+    Στο συγκεκριμένο παράδειγμα έχουμε **1 module DDR3 των 4GB στα 1333 MHz της
+    Samsung**.
 
-    !!! tip "Χρήσιμο"
-        Αν θέλετε το αποτέλεσμα της εντολής να το αντιγράψετε/επικολλήσετε,
-        τότε απλά ΜΟΝΟ το επιλέγετε και το κάνετε επικόλληση με ***δεξί κλικ***
-        ▸ ***Επικόλληση*** ή με **`Ctrl`**+**`V`**. **Προσοχή**: Για να
-        λειτουργήσει σωστά η αντιγραφή θα πρέπει να είναι ενεργοποιημένο το
-        ***Select to Clipboard***. Για ενεργοποίηση, μέσα στο παράθυρο (XTerm)
-        κρατάτε πατημένο το **`Ctrl`**+**`μεσαίο κλικ`**.
+    !!! tip ""
+        Αν θέλετε να αντιγράψετε/επικολλήσετε, το αποτέλεσμα της εντολής, τότε
+        απλά ΜΟΝΟ το επιλέγετε και το κάνετε επικόλληση με **μεσαίο κλικ**.
 
+    !!! info "Πληροφορία"
+        Ο οδηγός είναι μια προτεινόμενη λύση για την απογραφή. Για περισσότερες
+        λύσεις ή και απορίες: [Απογραφή Υλικού
+        (inventory.sch.gr)](https://alkisg.mysch.gr/steki/index.php?topic=6068.0)
