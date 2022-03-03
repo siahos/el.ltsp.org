@@ -5,10 +5,10 @@
 
 - Για σχετικά νέους υπολογιστές με περισσότερα από 2 GB RAM επιλέξτε το [Ubuntu
   MATE 20.04
-  64bit](http://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.3-desktop-amd64.iso).
+  64bit](https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.4-desktop-amd64.iso).
 - Για παλιότερους υπολογιστές με λιγότερα από 2 GB RAM επιλέξτε το [Ubuntu MATE
   18.04
-  32bit](http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-i386.iso).
+  32bit](https://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-i386.iso).
 - Για υπερβολικά αρχαίους υπολογιστές με λιγότερα από 512 MB RAM μπορείτε να
   κάνετε λήψη των παλιών διανομών [Ubuntu 12.04 της Τεχνικής
   Στήριξης](https://ts.sch.gr/repo/livecd/12.04)
