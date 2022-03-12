@@ -29,11 +29,16 @@ server, με βάση τη MAC address τους, ακολουθώντας την
 επιθυμείτε να ελέγχονται από αυτόν. Στυ συνέχεια δώστε τις παρακάτω εντολές,
 για να δημιουργήσετε και να ανοίξετε τα κατάλληλα αρχεία ρυθμίσεων:
 
+!!! warning "Προσοχή"
+    Οι εντολές δημιουργούν ΑΔΕΙΑ αρχεία `local.conf` και `lab1.csv` και επειδή
+    αν ήδη υπάρχουν ΔΙΑΓΡΑΦΟΥΝ το περιεχόμενό τους, φροντίστε πριν να έχετε
+    δημιουργήσει αντίγραφά τους.
+
 ```shell
 cd /etc/dnsmasq.d
-sudo mkdir -p dhcp-hosts
-sudo touch local.conf dhcp-hosts/lab1.csv
-sudo chgrp sudo local.conf dhcp-hosts/lab1.csv
+sudo install -g sudo -m 775 -d dhcp-hosts
+sudo install /dev/null -g sudo -m 664 local.conf
+sudo install /dev/null -g sudo -m 664 dhcp-hosts/lab1.csv
 pluma local.conf dhcp-hosts/lab1.csv
 ```
 
@@ -47,8 +52,8 @@ dhcp-ignore=tag:!lab1
 
 Στο αρχείο `lab1.csv` βάλτε για όλους τους σταθμούς εργασίας γραμμές με τη MAC
 address, το εργαστήριο και το hostname τους. Τις MAC addresses μπορείτε να τις
-δείτε από την εφαρμογή ***Επόπτης*** κάνοντας δεξί κλικ ▸ ***Πληροφορίες*** σε
-κάθε σταθμό:
+δείτε από την εφαρμογή ***Επόπτης*** κάνοντας ***δεξί κλικ*** ▸
+***Πληροφορίες*** σε κάθε σταθμό:
 
 ```text title="/etc/dnsmasq.d/dhcp-hosts/lab1.csv"
 08:00:27:29:13:01,set:lab1,pc01
