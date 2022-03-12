@@ -49,7 +49,7 @@
         επιλογή ***Intel Virtualization Technology (VT-x)***. Το αντίστοιχο
         μήνυμα για AMD CPU θα είναι: `AMD-V is disabled in the BIOS`.
 
-## Μετατροπή εικονικού δίσκου (vmdk), σε πραγματικό (partition) - Κλωνοποίηση μέσω τοπικού δικτύου.
+## Μετατροπή εικονικού δίσκου (vmdk), σε πραγματικό (partition) - Κλωνοποίηση μέσω τοπικού δικτύου (LTSP) {:#vmdk-partition-lan-ltsp}
 
 ### Σενάριο
 
