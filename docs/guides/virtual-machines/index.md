@@ -25,12 +25,12 @@
 20.04 **64 bit**, θα πρέπει να ακολουθήσετε τα επόμενα βήματα:
 
 1.  Από [τερματικό](../../glossary#terminal), την "κατεβάζετε" σε συμπιεσμένη
-    μορφή στο φάκελο `ubuntu-VM` και την αποσυμπιέζετε στο φάκελο
-    `ubuntu-VM/focal-mate`:
+    μορφή στο φάκελο `ts-sch-VMs` και την αποσυμπιέζετε στο φάκελο
+    `ts-sch-VMs/focal-mate`:
 
     ```shell
-    mkdir -p ubuntu-VM
-    cd ubuntu-VM
+    mkdir -p ts-sch-VMs
+    cd ts-sch-VMs
     wget https://ts.sch.gr/repo/images/VMs/focal-mate.squashfs
     unsquashfs -f -d focal-mate focal-mate.squashfs
     ```
@@ -52,7 +52,7 @@
 
     !!! tip ""
         Το αρχείο `focal-mate.vbox` βρίσκεται στον φάκελο
-        `ubuntu-VM/focal-mate`.
+        `ts-sch-VMs/focal-mate`.
 
 4.  Πριν επιλέξετε ***Εκκίνηση*** θα πρέπει να ελέγξετε τις ***Ρυθμίσεις*** της
     εικονικής μηχανής. Το κυριότερο είναι το μέγεθος της μνήμης **RAM** να
@@ -103,7 +103,7 @@ server.
     # Εύρεση του "ονόματος" του τοπικού δίσκου (π.χ. sda).
     lsblk --fs
     # Εγγραφή του .vmdk στον τοπικό δίσκο (π.χ. sda).
-    sudo dd if=/home/administrator/ubuntu-VM/focal-mate/focal-mate-flat.vmdk of=/dev/sda bs=1M status=progress
+    sudo dd if=/home/administrator/ts-sch-VMs/focal-mate/focal-mate-flat.vmdk of=/dev/sda bs=1M status=progress
     ```
 
 4.  **Χωρίς** να κάνετε **επανεκκίνηση** τον υπολογιστή "στόχο" συνεχίζεται στο
