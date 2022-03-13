@@ -82,7 +82,7 @@ server.
 -   Υπολογιστής "στόχος" με τις προτεινόμενες
     [προδιαγραφές](../../ltsp/requirements.md).
 -   Κατάλληλες ρυθμίσεις στο BIOS "στόχου", ώστε να είναι σε BIOS mode (ή
-    UEFI/legacy mode), γιατί και ο εικονικός `.vmdk` είναι σε BIOS/MBR mode. 
+    UEFI/legacy mode), γιατί και ο εικονικός `.vmdk` είναι σε BIOS/MBR mode.
 -   Εφαρμογή **μόνο** του 1ου βήματος της ενότητας [Λ.Σ. δοκιμών
     (VirtualBox)](#virtualbox).
 
