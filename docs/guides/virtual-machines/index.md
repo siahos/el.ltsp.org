@@ -25,12 +25,12 @@
 20.04 **64 bit**, θα πρέπει να ακολουθήσετε τα επόμενα βήματα:
 
 1.  Από [τερματικό](../../glossary#terminal), την "κατεβάζετε" σε συμπιεσμένη
-    μορφή στο φάκελο `ts-sch-VMs` και την αποσυμπιέζετε στο φάκελο
-    `ts-sch-VMs/focal-mate`:
+    μορφή στο φάκελο `VirtualBox VMs` και την αποσυμπιέζετε στο φάκελο
+    `VirtualBox VMs/focal-mate`:
 
     ```shell
-    mkdir -p ts-sch-VMs
-    cd ts-sch-VMs
+    mkdir -p ~/"VirtualBox VMs"
+    cd ~/"VirtualBox VMs"
     wget https://ts.sch.gr/repo/images/VMs/focal-mate.squashfs
     unsquashfs -f -d focal-mate focal-mate.squashfs
     ```
@@ -51,8 +51,8 @@
     μενού: ***Μηχανή*** ▸ ***Προσθήκη...*** ή με **`Ctrl`**+**`A`**.
 
     !!! tip ""
-        Το αρχείο `focal-mate.vbox` βρίσκεται στον φάκελο
-        `ts-sch-VMs/focal-mate`.
+        Το αρχείο `.vbox` βρίσκεται μέσα στον αντίστοιχο φάκελο του `VirtualBox
+        VMs`.
 
 4.  Πριν επιλέξετε ***Εκκίνηση*** θα πρέπει να ελέγξετε τις ***Ρυθμίσεις*** της
     εικονικής μηχανής. Το κυριότερο είναι το μέγεθος της μνήμης **RAM** να
@@ -83,8 +83,12 @@ server.
     [προδιαγραφές](../../ltsp/requirements.md).
 -   Κατάλληλες ρυθμίσεις στο BIOS "στόχου", ώστε να είναι σε BIOS mode (ή
     UEFI/legacy mode), γιατί και ο εικονικός `.vmdk` είναι σε BIOS/MBR mode.
--   Εφαρμογή **μόνο** του 1ου βήματος της ενότητας [Λ.Σ. δοκιμών
-    (VirtualBox)](#virtualbox).
+-   Συμπιεσμένη εικονική μηχανή `.squashfs` μέσα στο φάκελο `VirtualBox VMs`.
+
+    !!! warning "Προσοχή"
+        Την εικονική μηχανή την "κατεβάζουμε" όπως περιγράφετε στο 1ο βήμα της
+        ενότητας [Λ.Σ. δοκιμών (VirtualBox)](#virtualbox). **Δεν την
+        αποσυμπιέζουμε**.
 
 ### Βήματα υλοποίησης
 
@@ -102,8 +106,10 @@ server.
     sudo swapoff -a
     # Εύρεση του "ονόματος" του τοπικού δίσκου (π.χ. sda).
     lsblk --fs
-    # Εγγραφή του .vmdk στον τοπικό δίσκο (π.χ. sda).
-    sudo dd if=/home/administrator/ts-sch-VMs/focal-mate/focal-mate-flat.vmdk of=/dev/sda bs=1M status=progress
+    # Mount το .squashfs και εγγραφή του .vmdk στον τοπικό δίσκο (π.χ. sda).
+    # π.χ. για το focal-mate:
+    udisksctl loop-setup -f ~/"VirtualBox VMs"/focal-mate.squashfs
+    sudo dd if=/media/$USER/disk/focal-mate-flat.vmdk of=/dev/sda bs=1M status=progress
     ```
 
 4.  **Χωρίς** να κάνετε **επανεκκίνηση** τον υπολογιστή "στόχο" συνεχίζεται στο
