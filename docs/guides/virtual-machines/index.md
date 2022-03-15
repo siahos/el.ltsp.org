@@ -86,9 +86,10 @@ server.
 -   Συμπιεσμένη εικονική μηχανή `.squashfs` μέσα στο φάκελο `VirtualBox VMs`.
 
     !!! warning "Προσοχή"
-        Την εικονική μηχανή την "κατεβάζουμε" όπως περιγράφετε στο 1ο βήμα της
-        ενότητας [Λ.Σ. δοκιμών (VirtualBox)](#virtualbox). **Δεν την
-        αποσυμπιέζουμε**.
+        **Μόνο την "κατεβάζετε", δεν την αποσυμπιέζετε** γιατί μπορεί να σας
+        κάνει overwrite προϋπάρχουσα εικονική μηχανή. Η λήψη μπορεί να γίνει
+        και όπως περιγράφετε στο 1ο βήμα της ενότητας [Λ.Σ. δοκιμών
+        (VirtualBox)](#virtualbox).
 
 ### Βήματα υλοποίησης
 
@@ -110,6 +111,7 @@ server.
     # π.χ. για το focal-mate:
     udisksctl loop-setup -f ~/"VirtualBox VMs"/focal-mate.squashfs
     sudo dd if=/media/$USER/disk/focal-mate-flat.vmdk of=/dev/sda bs=1M status=progress
+    umount /media/$USER/disk
     ```
 
 4.  **Χωρίς** να κάνετε **επανεκκίνηση** τον υπολογιστή "στόχο" συνεχίζεται στο
