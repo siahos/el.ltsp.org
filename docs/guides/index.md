@@ -16,6 +16,7 @@
 - [Python HTTP server](python-http-server/index.md)
 - [sch-webapp-launcher](sch-webapp-launcher/index.md)
 - [win32-loader](win32-loader/index.md)
+- [Zoom](zoom/index.md)
 - [Ανακατεύθυνση σε νέα ιστοσελίδα](redirect-site/index.md)
 - [Απαγόρευση ιστοχώρων](blacklist-sites/index.md)
 - [Απογραφή υποδομών ΤΠΕ-ΣΕΠΕΗΥ (Κτηματολόγιο)](inventory/index.md)
