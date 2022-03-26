@@ -176,7 +176,7 @@ USB) έτσι ώστε στη συνέχεια να τον χρησιμοποι�
     lsblk --fs
     # Προσάρτηση του .squashfs π.χ. για το focal-mate:
     udisksctl loop-setup -f /isodevice/focal-mate.squashfs
-    # To /dev/loop6 της επόμενης εντολής προκύπτει απο το αποτέλεσμα της loop-setup.
+    # Αν το mapped έγινε στο /dev/loop6, τότε:
     udisksclt mount -b /dev/loop6
     # Εγγραφή του .vmdk, στον τοπικό δίσκο π.χ. για sda:
     dd if=/media/$USER/disk/focal-mate-flat.vmdk of=/dev/sda bs=1M status=progress
