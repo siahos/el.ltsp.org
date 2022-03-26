@@ -107,10 +107,11 @@ server.
     sudo swapoff -a
     # Εύρεση του "ονόματος" του τοπικού δίσκου (π.χ. sda).
     lsblk --fs
-    # Mount το .squashfs και εγγραφή του .vmdk στον τοπικό δίσκο (π.χ. sda).
-    # π.χ. για το focal-mate:
+    # Προσάρτηση του .squashfs π.χ. για το focal-mate:
     udisksctl loop-setup -f ~/"VirtualBox VMs"/focal-mate.squashfs
+    # Εγγραφή του .vmdk, στον τοπικό δίσκο π.χ. για sda:
     sudo dd if=/media/$USER/disk/focal-mate-flat.vmdk of=/dev/sda bs=1M status=progress
+    # Αποπροσάρτηση του .squashfs
     umount /media/$USER/disk
     ```
 
@@ -121,7 +122,76 @@ server.
     gparted /dev/sda
     ```
 
-    Στο [GParted](https://ts.sch.gr/docs/linux/guides/gparted/) πρέπει να γίνουν δύο βασικές ενέργειες:
+    Στο [GParted](../gparted/index.md) πρέπει να γίνουν δύο βασικές ενέργειες:
+
+    1.  **Αύξηση** του μεγέθους του swap partition ***/dev/sda2*** σε 4100 MB
+        και **μετακίνηση** του στο τέλος του δίσκου. **Πριν** το επόμενο βήμα
+        να γίνει ***Εφαρμογή όλων των εργασιών*** (εικονίδιο
+        ![](../gparted/Gparted-apply-new-partition.png#inline)).
+
+    2.  **Αύξηση** του μεγέθους του linux partition ***/dev/sda1*** ώστε να
+        καταλαμβάνει όλο το διαθέσιμο δίσκο και ***Εφαρμογή όλων των
+        εργασιών*** (εικονίδιο
+        ![](../gparted/Gparted-apply-new-partition.png#inline)).
+
+Ο υπολογιστής "στόχος" είναι έτοιμος. Μπορείτε να κάνετε επανεκκίνηση ώστε να
+ελέγξετε ότι είναι λειτουργικός.
+
+## Μετατροπή εικονικού δίσκου (vmdk), σε πραγματικό (partition) - Κλωνοποίηση μέσω τοπικού μέσου (Live USB) {:#vmdk-partition-liveusb}
+
+### Σενάριο
+
+Θέλετε να εγκαταστήσετε Ubuntu MATE σε υπολογιστή μέσω τοπικού μέσου (π.χ. Live
+USB) έτσι ώστε στη συνέχεια να τον χρησιμοποιήσετε ως standalone θέση εργασίας
+ή να τον μετατρέψετε σε LTSP server.
+
+### Προϋποθέσεις
+
+-   [Live USB](../../ubuntu/liveusb.md).
+-   [Συμπιεσμένη εικονική μηχανή](index.md) `.squashfs`, στον αρχικό κατάλογο
+    `/` του Live USB.
+-   Υπολογιστής "στόχος" με τις προτεινόμενες
+    [προδιαγραφές](../../ltsp/requirements.md).
+-   Κατάλληλες ρυθμίσεις στο BIOS "στόχου", ώστε να είναι σε BIOS mode (ή
+    UEFI/legacy mode), γιατί και ο εικονικός `.vmdk` είναι σε BIOS/MBR mode.
+
+### Βήματα υλοποίησης
+
+1.  Εκκίνηση του υπολογιστή "στόχου" με τη χρήση του Live USB.
+
+    !!! tip ""
+        Για την εκκίνηση από Live USB ισχύει ότι και στην
+        [Εγκατάσταση](../../ubuntu/installation.md) του Ubuntu.
+
+2.  Από [τερματικό](../../glossary#terminal):
+
+    !!! warning "Προσοχή"
+        Η εντολή `dd` διαγράφει **όλα** τα δεδομένα του δίσκου **οριστικά**!!!
+
+    ```shell
+    sudo -i
+    # Απενεργοποίηση τυχόν τοπικών swap files.
+    swapoff -a
+    # Εύρεση του "ονόματος" του τοπικού δίσκου (π.χ. sda).
+    lsblk --fs
+    # Προσάρτηση του .squashfs π.χ. για το focal-mate:
+    udisksctl loop-setup -f /isodevice/focal-mate.squashfs
+    # To /dev/loop6 της επόμενης εντολής προκύπτει απο το αποτέλεσμα της loop-setup.
+    udisksclt mount -b /dev/loop6
+    # Εγγραφή του .vmdk, στον τοπικό δίσκο π.χ. για sda:
+    dd if=/media/$USER/disk/focal-mate-flat.vmdk of=/dev/sda bs=1M status=progress
+    # Αποπροσάρτηση του .squashfs
+    umount /media/$USER/disk
+    ```
+
+3.  **Χωρίς** να κάνετε **επανεκκίνηση** τον υπολογιστή "στόχο" συνεχίζεται στο
+    τερματικό π.χ. για `/dev/sda`:
+
+    ```shell
+    gparted /dev/sda
+    ```
+
+    Στο [GParted](../gparted/index.md) πρέπει να γίνουν δύο βασικές ενέργειες:
 
     1.  **Αύξηση** του μεγέθους του swap partition ***/dev/sda2*** σε 4100 MB
         και **μετακίνηση** του στο τέλος του δίσκου. **Πριν** το επόμενο βήμα
