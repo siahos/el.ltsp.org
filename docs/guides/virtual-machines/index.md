@@ -3,41 +3,41 @@
 Η Τ.Σ. του Π.Σ.Δ. έχει δημιουργήσει και συντηρεί έτοιμες εικονικές
 μηχανές:
 
-1.  [Ubuntu Bionic MATE 18.04 **32 bit**](https://ts.sch.gr/repo/images/VMs/bionic-mate.squashfs)
+1.  [Ubuntu Bionic MATE 18.04 **32bit**](https://ts.sch.gr/repo/images/VMs/bionic-mate.squashfs)
 
-2.  [Ubuntu Focal MATE 20.04 **64 bit**](https://ts.sch.gr/repo/images/VMs/focal-mate.squashfs)
+2.  [Ubuntu Focal MATE 20.04 **64bit**](https://ts.sch.gr/repo/images/VMs/focal-mate.squashfs)
 
 τις οποίες μπορείτε να χρησιμοποιείτε με διάφορους τρόπους, όπως:
 
 -   Ως Λειτουργικό Σύστημα (Λ.Σ.) δοκιμών (***VirtualBox***) μέσα στο
     πραγματικό Λ.Σ. που ήδη έχετε.
 
--   Αν έχετε μικτό εργαστήριο 32/64 bit clients, ως **εικονικό** 32 bit LTSP
-    server (***VirtualBox***) μέσα σε **πραγματικό** 64 bit LTSP server, χωρίς
-    έτσι να χρειάζεται η αγορά/ύπαρξη δεύτερου πραγματικού LTSP server.
+-   Αν έχετε μικτό εργαστήριο 32/64bit clients, ως **εικονικό** 32bit Λ.Σ.
+    (***VirtualBox***) μέσα σε **πραγματικό** 64bit LTSP server, χωρίς έτσι να
+    χρειάζεται η αγορά/ύπαρξη δεύτερου πραγματικού LTSP server.
 
 -   Ως το κύριο Λ.Σ., μετατρέποντας τον εικονικό σκληρό δίσκο `.vmdk`, σε
     πραγματικό partition του σκληρού σας δίσκου (**Κλωνοποίηση**).
 
 ## Λ.Σ. δοκιμών (VirtualBox) {:#virtualbox}
 
-Για να κάνετε χρήση της έτοιμης εικονικής μηχανής π.χ. της Ubuntu Focal MATE
-20.04 **64 bit**, θα πρέπει να ακολουθήσετε τα επόμενα βήματα:
+Για να κάνετε χρήση της έτοιμης εικονικής μηχανής π.χ. της Ubuntu Bionic MATE
+20.04 **32bit**, θα πρέπει να ακολουθήσετε τα επόμενα βήματα:
 
-1.  Από [τερματικό](../../glossary#terminal), την "κατεβάζετε" σε συμπιεσμένη
-    μορφή στο φάκελο `VirtualBox VMs` και την αποσυμπιέζετε στο φάκελο
-    `VirtualBox VMs/focal-mate`:
+1.  Από [τερματικό](../../glossary#terminal):
 
     ```shell
     mkdir -p ~/"VirtualBox VMs"
     cd ~/"VirtualBox VMs"
-    wget https://ts.sch.gr/repo/images/VMs/focal-mate.squashfs
-    unsquashfs -f -d focal-mate focal-mate.squashfs
+    # Download της συμπιεσμένης εικονικής μηχανής.
+    wget https://ts.sch.gr/repo/images/VMs/bionic-mate.squashfs
+    # Αποσυμπίεση στο φάκελο VirtualBox VMs/bionic-mate.
+    unsquashfs -f -d bionic-mate bionic-mate.squashfs
     ```
 
     !!! tip ""
-        Αν χρειαστείτε και την `bionic-mate`, στις εντολές όπου `focal-mate`
-        αντικαταστήστε με `bionic-mate`.
+        Αν χρειαστείτε την `focal-mate`, στις εντολές όπου `bionic-mate`
+        αντικαταστήστε με `focal-mate`.
 
 2.  [Εγκατάσταση](../../ubuntu/software.md) του ***VirtualBox***. Μόλις
     ολοκληρωθεί η εγκατάσταση, θα το βρείτε στο ***Εφαρμογές*** ▸ ***Εργαλεία
@@ -47,7 +47,7 @@
         Για να εμφανιστεί στο μενού το ***VirtualBox*** θα πρέπει να κάνετε
         ***Αποσύνδεση*** και να επανασυνδεθείτε.
 
-3.  Εισαγωγή της εικονικής μηχανής `focal-mate.vbox` στο VirtualBox από το
+3.  Εισαγωγή της εικονικής μηχανής `bionic-mate.vbox` στο VirtualBox από το
     μενού: ***Μηχανή*** ▸ ***Προσθήκη...*** ή με **`Ctrl`**+**`A`**.
 
     !!! tip ""
@@ -64,6 +64,82 @@
         διπλανής εικόνας, θα πρέπει από το BIOS/UEFI να ενεργοποιήσετε την
         επιλογή ***Intel Virtualization Technology (VT-x)***. Το αντίστοιχο
         μήνυμα για AMD CPU θα είναι: `AMD-V is disabled in the BIOS`.
+
+## Υποστήριξη 32bit clients σε LTSP server 64bit, με χρήση εικονικής μηχανής (VirtualBox) {:#vm-support-32bit-clients}
+
+### Σενάριο
+
+Έχετε ήδη εγκαταστημένο LTSP server **64bit** και θέλετε να υποστηρίξετε **και
+32bit clients**. Λόγω αρχιτεκτονικής **τα 32bit clients δεν μπορούν να
+εξυπηρετηθούν από τον 64bit εικονικό δίσκο**, που ήδη χρησιμοποιείτε για τα
+64bit clients του εργαστηρίου σας. Η λύση σε αυτό είναι η χρήση εικονικής
+μηχανής 32bit (`VirtualBox`).
+
+Ουσιαστικά **θα συντηρείτε δύο Ubuntu MATE**. To 64bit του LTSP server σας και
+το 32bit της εικονικής μηχανής. Για τα 64bit clients δεν αλλάζει κάτι, θα
+συνεχίσουν να εξυπηρετούνται από τον εικονικό δίσκο του LTSP server. Τα 32bit
+clients όμως θα εξυπηρετούνται από 32bit εικονικό δίσκο `.img` τον οποίο θα
+δημιουργείτε απο τον τοπικό δίσκο της εικονικής μηχανής `.vmdk`.
+
+### Προϋποθέσεις
+
+-   Λειτουργικό εργαστήριο με LTSP server με **64bit clients**.
+-   **32bit client(s)** με τις προτεινόμενες
+    [προδιαγραφές](../../ltsp/requirements.md).
+
+### Βήματα υλοποίησης
+
+1.  Ακολουθείτε χωρίς αλλαγές τον οδηγό [Λ.Σ. δοκιμών
+    (VirtualBox)](#virtualbox), ώστε να έχετε στον **64bit** LTSP
+    server σας, μια Bionic MATE **32bit** εικονική μηχανή.
+
+    !!! info "Πληροφορία"
+
+        -   Η εικονική μηχανή **δε συμμετέχει στο τοπικό δίκτυο** του εργαστηρίου
+            γι' αυτο και **δε χρειάζεται αλλαγές στις ρυθμίσεις δικτύου της**. Έχει
+            πρόσβαση στο διαδίκτυο, αλλά βρίσκεται σε άλλο υποδίκτυο (NAT).
+
+        -   Αν και στην εικονική μηχανή θα βρείτε προεγκατεστημένα τον ***Επόπτη*** και
+            τη ***Διαχείριση ΣΕΠΕΗΥ*** τα αγνοείτε. **Η διαχείριση του εργαστηρίου και
+            των χρηστών συνεχίζει να γίνεται απο τον 64bit LTSP server**.
+
+2.  Με **κλειστή** την εικονική μηχανή, από [τερματικό](../../glossary#terminal):
+
+    ```shell
+    # Κατάλληλη "σύνδεση" του x86_32.img, ώστε να δημιουργείται από το bionic-mate-flat.vmdk
+    sudo ln -rs $HOME/VirtualBox\ VMs/bionic-mate/bionic-mate-flat.vmdk /srv/ltsp/x86_32.img
+    # Δημοσίευση εικονικού δίσκου x86_32.img
+    sudo ltsp image x86_32
+    # Ενημέρωση των καταχωρήσεων στο μενού του ipxe.
+    sudo ltsp ipxe
+    ```
+
+    Για να επιβεβαιώσετε ότι πλέον έχετε δύο εικονικούς δίσκους (x86_32/x86_64):
+
+    ```shell-session
+    $ sudo ls -lR /srv/ltsp
+    /srv/ltsp:
+    σύνολο 8
+    drwx------ 2 root root 4096 Απρ   2 12:28 images
+    lrwxrwxrwx 1 root root   73 Απρ   2 12:23 x86_32.img -> '../../home/administrator/VirtualBox VMs/bionic-mate/bionic-mate-flat.vmdk'
+
+    /srv/ltsp/images:
+    σύνολο 4336212
+    -rw-r--r-- 1 root root 2395348992 Απρ   2 12:28 x86_32.img
+    -rw-r--r-- 1 root root 2044923904 Μαρ  16 18:21 x86_64.img
+    ```
+
+Αν όλα έχουν πάει σωστά, ανάλογα ποιας αρχιτεκτονικής client θα εκκινείτε, θα
+επιλέγεται αυτόματα ο κατάλληλος εικονικός δίσκος.
+
+!!! warning "Προσοχή"
+    Να φροντίζετε ώστε η εικονική μηχανή να έχει εγκατεστημένα τα ίδια
+    λογισμικά με τον LTSP server, έτσι ώστε οι χρήστες, ανεξάρτητα ποιας
+    αρχιτεκτονικής clients (32/64bit) θα χρησιμοποιούν, να έχουν διαθέσιμα τα
+    ίδια προγράμματα/μενού. Στη συνέχεια, πάντα με κλειστή την εικονική μηχανή,
+    δημοσίευση του 32bit εικονικού δίσκου: `sudo ltsp image x86_32`.
+
+*Πηγή αγγλικής τεκμηρίωσης: <https://ltsp.org/man/ltsp/#examples>*
 
 ## Μετατροπή εικονικού δίσκου (vmdk), σε πραγματικό (partition) - Κλωνοποίηση μέσω τοπικού δικτύου (LTSP) {:#vmdk-partition-lan-ltsp}
 
