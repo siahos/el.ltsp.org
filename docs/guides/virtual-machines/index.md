@@ -63,7 +63,7 @@ clients όμως θα εξυπηρετούνται από 32bit εικονικό
 
     ```shell
     # Κατάλληλη "σύνδεση" του x86_32.img, ώστε να δημιουργείται από το bionic-mate-flat.vmdk
-    sudo ln -rs $HOME/VirtualBox\ VMs/bionic-mate/bionic-mate-flat.vmdk /srv/ltsp/x86_32.img
+    sudo ln -s $HOME/VirtualBox\ VMs/bionic-mate/bionic-mate-flat.vmdk /srv/ltsp/x86_32.img
     # Δημοσίευση εικονικού δίσκου x86_32.img
     sudo ltsp image x86_32
     # Ενημέρωση των καταχωρήσεων στο μενού του ipxe.
