@@ -7,6 +7,7 @@
 - [Alice](alice/index.md)
 - [App Inventor](appinventor/index.md)
 - [Arduino](arduino/index.md)
+- [Bonding](bonding/index.md)
 - [GameMaker](gamemaker/index.md)
 - [GParted](gparted/index.md)
 - [Java](java/index.md)
