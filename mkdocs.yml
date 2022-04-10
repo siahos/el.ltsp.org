@@ -130,6 +130,7 @@ nav:
     - guides/remote-access/index.md
     - guides/smartboards/index.md
     - guides/virtual-machines/index.md
+    - guides/boot-bios-uefi/index.md
     - guides/printers/index.md
     - guides/compatibility/index.md
     - guides/clean-upgrade/index.md

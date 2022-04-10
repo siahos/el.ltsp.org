@@ -25,6 +25,7 @@
 - [Απομακρυσμένη πρόσβαση](remote-access/index.md)
 - [Διαδραστικοί](smartboards/index.md)
 - [Εικονικές μηχανές (Virtual Machines)](virtual-machines/index.md)
+- [Εκκίνηση σε κατάσταση BIOS ή UEFI](boot-bios-uefi/index.md)
 - [Εκτυπωτές](printers/index.md)
 - [Έλεγχος συμβατότητας](compatibility/index.md)
 - [Καθαρή αναβάθμιση](clean-upgrade/index.md)
