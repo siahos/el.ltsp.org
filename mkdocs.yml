@@ -29,6 +29,7 @@ plugins:
       copyright: Copyright © 2008-2022 Τεχνική Στήριξη ΣΕΠΕΗΥ
       cover_title: ΣΕΠΕΗΥ με Linux
       cover_subtitle: Ubuntu 22.04/LTSP/Epoptes/ltsp
+      debug_html: false
       enabled_if_env: ENABLE_PDF_EXPORT
       heading_shift: true
       ordered_chapter_level: 2
