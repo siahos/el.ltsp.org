@@ -8,16 +8,13 @@ BIOS/UEFI.
 
 !!! tip "Συμβουλή"
 
-    Είναι πιθανό το USB stick να εμφανιστεί δύο φορές στον boot manager, για
-    παράδειγμα:
+    - Είναι πιθανό το USB stick να εμφανιστεί δύο φορές στον boot manager.
+      Δείτε τον οδηγό [Εκκίνηση σε κατάσταση BIOS ή UEFI](../guides/boot-bios-uefi/index.md).
 
-    - ***USB DISK 2.0 (7388MB)***: για εκκίνηση σε κατάσταση BIOS, και
-    - ***UEFI: USB DISK 2.0 (7388MB)***: για εκκίνηση σε κατάσταση UEFI
-
-    Εάν έχετε ήδη κάποιο λειτουργικό σύστημα όπως Microsoft Windows,
-    είναι σημαντικό να εκκινήσετε στην ίδια κατάσταση με το υπάρχον λειτουργικό.
-    Στην περίπτωση των UEFI Windows, ακολουθήστε τον οδηγό
-    [Εγκατάσταση Ubuntu με προεγκατεστημένα UEFI Windows](../guides/install-with-uefi-windows/index.md).
+    - Εάν έχετε ήδη κάποιο λειτουργικό σύστημα όπως Microsoft Windows,
+      είναι σημαντικό να εκκινήσετε στην ίδια κατάσταση με το υπάρχον λειτουργικό.
+      Στην περίπτωση των UEFI Windows, ακολουθήστε τον οδηγό
+      [Ubuntu με UEFI Windows](../guides/install-with-uefi-windows/index.md).
 
 ## Δοκιμή περιβάλλοντος [![](install-01-welcome.png)](install-01-welcome.png)
 
