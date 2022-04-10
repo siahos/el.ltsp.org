@@ -1,0 +1,18 @@
+/* Work around some weasyprint issues */
+@media print {
+
+    div.admonition,
+    div.highlight {
+        clear: both;
+    }
+
+    .md-typeset p.admonition-title:before {
+        left: 0.7rem;
+        top: 0.7rem;
+    }
+
+    .md-typeset ul,
+    .md-typeset ol {
+        padding-left: 0.7rem;
+    }
+}
