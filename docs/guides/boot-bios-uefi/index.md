@@ -47,7 +47,7 @@ stick](../../ubuntu/liveusb/), είτε για την εγκατάσταση λ�
         ***BIOS***.
 
 3.  Όταν είστε στο live περιβάλλον του Ubuntu, μπορείτε να επιβεβαιώσετε αν το
-    live USB stick είναι σε κατάσταση UEFI ή BIOS. Από
+    USB stick είναι σε κατάσταση UEFI ή BIOS. Από
     [τερματικό](../../glossary#terminal):
     ```shell
     ls /sys/firmware/efi
