@@ -280,13 +280,6 @@ img[src$="/v.svg"] {
   background-repeat: no-repeat;
 }
 
-/* Work around some weasyprint issues */
-@media print {
-  div.admonition, div.highlight {
-    clear: both
-  }
-}
-
 /* TESTS */
 
 /* Tests for home-made admonitions using blockquotes */

@@ -1,9 +1,29 @@
-/* Work around some weasyprint issues */
+/* Stylesheet overrides for the PDF export */
+
 @media print {
 
+    /* Weasyprint can't handle <100% width in admonitions or code,
+    so they end up overlaping with right-aligned images */
     div.admonition,
     div.highlight {
         clear: both;
+    }
+
+    /* mkdocs-with-pdf adds /: in jpg links! */
+    a[href$=".jpg/:"]>img {
+        clear: both;
+        float: right;
+        width: 33%;
+        margin: 0 0 0.4rem 0.4rem;
+    }
+
+    html,
+    body {
+        font-size: 125%;
+    }
+
+    .md-typeset pre>code {
+        font-size: 1em;
     }
 
     .md-typeset p.admonition-title:before {
