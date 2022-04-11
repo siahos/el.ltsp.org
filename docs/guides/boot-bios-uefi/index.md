@@ -40,14 +40,15 @@ stick](../../ubuntu/liveusb/), είτε για την εγκατάσταση λ�
     {.clear}
 
     -   Στην περίπτωση του [LiveUSB](../../ubuntu/liveusb.md#liveusb) θα
-        εμφανιστεί μενού GNU GRUB στο οποίο θα υπάρχει επιλογή ***Enter UEFI
+        εμφανιστεί μενού GNU GRUB, στο οποίο θα υπάρχει επιλογή ***Enter UEFI
         setup*** ή ***Boot DOS*** (BIOS).
     -   Αν έχετε χρησιμοποιήσει το [Ventoy](../../ubuntu/liveusb.md#ventoy),
         στο μενού του κάτω αριστερά, θα υπάρχει ένδειξη ***UEFI*** ή
         ***BIOS***.
 
-3.  Από το live περιβάλλον του Ubuntu επιβεβαιώνετε αν το USB stick είναι σε
-    κατάσταση UEFI ή BIOS. Από [τερματικό](../../glossary#terminal):
+3.  Στο το live περιβάλλον του Ubuntu, μπορείτε να επιβεβαιώσετε αν το USB
+    stick είναι σε κατάσταση UEFI ή BIOS. Από
+    [τερματικό](../../glossary#terminal):
     ```shell
     ls /sys/firmware/efi
     ```
