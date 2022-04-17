@@ -132,7 +132,7 @@ nav:
     - guides/remote-access/index.md
     - guides/smartboards/index.md
     - guides/virtual-machines/index.md
-    - guides/boot-bios-uefi/index.md
+    - guides/bios-uefi-boot/index.md
     - guides/printers/index.md
     - guides/compatibility/index.md
     - guides/clean-upgrade/index.md
@@ -140,7 +140,7 @@ nav:
     - guides/repo-ubuntu-12_04/index.md
     - guides/network-issues/index.md
     - guides/kernels/index.md
-    - guides/bios-uefi/index.md
+    - guides/bios-uefi-netboot/index.md
     - guides/contributing/index.md
   - support/index.md
   - glossary/index.md
