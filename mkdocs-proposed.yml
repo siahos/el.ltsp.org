@@ -27,7 +27,7 @@ plugins:
       author: Έκδοση pdf του https://ts.sch.gr/docs/linux
       copyright: Copyright © 2008-2021 Τεχνική Στήριξη ΣΕΠΕΗΥ
       cover_title: ΣΕΠΕΗΥ με Linux
-      cover_subtitle: Ubuntu 20.04/LTSP/Epoptes/sch-scripts
+      cover_subtitle: Ubuntu 22.04/LTSP/Epoptes/sch-scripts
       enabled_if_env: ENABLE_PDF_EXPORT
       heading_shift: true
       ordered_chapter_level: 4
