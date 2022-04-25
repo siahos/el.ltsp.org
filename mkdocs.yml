@@ -25,7 +25,7 @@ plugins:
       minify_html: false
   - search
   - with-pdf:
-      author: Έκδοση pdf του https://ts.sch.gr/docs/linux
+      author: Έκδοση pdf του https://ts.sch.gr/wiki/linux
       copyright: Copyright © 2008-2022 Τεχνική Στήριξη ΣΕΠΕΗΥ
       cover_title: ΣΕΠΕΗΥ με Linux
       cover_subtitle: Ubuntu 22.04/LTSP/Epoptes/ltsp
@@ -38,7 +38,7 @@ plugins:
       toc_title: Πίνακας περιεχομένων
 repo_url: https://github.com/pe86/linux
 site_name: Τεχνική Στήριξη ΣΕΠΕΗΥ
-site_url: https://ts.sch.gr/docs/linux
+site_url: https://ts.sch.gr/wiki/linux
 strict: false
 theme:
 # favicon: favicon.ico
