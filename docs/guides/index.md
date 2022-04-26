@@ -10,6 +10,7 @@
 - [Bonding](bonding/index.md)
 - [GameMaker](gamemaker/index.md)
 - [GParted](gparted/index.md)
+- [GRUB](grub/index.md)
 - [Java](java/index.md)
 - [LAMP server](lamp-server/index.md)
 - [Multiseat](multiseat/index.md)

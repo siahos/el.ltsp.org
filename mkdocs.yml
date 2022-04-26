@@ -117,6 +117,7 @@ nav:
     - guides/bonding/index.md
     - guides/gamemaker/index.md
     - guides/gparted/index.md
+    - guides/grub/index.md
     - guides/java/index.md
     - guides/lamp-server/index.md
     - guides/multiseat/index.md
