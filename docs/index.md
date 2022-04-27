@@ -2,7 +2,7 @@
 
 !!! tip ""
     Το παρόν εγχειρίδιο αναφέρεται κυρίως σε σχολεία που χρησιμοποιούν Ubuntu
-    Linux. Είναι διαθέσιμο και σε [μορφή pdf](linux.pdf).
+    Linux. Είναι διαθέσιμο και σε [μορφή pdf](https://ts.sch.gr/docs/odigies-egkatastasis-diaxirisis/381-odigos-egkatastasis-xrisis-ubuntu-ltsp-sch-scripts-epoptes-ekdosi-22-04).
 
 ## Αρχική εγκατάσταση και διαχείριση
 
