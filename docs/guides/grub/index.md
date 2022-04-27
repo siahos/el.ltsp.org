@@ -31,7 +31,7 @@ Windows να επικαλύψουν (override) τον GRUB** με τον αντ�
     Από [τερματικό](../../glossary/#terminal):
 
     ```shell
-    sudo lsblk --fs
+    lsblk --fs
     ```
 
     !!! tip ""
@@ -78,9 +78,14 @@ Windows να αλλάξουν τον προεπιλεγμένο boot loader** **
     που περιγράφονται στο [Εκκίνηση σε κατάσταση BIOS ή
     UEFI](../bios-uefi-boot/).
 
-2.  Μπορείτε από το περιβάλλον του **εγκατεστημένου** Ubuntu ή κάνοντας
-    [Εκκίνηση σε κατάσταση UEFI](../bios-uefi-boot/), να δείτε/αλλάξετε τα UEFI
-    settings. Σε [τερματικό](../../glossary/#terminal):
+2.  Από το περιβάλλον του **εγκατεστημένου** Ubuntu ή κάνοντας [Εκκίνηση σε
+    κατάσταση UEFI](../bios-uefi-boot/) (live USB stick), μπορείτε να
+    δείτε/αλλάξετε τα UEFI settings. Σε [τερματικό](../../glossary/#terminal):
+
+    !!! tip ""
+        Αν χρησιμοποιήσετε το live USB stick ίσως να χρειαστεί να κάνετε
+        εγκατάσταση το `efibootmgr` με την εντολή: `sudo apt update; sudo apt
+        install efibootmgr`.
 
     ```shell-session
     $ sudo efibootmgr
@@ -94,7 +99,7 @@ Windows να αλλάξουν τον προεπιλεγμένο boot loader** **
 	Boot0008* Hard Drive
     ```
 
-    Στο προηγούμενο παράδειγμα προεπιλεγμένος είναι ο `0002` που αντιστοιχεί στον `Windows Boot Manager`. Από [τερματικό](../../glossary/#terminal) αλλάζετε τη σειρά ώστε ο `BootCurrent` να είναι ο `Boot0000* ubuntu`:
+    Στο προηγούμενο παράδειγμα προεπιλεγμένος είναι ο `0002` που αντιστοιχεί στον `Windows Boot Manager`. Από [τερματικό](../../glossary/#terminal) αλλάζετε τη σειρά ώστε στο επόμενο boot `BootCurrent` να είναι ο `Boot0000* ubuntu`:
 
     ```shell
     sudo efibootmgr -o 0000,0002,0004,0007,0008
@@ -110,21 +115,23 @@ mode), θα πρέπει να κάνετε τα εξής:
 2.  Αναγνώριση των σωστών partition number (Ubuntu/EFI). Από [τερματικό](../../glossary/#terminal):
 
     ```shell
-    sudo lsblk --fs
+    lsblk --fs
     ```
 
     -   Για το **Ubuntu partition number**, συνήθως στη στήλη `FSTYPE` υπάρχει
         χαρακτηρισμός `ext4` και στη στήλη `LABEL` το λεκτικό `Ubuntu`.
-    -   Για το **EFI partition number**, στη στήλη `FSTYPE` υπάρχει χαρακτηρισμός `vfat`
-        και στο `MOUNTPOINT` το path `/boot/efi`.
+    -   Για το **EFI partition number**, στη στήλη `FSTYPE` υπάρχει
+        χαρακτηρισμός `vfat`. Επίσης μπορείτε να το επιβεβαιώσετε με την εντολή
+        `blkid`, από τη γραμμή που αναφέρει: `PARTLABEL="EFI System
+        Partition"`.
 
 3.  Από το αποτέλεσμα του προηγούμενου βήματος έχετε αναγνωρίσει που είναι
     εγκατεστημένο το Ubuntu και που το EFI. Όποτε από
     [τερματικό](../../glossary/#terminal):
 
     !!! warning ""
-        Οι επόμενες εντολές θεωρούν δεδομένο ότι το Ubuntu είναι εγκατεστημένο
-        στο **sda2** και το EFI  στο **sda1**.
+        Οι επόμενες εντολές θεωρούν δεδομένο ότι το **Ubuntu** είναι
+        εγκατεστημένο στο **sda2** και το **EFI**  στο **sda1**.
 
     ```shell
     sudo -i
