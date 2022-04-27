@@ -99,7 +99,7 @@ Windows να αλλάξουν τον προεπιλεγμένο boot loader** **
 	Boot0008* Hard Drive
     ```
 
-    Στο προηγούμενο παράδειγμα προεπιλεγμένος είναι ο `0002` που αντιστοιχεί στον `Windows Boot Manager`. Από [τερματικό](../../glossary/#terminal) αλλάζετε τη σειρά ώστε στο επόμενο boot `BootCurrent` να είναι ο `Boot0000* ubuntu`:
+    Στο προηγούμενο παράδειγμα προεπιλεγμένος είναι ο `0002` που αντιστοιχεί στον `Windows Boot Manager`. Από [τερματικό](../../glossary/#terminal) αλλάζετε τη σειρά ώστε στο επόμενο boot, `BootCurrent` να είναι ο `Boot0000* ubuntu`:
 
     ```shell
     sudo efibootmgr -o 0000,0002,0004,0007,0008
