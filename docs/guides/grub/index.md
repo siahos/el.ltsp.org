@@ -6,15 +6,14 @@
 συστήματα.
 
 !!! warning "Προσοχή"
-    Στις επόμενες ενότητες θα σας ζητηθεί να κάνετε boot με live USB stick. Για
-    την επιδιορθωση του GRUB **δεν είναι απαραίτητο** να είστε στο ίδιο mode
-    (BIOS/UEFI) με το εγκατεστημένο Λ.Σ. Επειδή όμως μπορεί να χρειαστεί να
-    καλέσετε συναρτήσεις UEFI (π.χ. `sudo efibootmgr`) καλό είναι το live USB
-    stick να είναι στο ίδιο mode με το εγκατεστημένο Λ.Σ.
+    Στις επόμενες ενότητες θα σας ζητηθεί να κάνετε boot με live USB stick.
+    Επειδή όμως μπορεί να χρειαστεί να καλέσετε συναρτήσεις UEFI (π.χ. `sudo
+    efibootmgr`), **προτείνεται** να είναι στο ίδιο mode (BIOS/UEFI) με το
+    εγκατεστημένο Λ.Σ.
 
 ## BIOS (Legacy UEFI)
 
-### Επιδιόρθωση GRUB {:#bios-grub-repair}
+### Επιδιόρθωση GRUB {#bios-grub-repair}
 
 Αν έχετε εγκαταστήσει **πρώτα Ubuntu σε BIOS mode** και στη συνέχεια προσθέσετε
 σε διαφορετικό partition και Windows (BIOS mode), τότε το πιο πιθανό είναι **τα
@@ -35,23 +34,21 @@ Windows να επικαλύψουν (override) τον GRUB** με τον αντ�
     ```
 
     !!! tip ""
-        Συνήθως στη στήλη `FSTYPE` υπάρχει χαρακτηρισμός `ext4` και στη στήλη
-        `LABEL` το λεκτικό `Ubuntu`.
+        Συνήθως στη στήλη `FSTYPE` υπάρχει χαρακτηρισμός `ext4`.
 
-3.  Από το αποτέλεσμα του προηγούμενου βήματος έχετε αναγνωρίσει που είναι
-    εγκατεστημένο το Ubuntu. Όποτε από
-    [τερματικό](../../glossary/#terminal):
+3.  Από το αποτέλεσμα του προηγούμενου βήματος, έχετε αναγνωρίσει που είναι
+    εγκατεστημένο το Ubuntu. Όποτε από [τερματικό](../../glossary/#terminal):
 
     !!! warning ""
-        Οι επόμενες εντολές θεωρούν δεδομένο ότι το Ubuntu ειναι εγκατεστημένο
-        στο **sda1**.
+        Στις επόμενες εντολές όπου `sdx1` και `sdx`, αντικαταστήστε με τα
+        σωστά.
 
     ```shell
     sudo -i
-	mount /dev/sda1 /mnt
+	mount /dev/sdx1 /mnt
 	for d in proc sys run dev dev/pts; do mount --bind /$d /mnt/$d; done
 	chroot /mnt
-    grub-install /dev/sda
+    grub-install /dev/sdx
     update-grub
 	for d in dev/pts dev run sys proc; do umount /mnt/$d; done
 	umount /mnt
@@ -61,26 +58,31 @@ Windows να επικαλύψουν (override) τον GRUB** με τον αντ�
 
 ## UEFI
 
-### Προεπιλεγμένος boot loader {:#uefi-current-boot-loader}
-
 Αν έχετε εγκαταστήσει **πρώτα Ubuntu σε UEFI mode** και στη συνέχεια προσθέσετε
-σε διαφορετικό partition και Windows (UEFI mode), τότε το πιο πιθανό είναι **τα
-Windows να αλλάξουν τον προεπιλεγμένο boot loader** **`ubuntu`** με τον
-αντίστοιχο δικό τους **`Windows Boot Manager`**, με συνέπεια να κάνετε **boot
+σε διαφορετικό partition και Windows (UEFI mode), τότε το πιο πιθανό είναι τα
+Windows να αλλάξουν την προεπιλεγμένη καταχώρηση **`ubuntu`**, με την
+αντίστοιχη δική τους **`Windows Boot Manager`**, με συνέπεια να κάνετε **boot
 πάντα σε Windows**.
 
-Αρχικά για να επιδιορθωθεί αυτό το πρόβλημα, θα πρέπει να αλλάξετε το
-προεπιλεγμένο boot loader, ώστε να είναι το **`ubuntu`**. Αυτό μπορεί να γίνει
-με δύο τρόπους:
+Αυτό συνήθως μας δημιουργεί την εντύπωση ότι θέλει [Επιδιόρθωση ο
+GRUB](#uefi-grub-repair), κάτι όμως που **δεν είναι απαραίτητο να γίνει**.
+Αρκεί μόνο να **αλλάξετε** τον [Προεπιλεγμένο boot
+loader](#uefi-current-boot-loader).
 
-1.  Ορίζοντας από τις ρυθμίσεις του UEFI, ως 1ο boot loader το **`ubuntu`** .
-    Για να έχετε πρόσβαση στις σχετικές επιλογές, μπορείτε να δοκιμάστε τα
-    πλήκτρα που περιγράφονται στο [Εκκίνηση σε κατάσταση BIOS ή
+### Προεπιλεγμένος boot loader {#uefi-current-boot-loader}
+
+Για να αλλάξετε την προεπιλεγμένη καταχώρηση σε **`ubuntu`**, μπορείτε να το
+κάνετε με δύο τρόπους:
+
+1.  Ορίζοντας στις ρυθμίσεις του UEFI, ως πρώτη καταχώρηση στο boot sequence,
+    το **`ubuntu`**. Για να έχετε πρόσβαση στις σχετικές επιλογές, μπορείτε να
+    δοκιμάστε τα πλήκτρα που περιγράφονται στο [Εκκίνηση σε κατάσταση BIOS ή
     UEFI](../bios-uefi-boot/).
 
 2.  Από το περιβάλλον του **εγκατεστημένου** Ubuntu ή κάνοντας [Εκκίνηση σε
     κατάσταση UEFI](../bios-uefi-boot/) (live USB stick), μπορείτε να
-    δείτε/αλλάξετε τα UEFI settings. Σε [τερματικό](../../glossary/#terminal):
+    δείτε/αλλάξετε το UEFI boot order. Σε
+    [τερματικό](../../glossary/#terminal):
 
     !!! tip ""
         Αν χρησιμοποιήσετε το live USB stick ίσως να χρειαστεί να κάνετε
@@ -99,13 +101,16 @@ Windows να αλλάξουν τον προεπιλεγμένο boot loader** **
 	Boot0008* Hard Drive
     ```
 
-    Στο προηγούμενο παράδειγμα προεπιλεγμένος boot loader είναι ο `0002` που αντιστοιχεί στον `Windows Boot Manager`. Από [τερματικό](../../glossary/#terminal), αλλάξτε τη σειρά ώστε στο επόμενο boot, `BootCurrent` να είναι ο `Boot0000* ubuntu`:
+    Στο προηγούμενο παράδειγμα, προεπιλεγμένη καταχώρηση είναι ο `0002`, που
+    αντιστοιχεί στον `Windows Boot Manager`. Από
+    [τερματικό](../../glossary/#terminal), αλλάξτε τη σειρά ώστε στο επόμενο boot,
+    `BootCurrent` να είναι ο `Boot0000* ubuntu`:
 
     ```shell
     sudo efibootmgr -o 0000,0002,0004,0007,0008
     ```
 
-### Επιδιόρθωση GRUB {:#uefi-grub-repair}
+### Επιδιόρθωση GRUB {#uefi-grub-repair}
 
 Σε κάθε περίπτωση που θέλετε να επιδιορθώσετε/επανεγκαταστήσετε τον GRUB (UEFI
 mode), θα πρέπει να κάνετε τα εξής:
@@ -120,27 +125,27 @@ mode), θα πρέπει να κάνετε τα εξής:
     ```
 
     -   Για το **Ubuntu partition number**, συνήθως στη στήλη `FSTYPE` υπάρχει
-        χαρακτηρισμός `ext4` και στη στήλη `LABEL` το λεκτικό `Ubuntu`.
+        χαρακτηρισμός `ext4`.
     -   Για το **EFI partition number**, στη στήλη `FSTYPE` υπάρχει
         χαρακτηρισμός `vfat`. Επίσης μπορείτε να το επιβεβαιώσετε με την εντολή
         `blkid`, από τη γραμμή που αναφέρει: `PARTLABEL="EFI System
         Partition"`.
 
-3.  Από το αποτέλεσμα του προηγούμενου βήματος έχετε αναγνωρίσει που είναι
+3.  Από το αποτέλεσμα του προηγούμενου βήματος, έχετε αναγνωρίσει που είναι
     εγκατεστημένο το Ubuntu και που το EFI. Όποτε από
     [τερματικό](../../glossary/#terminal):
 
     !!! warning ""
-        Οι επόμενες εντολές θεωρούν δεδομένο ότι το **Ubuntu** είναι
-        εγκατεστημένο στο **sda2** και το **EFI**  στο **sda1**.
+        Στις επόμενες εντολές όπου `sdx2` (Ubuntu), `sdx1` (EFI) και `sdx`,
+        αντικαταστήστε με τα σωστά.
 
     ```shell
     sudo -i
-	mount /dev/sda2 /mnt
-    mount /dev/sda1 /mnt/boot/efi/
+	mount /dev/sdx2 /mnt
+    mount /dev/sdx1 /mnt/boot/efi/
 	for d in proc sys run dev dev/pts; do mount --bind /$d /mnt/$d; done
 	chroot /mnt
-    grub-install /dev/sda
+    grub-install /dev/sdx
     update-grub
 	for d in dev/pts dev run sys proc; do umount /mnt/$d; done
 	umount /mnt/boot/efi
