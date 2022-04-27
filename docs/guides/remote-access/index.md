@@ -120,7 +120,7 @@ xfreerdp /v:localhost:3390 /relax-order-checks +glyph-cache /size:1600x900
 mstsc /v:localhost:3390
 ```
 
-## Πρόσβαση με SSH κλειδιά (για προχωρημένους) {:#ssh-keys}
+## Πρόσβαση με SSH κλειδιά (για προχωρημένους) {#ssh-keys}
 
 -   Αυτό μας εξασφαλίζει ότι ΜΟΝΟ όποιος έχει το σωστό SSH κλειδί (private)
     μπορεί να συνδεθεί μέσω της πόρτας 7100 στον LTSP server.

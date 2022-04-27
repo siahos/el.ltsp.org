@@ -18,9 +18,9 @@
 
 -   Ως εικονικό Λ.Σ. δοκιμών (Ubuntu MATE), μέσα στο πραγματικό Λ.Σ. που ήδη έχετε.
 
-## 32bit clients σε LTSP server 64bit {:#32bit-clients-ltsp-64bit}
+## 32bit clients σε LTSP server 64bit {#32bit-clients-ltsp-64bit}
 
-### Σενάριο {:#32bit-clients-ltsp-64bit-scenario}
+### Σενάριο {#32bit-clients-ltsp-64bit-scenario}
 
 Έχετε ήδη εγκαταστημένο LTSP server **64bit** και θέλετε να υποστηρίξετε **και
 32bit clients**. Λόγω αρχιτεκτονικής **τα 32bit clients δεν μπορούν να
@@ -34,13 +34,13 @@
 clients όμως θα εξυπηρετούνται από 32bit εικονικό δίσκο `.img` τον οποίο θα
 δημιουργείτε απο τον τοπικό δίσκο της εικονικής μηχανής `.vmdk`.
 
-### Προϋποθέσεις {:#32bit-clients-ltsp-64bit-conditions}
+### Προϋποθέσεις {#32bit-clients-ltsp-64bit-conditions}
 
 -   Λειτουργικό εργαστήριο με LTSP server με **64bit clients**.
 -   **32bit client(s)** με τις προτεινόμενες
     [προδιαγραφές](../../ltsp/requirements.md).
 
-### Βήματα υλοποίησης {:#32bit-clients-ltsp-64bit-steps}
+### Βήματα υλοποίησης {#32bit-clients-ltsp-64bit-steps}
 
 1.  Ακολουθείτε χωρίς αλλαγές τον οδηγό [Λ.Σ. δοκιμών (Ubuntu
     MATE)](#os-testing), ώστε να έχετε στον **64bit** LTSP server σας, μια
@@ -103,16 +103,16 @@ clients όμως θα εξυπηρετούνται από 32bit εικονικό
         **να την κλείνετε** και να κάνετε δημοσίευση του 32bit εικονικού δίσκου της:
         `sudo ltsp image x86_32`.
 
-## Κλωνοποίηση μέσω LTSP server {:#clone-via-ltsp}
+## Κλωνοποίηση μέσω LTSP server {#clone-via-ltsp}
 
-### Σενάριο {:#clone-via-ltsp-scenario}
+### Σενάριο {#clone-via-ltsp-scenario}
 
 Έχετε ήδη εγκαταστημένο LTSP server και θέλετε να εγκαταστήσετε Ubuntu MATE σε
 υπολογιστή μέσω του τοπικού δικτύου, έτσι ώστε στη συνέχεια, να τον
 χρησιμοποιήσετε ως standalone θέση εργασίας ή να τον μετατρέψετε σε LTSP
 server.
 
-### Προϋποθέσεις {:#clone-via-ltsp-conditions}
+### Προϋποθέσεις {#clone-via-ltsp-conditions}
 
 -   Λειτουργικός LTSP server.
 -   Τοπικό δίκτυο. Προτείνεται στα 1000 Mbps έτσι ώστε να γίνει πολύ γρήγορα η
@@ -129,7 +129,7 @@ server.
         μπορεί να γίνει και όπως περιγράφετε στο 1ο βήμα της ενότητας [Λ.Σ.
         δοκιμών (Ubuntu MATE)](#os-testing).
 
-### Βήματα υλοποίησης {:#clone-via-ltsp-steps}
+### Βήματα υλοποίησης {#clone-via-ltsp-steps}
 
 1.  [Εκκίνηση από το δίκτυο](../../ltsp/netboot.md) του υπολογιστή "στόχου".
 
@@ -175,15 +175,15 @@ server.
 Ο υπολογιστής "στόχος" είναι έτοιμος. Μπορείτε να κάνετε επανεκκίνηση ώστε να
 ελέγξετε ότι είναι λειτουργικός.
 
-## Κλωνοποίηση μέσω Live USB {:#clone-via-liveusb}
+## Κλωνοποίηση μέσω Live USB {#clone-via-liveusb}
 
-### Σενάριο {:#clone-via-liveusb-scenario}
+### Σενάριο {#clone-via-liveusb-scenario}
 
 Θέλετε να εγκαταστήσετε Ubuntu MATE σε υπολογιστή μέσω τοπικού μέσου (π.χ. Live
 USB), έτσι ώστε στη συνέχεια, να τον χρησιμοποιήσετε ως standalone θέση εργασίας
 ή να τον μετατρέψετε σε LTSP server.
 
-### Προϋποθέσεις {:#clone-via-liveusb-conditions}
+### Προϋποθέσεις {#clone-via-liveusb-conditions}
 
 -   [Live USB](../../ubuntu/liveusb.md).
 -   [Συμπιεσμένη εικονική μηχανή](index.md) `.squashfs`, στον αρχικό κατάλογο
@@ -193,7 +193,7 @@ USB), έτσι ώστε στη συνέχεια, να τον χρησιμοπο�
 -   Κατάλληλες ρυθμίσεις στο BIOS "στόχου", ώστε να είναι σε BIOS mode (ή
     UEFI/legacy mode), γιατί και ο εικονικός `.vmdk` είναι σε BIOS/MBR mode.
 
-### Βήματα υλοποίησης {:#clone-via-liveusb-steps}
+### Βήματα υλοποίησης {#clone-via-liveusb-steps}
 
 1.  Εκκίνηση του υπολογιστή "στόχου" με τη χρήση του Live USB.
 
@@ -229,7 +229,7 @@ USB), έτσι ώστε στη συνέχεια, να τον χρησιμοπο�
 Ο υπολογιστής "στόχος" είναι έτοιμος. Μπορείτε να κάνετε επανεκκίνηση ώστε να
 ελέγξετε ότι είναι λειτουργικός.
 
-## Λ.Σ. δοκιμών (Ubuntu MATE) {:#os-testing}
+## Λ.Σ. δοκιμών (Ubuntu MATE) {#os-testing}
 
 Για να κάνετε χρήση της έτοιμης εικονικής μηχανής π.χ. της Ubuntu Bionic MATE
 18.04 **32bit**, θα πρέπει να ακολουθήσετε τα επόμενα βήματα:
