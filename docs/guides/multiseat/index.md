@@ -74,7 +74,7 @@ Multiseat σημαίνει **μία κεντρική μονάδα Η/Υ**, με 
     MULTISEAT=1
     ```
 
-7.  Στη συνέχεια: [ltsp initrd](../../ltsp/ltsp-commands.md#-ltsp-initrd) και
+7.  Στη συνέχεια: [ltsp initrd](../../ltsp/ltsp-commands.md#ltsp-initrd) και
     **επανεκκίνηση** του client.
 
     !!! tip "Συμβουλή"
