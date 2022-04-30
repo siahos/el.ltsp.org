@@ -256,11 +256,11 @@ $ μπορούμε να χρησιμοποιήσουμε το $
 
 Παράδειγμα σύνταξης:
 
-    [![](synaptic.png)](https://ts.sch.gr/wiki/linux/ubuntu/software/#χρήση-του-synaptic)
+    [![](synaptic.png)](https://ts.sch.gr/wiki/linux/ubuntu/software.md#χρήση-του-synaptic)
 
 Αποτέλεσμα:
 
-[![](synaptic.png)](https://ts.sch.gr/wiki/linux/ubuntu/software/#χρήση-του-synaptic)
+[![](synaptic.png)](https://ts.sch.gr/wiki/linux/ubuntu/software.md#χρήση-του-synaptic)
 
 ## Εικόνα δεξιά σε κείμενο
 

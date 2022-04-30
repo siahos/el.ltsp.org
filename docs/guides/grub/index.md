@@ -27,7 +27,7 @@ Windows να επικαλύψουν (override) τον GRUB** με τον αντ�
 1.  [Εκκίνηση σε κατάσταση BIOS](../bios-uefi-boot/) (live USB stick).
 
 2.  Αναγνώριση του partition number στο οποίο είναι εγκατεστημένο το Ubuntu.
-    Από [τερματικό](../../glossary/#terminal):
+    Από [τερματικό](../../glossary/index.md#terminal):
 
     ```shell
     lsblk --fs
@@ -37,7 +37,7 @@ Windows να επικαλύψουν (override) τον GRUB** με τον αντ�
         Συνήθως στη στήλη `FSTYPE` υπάρχει χαρακτηρισμός `ext4`.
 
 3.  Από το αποτέλεσμα του προηγούμενου βήματος, έχετε αναγνωρίσει που είναι
-    εγκατεστημένο το Ubuntu. Όποτε από [τερματικό](../../glossary/#terminal):
+    εγκατεστημένο το Ubuntu. Όποτε από [τερματικό](../../glossary/index.md#terminal):
 
     !!! warning ""
         Στις επόμενες εντολές όπου `sdx1` και `sdx`, αντικαταστήστε με τα
@@ -83,7 +83,7 @@ Windows να αλλάξουν την προεπιλεγμένη καταχώρη
 2.  Από το περιβάλλον του **εγκατεστημένου** Ubuntu ή κάνοντας [Εκκίνηση σε
     κατάσταση UEFI](../bios-uefi-boot/) (live USB stick), μπορείτε να
     δείτε/αλλάξετε το UEFI boot order. Σε
-    [τερματικό](../../glossary/#terminal):
+    [τερματικό](../../glossary/index.md#terminal):
 
     !!! tip ""
         Αν χρησιμοποιήσετε το live USB stick ίσως να χρειαστεί να κάνετε
@@ -104,7 +104,7 @@ Windows να αλλάξουν την προεπιλεγμένη καταχώρη
 
     Στο προηγούμενο παράδειγμα, προεπιλεγμένη καταχώρηση είναι ο `0002`, που
     αντιστοιχεί στον `Windows Boot Manager`. Από
-    [τερματικό](../../glossary/#terminal), αλλάξτε τη σειρά ώστε στο επόμενο boot,
+    [τερματικό](../../glossary/index.md#terminal), αλλάξτε τη σειρά ώστε στο επόμενο boot,
     `BootCurrent` να είναι ο `Boot0000* ubuntu`:
 
     ```shell
@@ -119,7 +119,7 @@ mode), θα πρέπει να κάνετε τα εξής:
 1.  [Εκκίνηση σε κατάσταση UEFI](../bios-uefi-boot/) (live USB stick).
 
 2.  Αναγνώριση των partition numbers, Ubuntu και EFI. Από
-    [τερματικό](../../glossary/#terminal):
+    [τερματικό](../../glossary/index.md#terminal):
 
     ```shell
     lsblk --fs
@@ -134,7 +134,7 @@ mode), θα πρέπει να κάνετε τα εξής:
 
 3.  Από το αποτέλεσμα του προηγούμενου βήματος, έχετε αναγνωρίσει που είναι
     εγκατεστημένο το Ubuntu και που το EFI. Όποτε από
-    [τερματικό](../../glossary/#terminal):
+    [τερματικό](../../glossary/index.md#terminal):
 
     !!! warning ""
         Στις επόμενες εντολές όπου `sdx2` (Ubuntu), `sdx1` (EFI) και `sdx`,

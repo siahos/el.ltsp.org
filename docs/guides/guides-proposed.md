@@ -11,7 +11,7 @@
     - [Java](java/index.md)
 - Λογισμικά εκπαίδευσης με τοπική εγκατάσταση
     - **Εδώ μπορεί να υπάρχει το [Μεταπακέτα ανά
-      βαθμίδα](https://pe86.github.io/linux/ubuntu/software/#μεταπακέτα-ανά-βαθμίδα).
+      βαθμίδα](https://pe86.github.io/linux/ubuntu/software.md#μεταπακέτα-ανά-βαθμίδα).
       Η αναφορά στο synaptic να γίνετε μέσω glossary.**
     - [App Inventor](appinventor/index.md)
     - [Alice](alice/index.md)
@@ -22,9 +22,9 @@
     - **Εδώ μπορεί να υπάρχει το [Αποθετήρια
       λογισμικού](https://pe86.github.io/linux/ubuntu/repositories/)**
     - **Εδώ από την [Εγκατάσταση του
-      Synaptic](https://pe86.github.io/linux/ubuntu/software/#εγκατάσταση-του-synaptic)
+      Synaptic](https://pe86.github.io/linux/ubuntu/software.md#εγκατάσταση-του-synaptic)
       και τη [Χρήση του
-      Synaptic](https://pe86.github.io/linux/ubuntu/software/#χρήση-του-synaptic)
+      Synaptic](https://pe86.github.io/linux/ubuntu/software.md#χρήση-του-synaptic)
       μπορεί να υπάρχει ένα σκέτο το Synaptic όπως ειναι πιο κάτω το GParted**
     - [Παρακολούθηση συστήματος](mate-system-monitor/index.md)
     - [Απομακρυσμένη πρόσβαση](remote-access/index.md)

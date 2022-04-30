@@ -18,7 +18,7 @@ UEFI mode. Σε αυτήν την περίπτωση, αν δε θέλετε ν�
 2.  [![](type-of-installation.png)](type-of-installation.png) Ακολουθείτε τα
     βήματα [Εγκατάσταση του Ubuntu](../../ubuntu/installation/). Στο βήμα
     εγκατάστασης [Διατήρηση του περιβάλλοντος Microsoft
-    Windows](../../ubuntu/disk-windows/#διατήρηση-του-περιβάλλοντος-microsoft-windows),
+    Windows](../../ubuntu/disk-windows.md#διατήρηση-του-περιβάλλοντος-microsoft-windows),
     στην περίπτωση των UEFI Windows, επιλέγουμε ***Εγκατάσταση του Ubuntu MATE
     μαζί με το Windows Boot Manager*** όπως φαίνεται στη διπλανή εικόνα.
 
