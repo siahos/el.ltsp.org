@@ -9,7 +9,8 @@
 
 ## Της μητρικής (Motherboard)
 
-1.  Όταν έχετε επώνυμο, με brand name Η/Υ (π.χ. Lenovo ThinkCentre M91p):
+1.  Όταν έχετε **επώνυμο**, με **brand name** Η/Υ (π.χ. Lenovo ThinkCentre
+    M91p):
 
     ```shell-session
     $ sudo dmidecode -t system | grep "Manufacturer\|Product Name\|Version"
@@ -18,7 +19,8 @@
     Version: ThinkCentre M91p
     ```
 
-2.  Όταν ΔΕΝ έχετε επώνυμο Η/Υ και θέλετε τον τύπο της μητρικής (π.χ. Asus H110M-D):
+2.  Όταν **δεν έχετε επώνυμο** Η/Υ και θέλετε τον τύπο της μητρικής (π.χ. Asus
+    H110M-D):
 
     ```shell-session
     $ sudo dmidecode -t baseboard | grep "Manufacturer\|Product Name\|Version"
@@ -118,7 +120,7 @@ Configured Memory Speed: Unknown
     κλικ*** ▸ ***Εκτέλεση*** ▸ ***Άνοιγμα κονσόλας*** ▸ ***Διαχειριστή,
     τοπικά***.
 
-2.  Στο παράθυρο (***XTerm***) που ανοίγει, μπορείτε να αντιγράψετε (από τον
+2.  Στο παράθυρο ***XTerm*** που ανοίγει, μπορείτε να αντιγράψετε (από τον
     οδηγό) την εντολή που θέλετε και να την κάνετε επικόλληση, πατώντας το
     **μεσαίο κλικ** (κλικ πατώντας τη ροδέλα του ποντικιού) ή με
     **`Shift`**+**`Insert`**. π.χ.
