@@ -19,8 +19,8 @@ enablement](https://wiki.ubuntu.com/Kernel/LTSEnablementStack)).
 τις παρακάτω οδηγίες.
 
 !!! warning "Προσοχή"
-    Αν έχετε παλιό Ubuntu 18.04 αντί για >= 20.04, τότε στις παρακάτω οδηγίες
-    όπου βλέπετε την λέξη `linux-generic-hwe` αντικαταστήστε την με την
+    Αν έχετε παλιό Ubuntu, τότε στις παρακάτω οδηγίες όπου βλέπετε την λέξη
+    `linux-generic-hwe-22.04` αντικαταστήστε την με την έκδοσή σας, π.χ.
     `linux-generic-hwe-18.04`.
 
 ## Προβολή έκδοσης
@@ -50,11 +50,11 @@ hwe στην generic, δώστε:
 sudo apt install linux-generic
 ```
 
-Στη συνέχεια κάντε επανεκκίνηση και στο μενού του grub επιλέξτε τον προηγούμενο
-πυρήνα. Τέλος, δώστε:
+Στη συνέχεια κάντε επανεκκίνηση και στο μενού ***Advanced options for Ubuntu***
+του grub επιλέξτε τον προηγούμενο πυρήνα. Τέλος, δώστε:
 
 ```shell
-sudo apt purge --auto-remove linux-generic-hwe
+sudo apt purge --auto-remove linux-generic-hwe-22.04
 ```
 
 Εάν έχετε LTSP, κάντε και δημοσίευση εικονικού δίσκου.
@@ -74,7 +74,7 @@ drivers για την κάρτα γραφικών, δικτύου κλπ. Με �
 Για να εγκαταστήσετε τη hwe σειρά του πυρήνα και του xorg δώστε:
 
 ```shell
-sudo apt install linux-generic-hwe
+sudo apt install linux-generic-hwe-22.04
 ```
 
 Στη συνέχεια κάντε επανεκκίνηση ώστε να φορτώσει ο νεότερος πυρήνας. Τέλος,
