@@ -127,6 +127,7 @@ nav:
     - guides/install-with-uefi-windows/index.md
     - guides/win32-loader/index.md
     - guides/zoom/index.md
+    - guides/upgrade/index.md
     - guides/redirect-site/index.md
     - guides/blacklist-sites/index.md
     - guides/inventory/index.md
