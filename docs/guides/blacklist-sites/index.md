@@ -13,8 +13,8 @@ sudo pluma /etc/dnsmasq.d/local.conf
 
 ```text title="/etc/dnsmasq.d/local.conf"
 # Απενεργοποίηση των ακόλουθων ιστοχώρων
-address=/facebook.com/127.0.0.1
-address=/zoo.gr/127.0.0.1
+address=/facebook.com/#
+address=/zoo.gr/#
 ```
 
 Αποθηκεύστε και επανεκκινήστε το `dnsmasq`:
