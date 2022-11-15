@@ -63,13 +63,29 @@ AUTOLOGIN="user-01"
 LTSPDM_USERS="guest-*%{HOSTNAME#pc}"
 ```
 
-Αν αντίθετα θέλουμε να κρύψουμε εντελώς τη λίστα χρηστών και να παραμείνει μόνο
+## LTSPDM_CONF
+
+Αν αντίθετα θέλετε να κρύψετε εντελώς τη λίστα χρηστών και να παραμείνει μόνο
 η χειρωνακτική σύνδεση, η σχετική παράμετρος είναι:
 
 ```text title="/etc/ltsp/ltsp.conf"
 [clients]
 LIGHTDM_CONF="greeter-hide-users=true"
 ```
+
+Σε περίπτωση που θέλετε να εφαρμόσετε τη χειρωνακτική σύνδεση **και για τον
+LTSP server** τότε:
+
+```text title="/etc/lightdm/lightdm.conf.d/local.conf"
+[Seat:*]
+greeter-hide-users=true
+```
+
+!!! tip "Χρήσιμο"
+    Αν εφαρμόσετε τη μέθοδο και για τον LTSP server, θα επηρεάσει όλα τα
+    clients, οπότε δεν είναι απαραίτητη η αντίστοιχη παράμετρος στο
+    `ltsp.conf`. Σε περίπτωση που δεν υπάρχει το αρχείο, το δημιουργείτε π.χ.
+    `sudo pluma`.
 
 ## PASSWORDS_GUESTS
 
