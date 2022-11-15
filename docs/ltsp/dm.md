@@ -85,7 +85,7 @@ greeter-hide-users=true
     Αν εφαρμόσετε τη μέθοδο και για τον LTSP server, θα επηρεάσει όλα τα
     clients, οπότε δεν είναι απαραίτητη η αντίστοιχη παράμετρος στο
     `ltsp.conf`. Σε περίπτωση που δεν υπάρχει το αρχείο, το δημιουργείτε π.χ.
-    `sudo pluma`.
+    με `sudo pluma /etc/lightdm/lightdm.conf.d/local.conf`.
 
 ## PASSWORDS_GUESTS
 
