@@ -36,6 +36,16 @@ https://github.com/squidfunk/mkdocs-material/issues/3437#issuecomment-1008354954
   filter: invert(100%);
 }
 
+/*Admonitions with classic appearance
+https://squidfunk.github.io/mkdocs-material/reference/admonitions/#classic-admonitions
+*/
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 0;
+  border-left-width: 4px;
+}
+
 .md-typeset :-moz-any(.tip, .hint, .important) > :-moz-any(.admonition-title, summary)::before {
   background-color: initial;
   background-image: var(--md-admonition-icon--tip);
