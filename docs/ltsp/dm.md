@@ -47,6 +47,20 @@ AUTOLOGIN="user-01"
 !!! info "Πληροφορία"
     Εάν χρησιμοποιείτε NFS δεν απαιτείται να δώσετε κωδικό.
 
+Σε περίπτωση που θέλετε να εφαρμόσετε αυτόματη σύνδεση **και για τον LTSP
+server**, π.χ. ως χρήστης `guest01`, από [τερματικό](../../glossary#terminal):
+
+```shell
+sudo pluma /etc/lightdm/lightdm.conf.d/local.conf
+```
+
+με περιεχόμενο:
+
+```text title="/etc/lightdm/lightdm.conf.d/local.conf"
+[Seat:*]
+autologin-user=guest01
+```
+
 ## LTSPDM_USERS
 
 Η οδηγία `LTSPDM_USERS` καθορίζει ποιοι λογαριασμοί χρηστών θα εμφανίζονται
@@ -73,7 +87,14 @@ LTSPDM_USERS="guest-*%{HOSTNAME#pc}"
 LIGHTDM_CONF="greeter-hide-users=true"
 ```
 
-Σε περίπτωση που θέλετε να το εφαρμόσετε **και για τον LTSP server** τότε:
+Σε περίπτωση που θέλετε να το εφαρμόσετε **και για τον LTSP server**, από
+[τερματικό](../../glossary#terminal):
+
+```shell
+sudo pluma /etc/lightdm/lightdm.conf.d/local.conf
+```
+
+με περιεχόμενο:
 
 ```text title="/etc/lightdm/lightdm.conf.d/local.conf"
 [Seat:*]
@@ -83,9 +104,7 @@ greeter-hide-users=true
 !!! tip "Χρήσιμο"
     Αν το εφαρμόσετε **και για τον LTSP server**, μετά από δημοσίευση εικονικού
     δίσκου, **θα ισχύει και για όλα τα clients**. Σε αυτήν την περίπτωση δεν
-    είναι απαραίτητη η αντίστοιχη παράμετρος στο `ltsp.conf`. Το αρχείο
-    μπορείτε να το δημιουργήσετε/επεξεργαστείτε με `sudo pluma
-    /etc/lightdm/lightdm.conf.d/local.conf`.
+    είναι απαραίτητη η αντίστοιχη παράμετρος στο `ltsp.conf`.
 
 ## PASSWORDS_GUESTS
 
