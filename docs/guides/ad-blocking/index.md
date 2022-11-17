@@ -11,7 +11,7 @@
 [Ad blocking](https://en.wikipedia.org/wiki/Ad_blocking) -
 [Internet filter](https://en.wikipedia.org/wiki/Internet_filter).
 
-## Λογισμικό {#software}
+## uBlock Origin {#ublock}
 
 Το λογισμικό [uBlock Origin](https://en.wikipedia.org/wiki/UBlock_Origin) είναι
 πολύ αποτελεσματικό και επιπλέον καταναλώνει ελάχιστους πόρους από το σύστημά
