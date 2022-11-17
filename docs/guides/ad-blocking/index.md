@@ -19,10 +19,8 @@
 προτείνεται, στα πλαίσια του μαθήματος, να γίνει από τους ίδιους τους μαθητές
 και να παροτρυνθούν να το κάνουν **και στους προσωπικούς τους υπολογιστές**.
 
-## Εγκατάσταση {#installation}
-
 Το [uBlock Origin](https://en.wikipedia.org/wiki/UBlock_Origin), διατίθεται ως
-[Browser extension](https://en.wikipedia.org/wiki/Browser_extension)
+[browser extension](https://en.wikipedia.org/wiki/Browser_extension)
 και για τους δύο δημοφιλείς περιηγητές, **Google Chrome** και **Firefox**.
 
 ## Google Chrome {#chrome}
