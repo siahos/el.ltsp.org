@@ -24,6 +24,7 @@
 - [Ανακατεύθυνση σε νέα ιστοσελίδα](redirect-site/index.md)
 - [Απαγόρευση ιστοχώρων](blacklist-sites/index.md)
 - [Απογραφή υποδομών ΤΠΕ-ΣΕΠΕΗΥ (Κτηματολόγιο)](inventory/index.md)
+- [Αποκλεισμός διαφημίσεων](ad-blocking/index.md)
 - [Απομακρυσμένη πρόσβαση](remote-access/index.md)
 - [Διαδραστικοί](smartboards/index.md)
 - [Εικονικές μηχανές (Virtual Machines)](virtual-machines/index.md)

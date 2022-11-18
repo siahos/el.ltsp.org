@@ -131,6 +131,7 @@ nav:
     - guides/redirect-site/index.md
     - guides/blacklist-sites/index.md
     - guides/inventory/index.md
+    - guides/ad-blocking/index.md
     - guides/remote-access/index.md
     - guides/smartboards/index.md
     - guides/virtual-machines/index.md
