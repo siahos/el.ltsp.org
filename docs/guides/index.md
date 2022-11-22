@@ -32,6 +32,7 @@
 - [Εκτυπωτές](printers/index.md)
 - [Έλεγχος συμβατότητας](compatibility/index.md)
 - [Καθαρή αναβάθμιση](clean-upgrade/index.md)
+- [Κλειδοθήκη](keyring/index.md)
 - [Παρακολούθηση συστήματος](mate-system-monitor/index.md)
 - [Παρωχημένα αποθετήρια του Ubuntu 12.04](repo-ubuntu-12_04/index.md)
 - [Προβλήματα δικτύωσης](network-issues/index.md)

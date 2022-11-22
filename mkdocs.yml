@@ -139,6 +139,7 @@ nav:
     - guides/printers/index.md
     - guides/compatibility/index.md
     - guides/clean-upgrade/index.md
+    - guides/keyring/index.md
     - guides/mate-system-monitor/index.md
     - guides/repo-ubuntu-12_04/index.md
     - guides/network-issues/index.md
