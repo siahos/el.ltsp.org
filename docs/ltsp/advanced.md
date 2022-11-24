@@ -8,7 +8,6 @@
 - [Εκτέλεση εντολών](run-commands.md)
 - [Εκτυπωτές](printers.md)
 - [Πολλά εργαστήρια](multiple-labs.md)
-- [Προχωρημένα](index.md)
 - [Σαρωτές](scanners.md)
 - [Συντήρηση](maintenance.md)
 - [Τμήματα](groups.md)
