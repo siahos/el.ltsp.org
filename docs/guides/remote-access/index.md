@@ -13,13 +13,13 @@
 είναι ότι η κίνηση περνάει από τους servers της anydesk, οπότε υπάρχουν θέματα
 ασφάλειας και επιδόσεων.
 
-## Εξωτερική IP
+## Εξωτερική IP {#external-ip}
 
 Εάν από τον εξυπηρετητή του σχολείου επισκεφτείτε τη σελίδα
 <https://ts.sch.gr/services/ip> θα δείτε την εξωτερική του IP, που είναι αυτή
 στην οποία θα συνδεθείτε εάν θέλετε να χρησιμοποιήσετε SSH, VNC, X2GO ή RDP.
 
-### Routers OTE
+### Routers OTE {#routers-ote}
 
 Τα σχολεία με routers του OTE (π.χ. Speedport) συνήθως έχουν δυναμική εξωτερική
 IP, η οποία μπορεί να αλλάξει μετά από κάποιες ώρες ή μέρες. Εφόσον θέλουμε
@@ -31,7 +31,7 @@ sxoleio.duckdns.org σε δυναμικές IP. Είτε έχουμε σταθε
 το [web interface του router](http://192.168.1.1), θα πρέπει να γίνει port
 forwarding της θύρας π.χ. 7100 στη θύρα 22 που χρησιμοποιεί το SSH.
 
-### Routers ΠΣΔ
+### Routers ΠΣΔ {#routers-psd}
 
 Τα σχολεία με MikroTik ή Cisco routers τα διαχειρίζεται το ΠΣΔ και τους δίνει 4
 σταθερές εξωτερικές IP. Οι δύο από αυτές αντιστοιχούν στα παρακάτω ονόματα και
@@ -44,7 +44,7 @@ IP:
 όνομα srv-sxoleio.nomos.sch.gr (δηλαδή ίδιο με το όνομα της ιστοσελίδας του
 σχολείου, αλλά με ένα srv- μπροστά).
 
-## Πρόσβαση με SSH
+## Πρόσβαση με SSH {#access-with-ssh}
 
 Η υπηρεσία SSH για απομακρυσμένη πρόσβαση κονσόλας στον εξυπηρετητή κανονικά
 ακούει στη θύρα 22, η οποία είναι προσβάσιμη μόνο από το υποδίκτυο διαχείρισης
@@ -66,7 +66,7 @@ EOF
 ssh -p 7100 administrator@srv-sxoleio.nom.sch.gr
 ```
 
-## Πρόσβαση με VNC
+## Πρόσβαση με VNC {#access-with-vnc}
 
 Στο σπίτι, κατεβάζουμε το [RealVNC
 Viewer](https://www.realvnc.com/en/connect/download/viewer/) είτε για Linux
@@ -86,7 +86,7 @@ ssh -p 7100 -tCR 5501:localhost:5500 administrator@srv-sxoleio.nom.sch.gr /usr/s
 Αυτή η εντολή θα συνδεθεί στην υπάρχουσα συνεδρία, εφόσον υπάρχει, ή στην οθόνη
 σύνδεσης εάν κανείς χρήστης δεν είναι συνδεδεμένος.
 
-## Πρόσβαση με RDP
+## Πρόσβαση με RDP {#access-with-rdp}
 
 Το πρωτόκολλο remote desktop των Windows υποστηρίζεται και από το Linux εφόσον
 εγκαταστήσουμε το παρακάτω πακέτο:
@@ -120,7 +120,7 @@ xfreerdp /v:localhost:3390 /relax-order-checks +glyph-cache /size:1600x900
 mstsc /v:localhost:3390
 ```
 
-## Πρόσβαση με SSH κλειδιά (για προχωρημένους) {#ssh-keys}
+## Πρόσβαση με SSH κλειδιά {#access-with-ssh-keys}
 
 -   Αυτό μας εξασφαλίζει ότι **μόνο** όποιος έχει το σωστό SSH κλειδί (private)
     μπορεί να συνδεθεί μέσω της πόρτας 7100 στον LTSP server.
@@ -130,11 +130,28 @@ mstsc /v:localhost:3390
 
 Βήματα:
 
-1.  Δημιουργούμε το αρχείο `/etc/ssh/sshd_config.d/local.conf` όπως
-    περιγράφεται στην ενότητα [Πρόσβαση με SSH](#πρόσβαση-με-ssh).
+1.  Δημιουργούμε το αρχείο `/etc/ssh/sshd_config.d/local.conf`, εκτελώντας από
+    μία κονσόλα:
+
+    ```shell
+    sudo cp /dev/stdin /etc/ssh/sshd_config.d/local.conf <<EOF
+    Port 22
+    Port 7100
+    Match LocalPort 7100
+    PasswordAuthentication no
+    EOF
+    ```
+
+    !!! tip "Χρήσιμο"
+        Αν δεν κάνουμε επανεκκίνηση στο server, για να εφαρμοστούν οι αλλαγές:
+
+        ```shell
+        sudo systemctl restart ssh
+        ```
 
 2.  Δημιουργούμε τα SSH public/private keys (δύο αρχεία) όπως και το
     authorized_keys (ένα αρχείο):
+
     ```shell-session
     $ ssh-keygen -qf ~/.ssh/id_ed25519 -N '' -t ed25519
     $ ssh-copy-id administrator@localhost
@@ -150,7 +167,9 @@ mstsc /v:localhost:3390
     Now try logging into the machine, with:   "ssh 'administrator@localhost'"
     and check to make sure that only the key(s) you wanted were added.
     ```
+
 3.  Ελέγχουμε αν τα αρχεία έχουν δημιουργηθεί επιτυχώς:
+
     ```shell-session
     $ ls -l .ssh/
     σύνολο 16
@@ -159,21 +178,10 @@ mstsc /v:localhost:3390
     -rw-r--r-- 1 administrator administrator 111 Νοε   5 19:49 id_ed25519.pub
     -rw-r--r-- 1 administrator administrator 666 Νοε   5 19:55 known_hosts
     ```
-4.  Στο τέλος του αρχείου `/etc/ssh/sshd_config`:
-    ```shell
-    sudo xdg-open /etc/ssh/sshd_config
-    ```
-    προσθέτουμε τις ακόλουθες γραμμές:
-    ```text
-    Match LocalPort 7100
-    PasswordAuthentication no
-    ```
-5.  Για να εφαρμοστούν οι αλλαγές:
-    ```shell
-    sudo systemctl restart ssh
-    ```
-6.  Αντιγράφουμε το `id_ed25519` (private key), από τον φάκελο `.ssh` του LTSP
+
+4.  Αντιγράφουμε το `id_ed25519` (private key), από τον φάκελο `.ssh` του LTSP
     server, στον αντίστοιχο `.ssh` των windows/ubuntu, του προσωπικού μας
     υπολογιστή.
-7.  Από τον προσωπικό μας υπολογιστή, συνδεόμαστε στον LTSP server μέσω
-    [SSH](#πρόσβαση-με-ssh)/[VNC](#πρόσβαση-με-vnc)/[RDP](#πρόσβαση-με-rdp).
+
+5.  Από τον προσωπικό μας υπολογιστή, συνδεόμαστε στον LTSP server μέσω
+    [SSH](#access-with-ssh)/[VNC](#access-with-vnc)/[RDP](#access-with-rdp).
