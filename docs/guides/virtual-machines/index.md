@@ -5,7 +5,7 @@
 
 1.  [Ubuntu Bionic MATE 18.04 **32bit**](https://ts.sch.gr/repo/images/VMs/bionic-mate.squashfs)
 
-2.  [Ubuntu Focal MATE 20.04 **64bit**](https://ts.sch.gr/repo/images/VMs/focal-mate.squashfs)
+2.  [Ubuntu Jammy MATE 22.04 **64bit**](https://ts.sch.gr/repo/images/VMs/jammy-mate.squashfs)
 
 τις οποίες μπορείτε να χρησιμοποιείτε με διάφορους τρόπους, όπως:
 
@@ -145,10 +145,10 @@ server.
     sudo swapoff -a
     # Εύρεση του "ονόματος" του τοπικού δίσκου (π.χ. sda).
     lsblk --fs
-    # Προσάρτηση του .squashfs π.χ. για το focal-mate:
-    udisksctl loop-setup -f ~/"VirtualBox VMs"/focal-mate.squashfs
+    # Προσάρτηση του .squashfs π.χ. για το jammy-mate:
+    udisksctl loop-setup -f ~/"VirtualBox VMs"/jammy-mate.squashfs
     # Εγγραφή του .vmdk, στον τοπικό δίσκο π.χ. για sda:
-    sudo dd if=/media/$USER/disk/focal-mate-flat.vmdk of=/dev/sda bs=1M status=progress
+    sudo dd if=/media/$USER/disk/jammy-mate-flat.vmdk of=/dev/sda bs=1M status=progress
     # Αποπροσάρτηση του .squashfs
     umount /media/$USER/disk
     ```
@@ -212,12 +212,12 @@ USB), έτσι ώστε στη συνέχεια, να τον χρησιμοπο�
     swapoff -a
     # Εύρεση του "ονόματος" του τοπικού δίσκου (π.χ. sda).
     lsblk --fs
-    # Προσάρτηση του .squashfs π.χ. για το focal-mate:
-    udisksctl loop-setup -f /isodevice/focal-mate.squashfs
+    # Προσάρτηση του .squashfs π.χ. για το jammy-mate:
+    udisksctl loop-setup -f /isodevice/jammy-mate.squashfs
     # Αν το mapped έγινε στο /dev/loop6, τότε:
     udisksctl mount -b /dev/loop6
     # Εγγραφή του .vmdk, στον τοπικό δίσκο π.χ. για sda:
-    dd if=/media/$USER/disk/focal-mate-flat.vmdk of=/dev/sda bs=1M status=progress
+    dd if=/media/$USER/disk/jammy-mate-flat.vmdk of=/dev/sda bs=1M status=progress
     # Αποπροσάρτηση του .squashfs
     umount /media/$USER/disk
     exit
@@ -246,8 +246,8 @@ USB), έτσι ώστε στη συνέχεια, να τον χρησιμοπο�
     ```
 
     !!! tip ""
-        Αν χρειαστείτε την `focal-mate`, στις εντολές όπου `bionic-mate`
-        αντικαταστήστε με `focal-mate`.
+        Αν χρειαστείτε την `jammy-mate`, στις εντολές όπου `bionic-mate`
+        αντικαταστήστε με `jammy-mate`.
 
 2.  [Εγκατάσταση](../../ubuntu/software.md) του ***VirtualBox***. Μόλις
     ολοκληρωθεί η εγκατάσταση, θα το βρείτε στο ***Εφαρμογές*** ▸ ***Εργαλεία
