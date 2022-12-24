@@ -51,12 +51,12 @@ AUTOLOGIN="user-01"
 server**, π.χ. ως χρήστης `guest01`, από [τερματικό](../../glossary#terminal):
 
 ```shell
-sudo pluma /etc/lightdm/lightdm.conf.d/local.conf
+sudo pluma /etc/lightdm/lightdm.conf
 ```
 
 με περιεχόμενο:
 
-```text title="/etc/lightdm/lightdm.conf.d/local.conf"
+```text title="/etc/lightdm/lightdm.conf"
 [Seat:*]
 autologin-user=guest01
 ```
