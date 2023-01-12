@@ -1,7 +1,7 @@
 # Συνεισφορές
 
 Για τη συγγραφή των markdown αρχείων `.md` ακολουθούνται οι ίδιοι κανόνες με
-το [LTSP Project](https://ltsp.org/advanced/markdown/):
+το [LTSP Project](https://ltsp.org/guides/markdown/):
 
 ## Italics
 
