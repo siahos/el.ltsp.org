@@ -44,6 +44,8 @@ theme:
 # favicon: favicon.ico
   features:
     - todo-navigation.instant
+    # https://squidfunk.github.io/mkdocs-material/upgrade/#contentcodecopy
+    - content.code.copy
   language: el
   locale: el
   logo: stylesheets/ts-logo.png
