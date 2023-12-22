@@ -79,6 +79,14 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/#classic-admon
   filter: invert(100%) brightness(0.7) sepia(1) hue-rotate(-40deg) saturate(5);
 }
 
+.md-banner {
+  text-align: center;
+}
+
+.md-banner .md-typeset a {
+  color: #e42424;
+}
+
 .md-header {
   background-color: #2573a7;
 }
