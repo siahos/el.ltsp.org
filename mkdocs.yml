@@ -1,4 +1,4 @@
-copyright: Copyright © 2008-2022 the <a href="https://ts.sch.gr">Ομάδα Τεχνικής Στήριξης</a>
+copyright: Copyright © 2008-2023 the <a href="https://el.ltsp.org">Τεχνική Στήριξη LTSP</a>
 dev_addr: 0.0.0.0:7101
 edit_uri: tree/main/docs
 extra_css:
@@ -25,10 +25,10 @@ plugins:
       minify_html: false
   - search
   - with-pdf:
-      author: Έκδοση pdf του https://ts.sch.gr/wiki/linux
-      copyright: Copyright © 2008-2022 Τεχνική Στήριξη ΣΕΠΕΗΥ
+      author: Έκδοση pdf του https://el.ltsp.org
+      copyright: Copyright © 2008-2023 Τεχνική Στήριξη LTSP
       cover_title: ΣΕΠΕΗΥ με Linux
-      cover_subtitle: Ubuntu 22.04/LTSP/Epoptes/ltsp
+      cover_subtitle: Ubuntu 22.04/LTSP/Epoptes/sch-scripts
       debug_html: false
       enabled_if_env: ENABLE_PDF_EXPORT
       heading_shift: true
@@ -36,12 +36,13 @@ plugins:
       output_path: linux.pdf
       toc_level: 2
       toc_title: Πίνακας περιεχομένων
-repo_url: https://github.com/pe86/linux
-site_name: Τεχνική Στήριξη ΣΕΠΕΗΥ
-site_url: https://ts.sch.gr/wiki/linux
+repo_url: https://github.com/ltsp/el.ltsp.org
+site_name: Τεχνική Στήριξη LTSP
+site_url: https://el.ltsp.org
 strict: false
 theme:
-# favicon: favicon.ico
+  custom_dir: overrides
+  # favicon: favicon.ico
   features:
     - todo-navigation.instant
     # https://squidfunk.github.io/mkdocs-material/upgrade/#contentcodecopy

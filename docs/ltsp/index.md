@@ -1,7 +1,7 @@
 # ΣΕΠΕΗΥ με LTSP
 
-![](../images/ltsp.png#right-icon)Η υπηρεσία [Τεχνικής Στήριξης
-ΣΕΠΕΗΥ](https://ts.sch.gr/) προτείνει και υποστηρίζει μια ολοκληρωμένη λύση για
+![](../images/ltsp.png#right-icon)Η ομάδα [Τεχνικής Στήριξης
+LTSP](https://el.ltsp.org/) προτείνει και υποστηρίζει μια ολοκληρωμένη λύση για
 εγκατάσταση σχολικών εργαστηρίων υπολογιστών με βάση τα λογισμικά ανοικτού
 κώδικα [Ubuntu MATE](../glossary/index.md#ubuntu-mate),
 [LTSP](../glossary/index.md#ltsp), [Επόπτης](../glossary/index.md#epoptes) και

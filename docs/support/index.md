@@ -31,13 +31,6 @@ Ubuntu/ltsp/Epoptes/sch-scripts. Μπορείτε να ανοίξετε εκεί
 Είναι προσβάσιμο είτε [μέσω ειδικών εφαρμογών](https://matrix.org/clients/)
 για οποιαδήποτε συσκευή, είτε μέσω browser από τον ακόλουθο σύνδεσμο:
 
-[Δωμάτιο matrix #ts.sch.gr:matrix.org](https://app.element.io/#/room/#ts.sch.gr:matrix.org){.md-button}
+[Δωμάτιο matrix #ts.sch.gr:matrix.org](https://app.element.io/#/room/#el.ltsp.org:matrix.org){.md-button}
 
-## Κανάλι IRC {#irc}
-
-Το IRC (Internet Relay Chat) επιτρέπει συζητήσεις ακόμα και χωρίς εγγραφή,
-αλλά υποστηρίζει μόνο κείμενο, οπότε το [matrix](#matrix) είναι προτιμότερο.
-Το κανάλι IRC είναι συζευγμένο (bridged) με το δωμάτιο matrix, δηλαδή έχουν
-κοινό περιεχόμενο. Η σύνδεση στο κανάλι IRC γίνεται από τον ακόλουθο σύνδεσμο:
-
-[Κανάλι IRC #ts.sch.gr](https://ts.sch.gr/repo/irc){.md-button}
+Για την χρήση του δωματίου Matrix απαιτείται δωρεάν εγγραφή.

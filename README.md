@@ -1,7 +1,7 @@
 # Τεκμηρίωση Linux για ΣΕΠΕΗΥ
 
 Το παρόν repository αποτελεί τον πηγαίο κώδικα της σελίδας
-https://ts.sch.gr/docs/linux.
+https://el.ltsp.org
 
 ## Linux development environment
 
@@ -18,7 +18,7 @@ open http://localhost:7101
 -   Εκτελέστε την ίδια εντολή `pip install` που φαίνεται στην ενότητα Linux
     πιο πάνω.
 -   Αντιγράψτε το αρχείο
-    [el.html](https://github.com/pe86/linux/blob/main/dev/el.html) στον φάκελο
+    [el.html](https://github.com/ltsp/el.ltsp.org/blob/main/dev/el.html) στον φάκελο
     `site-packages\material\partials\language` των windows. Για να βρείτε που
     ακριβώς βρίσκεται ο φάκελος `site-packages` τρέξτε `pip show
     mkdocs-material` και δείτε τη γραμμή `Location`.

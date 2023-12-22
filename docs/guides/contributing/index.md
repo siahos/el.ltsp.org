@@ -256,11 +256,11 @@ $ μπορούμε να χρησιμοποιήσουμε το $
 
 Παράδειγμα σύνταξης:
 
-    [![](synaptic.png)](https://ts.sch.gr/wiki/linux/ubuntu/software/#χρήση-του-synaptic)
+    [![](synaptic.png)](https://el.ltsp.org/ubuntu/software/#χρήση-του-synaptic)
 
 Αποτέλεσμα:
 
-[![](synaptic.png)](https://ts.sch.gr/wiki/linux/ubuntu/software/#χρήση-του-synaptic)
+[![](synaptic.png)](https://el.ltsp.org/ubuntu/software/#χρήση-του-synaptic)
 
 ## Εικόνα δεξιά σε κείμενο
 
@@ -408,7 +408,7 @@ $ μπορούμε να χρησιμοποιήσουμε το $
 
 ## Tests
 
-Ignore these, they're just tests. You can see the source code [on github](https://github.com/pe86/linux/blob/main/docs/guides/contributing/index.md?plain=1).
+Ignore these, they're just tests. You can see the source code [on github](https://github.com/ltsp/el.ltsp.org/blob/main/docs/guides/contributing/index.md?plain=1).
 
 ### Blockquote admonitions
 
