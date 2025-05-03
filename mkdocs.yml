@@ -41,7 +41,6 @@ site_name: Τεχνική Στήριξη LTSP
 site_url: https://el.ltsp.org
 strict: false
 theme:
-  custom_dir: overrides
   # favicon: favicon.ico
   features:
     - todo-navigation.instant
