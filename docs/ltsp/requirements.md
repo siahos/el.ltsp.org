@@ -12,7 +12,7 @@ Ubuntu](https://ubuntu-mate.org/about/requirements/) αφού εκκινούν �
 (παρόμοια με εκκίνηση από δίσκο USB). Για τον ίδιο λόγο, δεν χρειάζεται να
 έχουν δικό τους σκληρό δίσκο.
 
-- Για την έκδοση 22.04 του Ubuntu απαιτείται 64bit CPU και τουλάχιστον
+- Για την έκδοση 24.04 του Ubuntu απαιτείται 64bit CPU και τουλάχιστον
   2 GB RAM.
 - Η έκδοση 18.04 υποστηρίζει και 32bit clients με λιγότερο από 2 GB RAM.
 - Για ακόμα παλιότερους σταθμούς εργασίας, [δείτε τις
@@ -26,7 +26,7 @@ Ubuntu](https://ubuntu-mate.org/about/requirements/) αφού εκκινούν �
 Ubuntu](https://ubuntu-mate.org/about/requirements/).
 Προτείνεται να διαθέτει τουλάχιστον:
 
-  - 4-8 GB RAM.
+  - 8 GB RAM.
   - επεξεργαστή με σκορ τουλάχιστον [5000 στο
     passmark](https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9100+%40+3.60GHz&id=3479)
     και υποστήριξη [hardware virtualization

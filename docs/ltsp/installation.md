@@ -8,7 +8,7 @@
 clients και γι' αυτό τα νέα sch-scripts/LTSP δεν υποστηρίζουν πλέον thin
 clients παρά μόνο fat. Έτσι, υπάρχουν οι παρακάτω δυνατότητες εγκατάστασης:
 
- 1. Ubuntu 22.04 με τα νέα sch-scripts/LTSP: για όσους έχουν **μόνο**
+ 1. Ubuntu 24.04 με τα νέα sch-scripts/LTSP: για όσους έχουν **μόνο**
     64bit fat clients (προαιρετικά γίνεται να υποστηριχθούν και 32 bit
     fat clients με επιπρόσθετη εγκατάσταση Ubuntu 18.04 σε VirtualBox)
  2. Ubuntu 18.04 με τα νέα sch-scripts/LTSP: για όσους έχουν (και) 32bit

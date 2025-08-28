@@ -1,4 +1,4 @@
-copyright: Copyright © 2008-2023 the <a href="https://el.ltsp.org">Τεχνική Στήριξη LTSP</a>
+copyright: Copyright © 2008-2025 the <a href="https://el.ltsp.org">Τεχνική Στήριξη LTSP</a>
 dev_addr: 0.0.0.0:7101
 edit_uri: tree/main/docs
 extra_css:
@@ -26,9 +26,9 @@ plugins:
   - search
   - with-pdf:
       author: Έκδοση pdf του https://el.ltsp.org
-      copyright: Copyright © 2008-2023 Τεχνική Στήριξη LTSP
+      copyright: Copyright © 2008-2025 Τεχνική Στήριξη LTSP
       cover_title: ΣΕΠΕΗΥ με Linux
-      cover_subtitle: Ubuntu 22.04/LTSP/Epoptes/sch-scripts
+      cover_subtitle: Ubuntu 24.04/LTSP/Epoptes/sch-scripts
       debug_html: false
       enabled_if_env: ENABLE_PDF_EXPORT
       heading_shift: true

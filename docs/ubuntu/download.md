@@ -4,8 +4,8 @@
 του συστήματος.
 
 - Για σχετικά νέους υπολογιστές με περισσότερα από 2 GB RAM επιλέξτε το [Ubuntu
-  MATE 22.04
-  64bit](https://releases.ubuntu-mate.org/archived/22.04/ubuntu-mate-22.04.5-desktop-amd64.iso).
+  MATE 24.04
+  64bit](https://releases.ubuntu-mate.org/archived/24.04/ubuntu-mate-24.04.3-desktop-amd64.iso).
 - Για παλιότερους υπολογιστές με λιγότερα από 2 GB RAM επιλέξτε το [Ubuntu MATE
   18.04
   32bit](https://releases.ubuntu-mate.org/archived/18.04/ubuntu-mate-18.04.5-desktop-i386.iso).
