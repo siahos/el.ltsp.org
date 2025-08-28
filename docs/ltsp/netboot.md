@@ -65,7 +65,7 @@
 
 ### Υπολογιστές με Ubuntu
 
-Εάν οι σταθμοί εργασίας έχουν Ubuntu, τότε από [τερματικό](../../glossary#terminal):
+Εάν οι σταθμοί εργασίας έχουν Ubuntu, τότε από [τερματικό](../glossary/index.md#terminal):
 ```
 sudo -i
 mkdir -p /etc/default/grub.d

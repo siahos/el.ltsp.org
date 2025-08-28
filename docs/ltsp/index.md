@@ -3,7 +3,7 @@
 ![](../images/ltsp.png#right-icon)Η ομάδα [Τεχνικής Στήριξης
 LTSP](https://el.ltsp.org/) προτείνει και υποστηρίζει μια ολοκληρωμένη λύση για
 εγκατάσταση σχολικών εργαστηρίων υπολογιστών με βάση τα λογισμικά ανοικτού
-κώδικα [Ubuntu MATE](../glossary/index.md#ubuntu-mate),
+κώδικα [Ubuntu MATE](../glossary/index.md#ubuntu),
 [LTSP](../glossary/index.md#ltsp), [Επόπτης](../glossary/index.md#epoptes) και
 [Διαχείριση ΣΕΠΕΗΥ (sch-scripts)](../glossary/index.md#sch-scripts).
 Περισσότερες πληροφορίες υπάρχουν στην ενότητα [Προετοιμασία](preparation.md).

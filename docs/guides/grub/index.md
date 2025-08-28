@@ -24,7 +24,7 @@ Windows να επικαλύψουν (override) τον GRUB** με τον αντ�
 επιδιορθώσετε/επανεγκαταστήσετε τον GRUB (BIOS mode), θα πρέπει να κάνετε τα
 εξής:
 
-1.  [Εκκίνηση σε κατάσταση BIOS](../bios-uefi-boot/) (live USB stick).
+1.  [Εκκίνηση σε κατάσταση BIOS](../bios-uefi-boot/index.md) (live USB stick).
 
 2.  Αναγνώριση του partition number στο οποίο είναι εγκατεστημένο το Ubuntu.
     Από [τερματικό](../../glossary/index.md#terminal):
@@ -78,10 +78,10 @@ Windows να αλλάξουν την προεπιλεγμένη καταχώρη
 1.  Ορίζοντας στις ρυθμίσεις του UEFI, ως πρώτη καταχώρηση στο boot sequence,
     το **`ubuntu`**. Για να έχετε πρόσβαση στις σχετικές επιλογές, μπορείτε να
     δοκιμάστε τα πλήκτρα που περιγράφονται στο [Εκκίνηση σε κατάσταση BIOS ή
-    UEFI](../bios-uefi-boot/).
+    UEFI](../bios-uefi-boot/index.md).
 
 2.  Από το περιβάλλον του **εγκατεστημένου** Ubuntu ή κάνοντας [Εκκίνηση σε
-    κατάσταση UEFI](../bios-uefi-boot/) (live USB stick), μπορείτε να
+    κατάσταση UEFI](../bios-uefi-boot/index.md) (live USB stick), μπορείτε να
     δείτε/αλλάξετε το UEFI boot order. Σε
     [τερματικό](../../glossary/index.md#terminal):
 
@@ -116,7 +116,7 @@ Windows να αλλάξουν την προεπιλεγμένη καταχώρη
 Σε κάθε περίπτωση που θέλετε να επιδιορθώσετε/επανεγκαταστήσετε τον GRUB (UEFI
 mode), θα πρέπει να κάνετε τα εξής:
 
-1.  [Εκκίνηση σε κατάσταση UEFI](../bios-uefi-boot/) (live USB stick).
+1.  [Εκκίνηση σε κατάσταση UEFI](../bios-uefi-boot/index.md) (live USB stick).
 
 2.  Αναγνώριση των partition numbers, Ubuntu και EFI. Από
     [τερματικό](../../glossary/index.md#terminal):

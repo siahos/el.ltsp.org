@@ -16,7 +16,7 @@ UEFI mode. Σε αυτήν την περίπτωση, αν δε θέλετε ν�
         το live USB stick, τότε δεν προχωράτε σε εγκατάσταση.
 
 2.  [![](type-of-installation.png)](type-of-installation.png) Ακολουθείτε τα
-    βήματα [Εγκατάσταση του Ubuntu](../../ubuntu/installation/). Στο βήμα
+    βήματα [Εγκατάσταση του Ubuntu](../../ubuntu/installation.md). Στο βήμα
     εγκατάστασης [Διατήρηση του περιβάλλοντος Microsoft
     Windows](../../ubuntu/disk-windows.md#διατήρηση-του-περιβάλλοντος-microsoft-windows),
     στην περίπτωση των UEFI Windows, επιλέγουμε ***Εγκατάσταση του Ubuntu MATE
@@ -35,7 +35,9 @@ UEFI mode. Σε αυτήν την περίπτωση, αν δε θέλετε ν�
 `\EFI\Boot\BOOTX64.EFI`, φόρτωνε μόνο Windows, δηλαδή το αρχείο
 `\EFI\Microsoft\Boot\bootmgfw.efi`.
 
-Για να παρακαμφθεί το πρόβλημα εφαρμόστηκε το ακόλουθο workaround. Αφού bootάρουμε με το live USB stick σε UEFI mode, από [τερματικό](../../glossary#terminal):
+Για να παρακαμφθεί το πρόβλημα εφαρμόστηκε το ακόλουθο workaround. Αφού
+bootάρουμε με το live USB stick σε UEFI mode, από
+[τερματικό](../../glossary/index.md#terminal):
 ```shell-session
 sudo -i
 lsblk --fs

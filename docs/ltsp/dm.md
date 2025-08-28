@@ -48,7 +48,7 @@ AUTOLOGIN="user-01"
     Εάν χρησιμοποιείτε NFS δεν απαιτείται να δώσετε κωδικό.
 
 Σε περίπτωση που θέλετε να εφαρμόσετε αυτόματη σύνδεση **και για τον LTSP
-server**, π.χ. ως χρήστης `guest01`, από [τερματικό](../../glossary#terminal):
+server**, π.χ. ως χρήστης `guest01`, από [τερματικό](../glossary/index.md#terminal):
 
 ```shell
 sudo pluma /etc/lightdm/lightdm.conf
@@ -88,7 +88,7 @@ LIGHTDM_CONF="greeter-hide-users=true"
 ```
 
 Σε περίπτωση που θέλετε να το εφαρμόσετε **και για τον LTSP server**, από
-[τερματικό](../../glossary#terminal):
+[τερματικό](../glossary/index.md#terminal):
 
 ```shell
 sudo pluma /etc/lightdm/lightdm.conf.d/local.conf

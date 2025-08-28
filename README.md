@@ -6,7 +6,11 @@ https://el.ltsp.org
 ## Linux development environment
 
 ```shell
-sudo apt install python3-pip
+sudo apt install python3-venv python3-pip
+# Εκτελέστε τα παρακάτω ενώ είστε στον φάκελο el.ltsp.org
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install --upgrade pip
 pip install mkdocs-material mkdocs-material-extensions mkdocs-minify-plugin mkdocs-redirects mkdocs-with-pdf
 mkdocs serve
 open http://localhost:7101
