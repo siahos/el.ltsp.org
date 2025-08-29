@@ -11,7 +11,7 @@ Windows.
 ## Εγκατάσταση
 
 - [![](language.png)](language.png)Κάντε [λήψη του
-  win32-loader.exe](http://ftp.debian.org/debian/tools/win32-loader/stable/win32-loader.exe)
+  win32-loader.exe](https://ftp.debian.org/debian/tools/win32-loader/oldstable/win32-loader.exe)
   και εκτελέστε το μέσα από τα Windows για να ξεκινήσει η εγκατάσταση.
 - Στον διάλογο ***Επιλογής γλώσσας***, επιλέξτε ***Greek*** μόνο αν έχετε
   Ελληνικά Windows, αλλιώς αφήστε ***English***.

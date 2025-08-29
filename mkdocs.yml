@@ -73,11 +73,7 @@ nav:
     - ubuntu/index.md
     - ubuntu/download.md
     - ubuntu/liveusb.md
-    - Εγκατάσταση:
-      - ubuntu/installation.md
-      - ubuntu/disk-empty.md
-      - ubuntu/disk-windows.md
-      - ubuntu/disk-linux.md
+    - ubuntu/installation.md
     - ubuntu/repositories.md
     - ubuntu/software.md
   - ΣΕΠΕΗΥ με LTSP:
