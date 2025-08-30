@@ -94,7 +94,7 @@ BIOS/UEFI.
   επειδή αυτός είναι ο ιδιοκτήτης των κοινόχρηστων φακέλων.
 - Password: ***<βάλτε κωδικό πρόσβασης>***
 - Confirm password: ***<επανάληψη>***
-- Εάν θέλετε ο administrator να συνδέεται κατευθείαν με το που ανοίγει ο
+- Εάν θέλετε ο administrator να μην συνδέεται κατευθείαν με το που ανοίγει ο
   υπολογιστής, επιλέξτε ***Require my password to log in***. Αυτό μπορείτε να
   το ρυθμίσετε και αργότερα.
 - Πατήστε ***Next***.
@@ -134,4 +134,3 @@ BIOS/UEFI.
 setxkbmap -layout us,gr -option '' -option grp:alt_shift_toggle,grp_led:scroll
 sudo wget https://el.ltsp.org/ubuntu/keyboard.txt -O /etc/default/keyboard
 ```
-

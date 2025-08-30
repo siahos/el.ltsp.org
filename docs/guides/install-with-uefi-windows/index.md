@@ -17,10 +17,9 @@ UEFI mode. Σε αυτήν την περίπτωση, αν δε θέλετε ν�
 
 2.  [![](type-of-installation.png)](type-of-installation.png) Ακολουθείτε τα
     βήματα [Εγκατάσταση του Ubuntu](../../ubuntu/installation.md). Στο βήμα
-    εγκατάστασης [Διατήρηση του περιβάλλοντος Microsoft
-    Windows](../../ubuntu/disk-windows.md#διατήρηση-του-περιβάλλοντος-microsoft-windows),
-    στην περίπτωση των UEFI Windows, επιλέγουμε ***Εγκατάσταση του Ubuntu MATE
-    μαζί με το Windows Boot Manager*** όπως φαίνεται στη διπλανή εικόνα.
+    εγκατάστασης ***Διατήρηση του περιβάλλοντος Microsoft Windows***, στην
+    περίπτωση των UEFI Windows, επιλέγουμε ***Εγκατάσταση του Ubuntu MATE μαζί
+    με το Windows Boot Manager*** όπως φαίνεται στη διπλανή εικόνα.
 
 ## Υλοποιήσεις UEFI dual boot
 
@@ -38,6 +37,7 @@ UEFI mode. Σε αυτήν την περίπτωση, αν δε θέλετε ν�
 Για να παρακαμφθεί το πρόβλημα εφαρμόστηκε το ακόλουθο workaround. Αφού
 bootάρουμε με το live USB stick σε UEFI mode, από
 [τερματικό](../../glossary/index.md#terminal):
+
 ```shell-session
 sudo -i
 lsblk --fs
@@ -53,8 +53,9 @@ nano /mnt/boot/grub/grub.cfg
 umount /mnt
 sync;reboot
 ```
+
 Επειδή όμως σε κάθε update-grub (kernel update) αυτή η αλλαγή ονόματος επανέρχεται σε `bootmgfw.efi`, θα πρέπει να τρέχουμε την εντολή:
+
 ```shell
 sudo sed 's/bootmgfw.efi/bootmgfw-real.efi/g' -i /boot/grub/grub.cfg
 ```
-
